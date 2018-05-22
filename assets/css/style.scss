@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+// @import "variables";
+
+body {
+  font: 18px/28px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav ul li {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+small {
+  font-size: 16px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+footer small{
+  font-size: 12px;
+}
+
+.pagination a, .pagination span {
+    padding: 7px 18px;
+    border: 1px solid #eee;
+    margin-left: -2px;
+    margin-right: -2px;
+    background-color: #ffffff;
+    display: inline-block;
+  }
+
+.pagination a {
+    &:hover {
+        background-color: #f1f1f1;
+        color: #333;
+    }
+ }
+
+.pagination {
+    text-align: center;
+ }

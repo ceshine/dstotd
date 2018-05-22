@@ -1,2 +1,2 @@
-# dstt
-Data Science Tweets Today
+# DSTOTD
+Data Science Tweets of the Day

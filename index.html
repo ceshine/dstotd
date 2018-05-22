@@ -1,0 +1,70 @@
+---
+title: Data Science Tweets of the Day
+layout: default
+seo:
+  name: Data Science Tweets of the Day - Twitter Sanity Preserver
+---
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}:
+      <span class="post-small">{{ post.description }}</span></a>
+    </h2>
+
+    <div class="post-date">
+      <time datetime="{% if post.last_modified %}{{ post.last_modified | date_to_xmlschema }}{% endif %}">
+        {{ post.date | date: "%-m/%-d/%Y" }}
+      </time>
+    </div>
+
+    <div>
+      <small>
+        <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/mkiser/WTFJHT/edit/master/{{ post.path }}" target="_blank">Improve this article</a> &nbsp; <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/mkiser/WTFJHT/commits/master/{{ post.path }}" target="_blank">Revision history</a>
+      </small>
+    </div>
+
+    <div class="post-content">
+      {{ post.content }}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% capture prevpage %}{{ paginator.next_page | minus:2 }}{% endcapture %}
+  {% capture nextpage %}{{ paginator.previous_page | plus: 2 }}{% endcapture %}
+
+    {% for page in (1..nextpage) %}
+    {% if page == paginator.page %}
+      <span>{{ page }}</span>
+    {% elsif page < 1 %}
+
+    {% elsif page == 1 %}
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- <div class="next-prev">
+    <p>Or check the <a href="{{ site.baseurl }}/archive/">archives</a></p>
+</div> -->

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://0.0.0.0:4000/2018/05/20/day-1.html</loc>
+<loc>http://www.datascienceoftheday.ml/2018/05/20/day-1.html</loc>
 <lastmod>2018-05-20T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/2018/05/21/day-2.html</loc>
+<loc>http://www.datascienceoftheday.ml/2018/05/21/day-2.html</loc>
 <lastmod>2018-05-21T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/</loc>
+<loc>http://www.datascienceoftheday.ml/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/page/2/</loc>
+<loc>http://www.datascienceoftheday.ml/page/2/</loc>
 </url>
 </urlset>

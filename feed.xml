@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2018-05-23T07:45:55+00:00</updated><id>http://0.0.0.0:4000/</id><title type="html">Data Science Tweets of the Day</title><subtitle>Curated by &lt;a href=&quot;https://twitter.com/ceshine_en&quot; style=&quot;color: LightGray;&quot;&gt;@ceshine_en&lt;/a&gt;. Inpired by &lt;a href=&quot;https://twitter.com/wtfjht&quot; style=&quot;color: LightGray;&quot;&gt;@WTFJHT&lt;/a&gt;.</subtitle><entry><title type="html">Day 2</title><link href="http://0.0.0.0:4000/2018/05/21/day-2.html" rel="alternate" type="text/html" title="Day 2" /><published>2018-05-21T00:00:00+00:00</published><updated>2018-05-21T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2018/05/21/day-2</id><content type="html" xml:base="http://0.0.0.0:4000/2018/05/21/day-2.html">&lt;p&gt;Some changes to the site:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Acknowledge @WTFJHT in the site description above.&lt;/li&gt;
+  &lt;li&gt;Reduce the text size of the navigation sidebar to lower the chance of overlapping with the footer (still need a permanent solution, though).&lt;/li&gt;
+  &lt;li&gt;Include fallback texts for each tweet. It’s essentially for the site to be searchable (a feature that will be added later).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Today we have many GAN and reinforcement learning-related tweets. Personally I’m most impressed by @WSJGraphics’s NLP piece.&lt;/p&gt;
+
+&lt;h2 id=&quot;gan&quot;&gt;GAN&lt;/h2&gt;
+&lt;h3 id=&quot;add-ai-generated-sound-to-ai-generated-paintings&quot;&gt;Add AI generated sound to AI generated paintings&lt;/h3&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998710870841544704&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Adding AI generated sound to my AI generated landscape paintings with &lt;a href=&quot;https://twitter.com/qosmo_inc?ref_src=twsrc%5Etfw&quot;&gt;@qosmo_inc&lt;/a&gt;&amp;#39;s &amp;quot;Imaginary Soundscapes&amp;quot; paper - it&amp;#39;s really fun. &lt;a href=&quot;https://t.co/5gGOZGhPgI&quot;&gt;pic.twitter.com/5gGOZGhPgI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Robbie Barrat (@DrBeef_) &lt;a href=&quot;https://twitter.com/DrBeef_/status/998710870841544704?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998714003441442817&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Woah listen to this- their AI thinks that my AI generated nude portraits are animals of some sort; so it assigns them these *really* freaky animal sounds... &lt;a href=&quot;https://t.co/O6LxBRxMEq&quot;&gt;pic.twitter.com/O6LxBRxMEq&lt;/a&gt;&lt;/p&gt;&amp;mdash; Robbie Barrat (@DrBeef_) &lt;a href=&quot;https://twitter.com/DrBeef_/status/998714003441442817?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998714588915875840&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The paper is here; while it&amp;#39;s short, it&amp;#39;s definitely one of the cooler and more succinct papers I&amp;#39;ve read recently&lt;a href=&quot;https://t.co/TpdWm74EYx&quot;&gt;https://t.co/TpdWm74EYx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Robbie Barrat (@DrBeef_) &lt;a href=&quot;https://twitter.com/DrBeef_/status/998714588915875840?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;ramen-dishes&quot;&gt;Ramen dishes&lt;/h3&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998616901541482497&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Interpolating through the latent space of ramen dishes uses a GAN &lt;a href=&quot;https://t.co/gkBLuDS4ap&quot;&gt;https://t.co/gkBLuDS4ap&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ian Goodfellow (@goodfellow_ian) &lt;a href=&quot;https://twitter.com/goodfellow_ian/status/998616901541482497?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998577972419248130&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;Google Driveにラーメン二郎GAN動画の元ファイルを置きました。 &lt;a href=&quot;https://t.co/764Zd5Izyw&quot;&gt;https://t.co/764Zd5Izyw&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E4%BA%8C%E9%83%8E?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ラーメン二郎&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/GAN?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#GAN&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kenji Doi (@knjcode) &lt;a href=&quot;https://twitter.com/knjcode/status/998577972419248130?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;cryptoai&quot;&gt;Crypto.ai&lt;/h3&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998780024005189632&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;GAN + Ethereum + Anime = &lt;a href=&quot;https://t.co/QyUgvThvHb&quot;&gt;https://t.co/QyUgvThvHb&lt;/a&gt; &lt;a href=&quot;https://t.co/HUsIilntml&quot;&gt;pic.twitter.com/HUsIilntml&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/998780024005189632?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998781436277673984&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This project by &lt;a href=&quot;https://twitter.com/_aixile?ref_src=twsrc%5Etfw&quot;&gt;@_aixile&lt;/a&gt; &lt;a href=&quot;https://twitter.com/alanyttian?ref_src=twsrc%5Etfw&quot;&gt;@alanyttian&lt;/a&gt; et al. They presented an earlier work as a workshop paper at NIPS2017. &lt;a href=&quot;https://t.co/dknlcPy4Om&quot;&gt;https://t.co/dknlcPy4Om&lt;/a&gt; &lt;a href=&quot;https://t.co/uGXTdytlXh&quot;&gt;https://t.co/uGXTdytlXh&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/998781436277673984?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998810408759644165&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I also think the anime dataset really needs to be de-biased. I believe these projects are usually trained on the dataset graciously scraped by &lt;a href=&quot;https://twitter.com/gwern?ref_src=twsrc%5Etfw&quot;&gt;@gwern&lt;/a&gt; called Danbooru2017, and more often than not the collected art are anime drawings of female characters. &lt;a href=&quot;https://t.co/bQGaA9R9iF&quot;&gt;https://t.co/bQGaA9R9iF&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/998810408759644165?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;reinforcement-learning&quot;&gt;Reinforcement Learning&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998659199147085824&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Reinforcement Learning - Markov Decision Process &lt;a href=&quot;https://t.co/HGzQhMRT6a&quot;&gt;https://t.co/HGzQhMRT6a&lt;/a&gt; &lt;a href=&quot;https://t.co/i27HpvZZPI&quot;&gt;pic.twitter.com/i27HpvZZPI&lt;/a&gt;&lt;/p&gt;&amp;mdash; KDnuggets (@kdnuggets) &lt;a href=&quot;https://twitter.com/kdnuggets/status/998659199147085824?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;nips2018-pommerman-competition&quot;&gt;NIPS2018 Pommerman Competition&lt;/h3&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998576336896585729&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;NIPS2018 “Pommerman” Competition, now with fresh prizes 🤖💣 &lt;a href=&quot;https://t.co/2IyhBuhtD0&quot;&gt;https://t.co/2IyhBuhtD0&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/998576336896585729?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998390094674518016&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/nips2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#nips2018&lt;/a&gt; Pommerman Competition Prizes (&lt;a href=&quot;https://t.co/6ZJeqCgj8S&quot;&gt;https://t.co/6ZJeqCgj8S&lt;/a&gt;):&lt;br /&gt;&lt;br /&gt;1st: $4k USD + $6k GCE, &lt;br /&gt;2nd: $2k USD + $4k GCE, &lt;br /&gt;3rd: $1k USD + $2k GCE, &lt;br /&gt;4th: $3k GCE.&lt;br /&gt;&lt;br /&gt;Top 2 learning agents each get a Titan V GPU. &lt;br /&gt;&lt;br /&gt;Let the games begin!&lt;/p&gt;&amp;mdash; Pommerman (@Pommerman) &lt;a href=&quot;https://twitter.com/Pommerman/status/998390094674518016?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;reproducing-papers&quot;&gt;Reproducing papers&lt;/h3&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998611945090637824&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Reproducing research papers is a really good way to practice your ML Skills, but it’s not easy. Read Matthew Rahtz’s insights from his first go at reproducing a Deep Reinforcement Learning paper: &lt;a href=&quot;https://t.co/mqOnPOBqr7&quot;&gt;https://t.co/mqOnPOBqr7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kaggle (@kaggle) &lt;a href=&quot;https://twitter.com/kaggle/status/998611945090637824?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998699340397858817&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This post about DeepRL reproducibility has caused much discussion in the past while. In my view, I don&amp;#39;t think it should be this difficult to reproduce a paper, even partially. That fact that it was so painful might imply that there are fundamental issues w/ the proposed methods. &lt;a href=&quot;https://t.co/kVmDHfYbda&quot;&gt;https://t.co/kVmDHfYbda&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/998699340397858817?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;duckietown&quot;&gt;Duckietown&lt;/h3&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998572185722740737&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Building a Simple Self-Driving Car Simulator &lt;a href=&quot;https://t.co/FSgRHyRZLd&quot;&gt;https://t.co/FSgRHyRZLd&lt;/a&gt;&lt;/p&gt;&amp;mdash; Maxime Chevalier (@Love2Code) &lt;a href=&quot;https://twitter.com/Love2Code/status/998572185722740737?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998706495255539712&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Duckietown: self-driving car simulator environments for OpenAI Gym. Created by &lt;a href=&quot;https://twitter.com/Love2Code?ref_src=twsrc%5Etfw&quot;&gt;@Love2Code&lt;/a&gt; et al.&lt;br /&gt;repo: &lt;a href=&quot;https://t.co/UV1XJe5qXK&quot;&gt;https://t.co/UV1XJe5qXK&lt;/a&gt;&lt;br /&gt;blog: &lt;a href=&quot;https://t.co/QV26yTTrEI&quot;&gt;https://t.co/QV26yTTrEI&lt;/a&gt; &lt;a href=&quot;https://t.co/490ETJCFVH&quot;&gt;pic.twitter.com/490ETJCFVH&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/998706495255539712?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;nlp&quot;&gt;NLP&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998647403514290177&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Some of my thoughts on ai and the future of chat bots:&lt;a href=&quot;https://t.co/a9Fm1AXFkY&quot;&gt;https://t.co/a9Fm1AXFkY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Richard (@RichardSocher) &lt;a href=&quot;https://twitter.com/RichardSocher/status/998647403514290177?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998579345479303168&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Do you write like a fourth-grader? Find out what kind of impression your words make using algorithms that score context, mood and equivalent grade-level. &lt;a href=&quot;https://t.co/XKey7dp9ny&quot;&gt;https://t.co/XKey7dp9ny&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/WSJGraphics?ref_src=twsrc%5Etfw&quot;&gt;@WSJGraphics&lt;/a&gt; &lt;a href=&quot;https://t.co/Wqc6P4Ygn2&quot;&gt;pic.twitter.com/Wqc6P4Ygn2&lt;/a&gt;&lt;/p&gt;&amp;mdash; WSJ Graphics (@WSJGraphics) &lt;a href=&quot;https://twitter.com/WSJGraphics/status/998579345479303168?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;transfer-learning&quot;&gt;Transfer Learning&lt;/h3&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998496505207148545&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Better and faster text classification models by transfer learning presented by Sebastian Ruder &lt;a href=&quot;https://twitter.com/seb_ruder?ref_src=twsrc%5Etfw&quot;&gt;@seb_ruder&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/insight_centre?ref_src=twsrc%5Etfw&quot;&gt;@insight_centre&lt;/a&gt;, co-authored by Jeremy Howard &lt;a href=&quot;https://twitter.com/jeremyphoward?ref_src=twsrc%5Etfw&quot;&gt;@jeremyphoward&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/fastdotai?ref_src=twsrc%5Etfw&quot;&gt;@fastdotai&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/InsightDL2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#InsightDL2018&lt;/a&gt; &lt;a href=&quot;https://t.co/MppK2VgUN8&quot;&gt;pic.twitter.com/MppK2VgUN8&lt;/a&gt;&lt;/p&gt;&amp;mdash; Xavier Giró-i-Nieto 🎗 (@DocXavi) &lt;a href=&quot;https://twitter.com/DocXavi/status/998496505207148545?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998627529211744258&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Slides for my keynote this morning on Successes and Frontiers of Deep Learning are now online. Mainly a high-level overview of some important and exciting application areas + some recent work on semi-supervised / transfer learning. &lt;a href=&quot;https://t.co/uVcLtbHSuT&quot;&gt;https://t.co/uVcLtbHSuT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sebastian Ruder (@seb_ruder) &lt;a href=&quot;https://twitter.com/seb_ruder/status/998627529211744258?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;visualization&quot;&gt;Visualization&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998618172306604032&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;How to win a trade war --&amp;gt; &lt;a href=&quot;https://t.co/oEhGYpKzul&quot;&gt;https://t.co/oEhGYpKzul&lt;/a&gt;&lt;/p&gt;&amp;mdash; FiveThirtyEight (@FiveThirtyEight) &lt;a href=&quot;https://twitter.com/FiveThirtyEight/status/998618172306604032?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998715014394662912&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;For those that haven&amp;#39;t seen it, matplotlib 2.2 has a layout engine. Update now and set &lt;a href=&quot;https://t.co/BYw43RVBY6&quot;&gt;https://t.co/BYw43RVBY6&lt;/a&gt; to True in your matplotlib.rc - and live happily ever after. &lt;a href=&quot;https://t.co/B6qx3yrqCx&quot;&gt;https://t.co/B6qx3yrqCx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Andreas Mueller (@amuellerml) &lt;a href=&quot;https://twitter.com/amuellerml/status/998715014394662912?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998563688142401543&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Interesting simulation experiment: Throwing 1,000 needles to estimate Pi. &lt;a href=&quot;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DataScience&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Read more about Buffon&amp;#39;s needle here: &lt;a href=&quot;https://t.co/CiQRAeM0ql&quot;&gt;https://t.co/CiQRAeM0ql&lt;/a&gt;&lt;a href=&quot;https://t.co/jKQRDfMUzw&quot;&gt;https://t.co/jKQRDfMUzw&lt;/a&gt; &lt;a href=&quot;https://t.co/LHCPACeevN&quot;&gt;pic.twitter.com/LHCPACeevN&lt;/a&gt;&lt;/p&gt;&amp;mdash; Randy Olson (@randal_olson) &lt;a href=&quot;https://twitter.com/randal_olson/status/998563688142401543?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998564220341022722&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Beautiful and Powerful Correlation Tables in R &lt;a href=&quot;https://t.co/SX3EwfxnxN&quot;&gt;https://t.co/SX3EwfxnxN&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DataScience&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-bloggers (@Rbloggers) &lt;a href=&quot;https://twitter.com/Rbloggers/status/998564220341022722?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;pycon-2018-videos&quot;&gt;PyCon 2018 Videos&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998549068547788800&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;et&quot; dir=&quot;ltr&quot;&gt;PyCon 2018 Videos  &lt;a href=&quot;https://t.co/xDW3DEDV6u&quot;&gt;https://t.co/xDW3DEDV6u&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#python&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/pycon?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#pycon&lt;/a&gt; &lt;a href=&quot;https://t.co/s874SRpCZl&quot;&gt;pic.twitter.com/s874SRpCZl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Python Weekly (@PythonWeekly) &lt;a href=&quot;https://twitter.com/PythonWeekly/status/998549068547788800?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;fastai&quot;&gt;Fast.ai&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998646245152382978&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;One of our students has started on a nice overview of the fastai library&lt;a href=&quot;https://t.co/h4NADgWQqp&quot;&gt;https://t.co/h4NADgWQqp&lt;/a&gt; &lt;a href=&quot;https://t.co/Vw0DFcYkMu&quot;&gt;pic.twitter.com/Vw0DFcYkMu&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jeremy Howard (@jeremyphoward) &lt;a href=&quot;https://twitter.com/jeremyphoward/status/998646245152382978?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998614754863136768&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Complete Guide to Parameter Tuning in XGBoost &lt;a href=&quot;https://t.co/IGpkYkfsP9&quot;&gt;https://t.co/IGpkYkfsP9&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jeremy Howard (@jeremyphoward) &lt;a href=&quot;https://twitter.com/jeremyphoward/status/998614754863136768?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;997970405825576960&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Meghan&amp;#39;s friends introduced her to a prince. The only people I get introduced to are tech bros who say &amp;quot;I have the next big startup idea. It&amp;#39;s like Uber but for dogs and it uses blockchain and VR. I need you to build everything and I&amp;#39;ll pay you in equity&amp;quot; smh.&lt;/p&gt;&amp;mdash; Jesslyn 🇮🇩 (@jtannady) &lt;a href=&quot;https://twitter.com/jtannady/status/997970405825576960?ref_src=twsrc%5Etfw&quot;&gt;May 19, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998596414492966912&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;By age 31, you should have conquered the largest empire known to man and founded 20 cities, retirement experts say &lt;a href=&quot;https://t.co/J9gT5JP06s&quot;&gt;pic.twitter.com/J9gT5JP06s&lt;/a&gt;&lt;/p&gt;&amp;mdash; François Chollet (@fchollet) &lt;a href=&quot;https://twitter.com/fchollet/status/998596414492966912?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998653319781363712&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The value is not in abstract ideation, it is in correctly evaluating the potential of your various ideas, and successfully executing on the most powerful ones.&lt;/p&gt;&amp;mdash; François Chollet (@fchollet) &lt;a href=&quot;https://twitter.com/fchollet/status/998653319781363712?ref_src=twsrc%5Etfw&quot;&gt;May 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;</content><author><name></name></author><summary type="html">Some changes to the site:</summary></entry><entry><title type="html">Day 1</title><link href="http://0.0.0.0:4000/2018/05/20/day-1.html" rel="alternate" type="text/html" title="Day 1" /><published>2018-05-20T00:00:00+00:00</published><updated>2018-05-20T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2018/05/20/day-1</id><content type="html" xml:base="http://0.0.0.0:4000/2018/05/20/day-1.html">&lt;h2 id=&quot;introduction-and-acknowledgement&quot;&gt;Introduction and Acknowledgement&lt;/h2&gt;
+
+&lt;p&gt;The intention is to keep track of important data science related developments, discussions, and events on Twitter.&lt;/p&gt;
+
+&lt;p&gt;A day starts at UTC 08:00, because my timeline seems to have least activities at that hour (see the chart below). For example, today’s post collects tweets created or retweeted by people I follow from 2018-05-20 08:00 to 2018-05-21 08:00 in UTC (+00:00).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20180521-timeline.png&quot; alt=&quot;timeline activities&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This project is inspired by Matt Kiser’s &lt;a href=&quot;https://whatthefuckjusthappenedtoday.com&quot;&gt;What The Fuck Just Happened Today?&lt;/a&gt;. I’m working on giving Mr. Kiser more appropriate attribution somewhere in the page template.&lt;/p&gt;
+
+&lt;p&gt;The current theme (&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-theme-leap-day&lt;/code&gt;) is chosen mostly for its automatically generated navigation sidebar, so longer posts can be more easily read. However, some of its default settings does not go well with this blog’s specific types of contents. I’ll try to improve the UX in the near future.&lt;/p&gt;
+
+&lt;h2 id=&quot;neural-style-transfer-on-text&quot;&gt;Neural Style Transfer on Text&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998254595313811456&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;rules-of-machine-learning&quot;&gt;Rules of Machine Learning&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998443201123020801&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998468092744425472&quot; data-cards=&quot;hidden&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;representing-model-uncertainty-in-deep-learning&quot;&gt;Representing Model Uncertainty in Deep Learning&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;997686170346811393&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;multi-modal-database-of-emotional-speech--song&quot;&gt;Multi-modal Database of Emotional Speech &amp;amp; Song&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;997267162153869312&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;questions-to-ask&quot;&gt;Questions to Ask&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998253919179427841&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;power-of-arxiv&quot;&gt;Power of Arxiv&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998264497499459585&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;discussions-on-academic-publishing&quot;&gt;Discussions on Academic Publishing&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998118871033958400&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998119733789683712&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;fun-tweets&quot;&gt;Fun Tweets&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998037883377205249&quot; data-cards=&quot;hidden&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;997335265768230912&quot; data-cards=&quot;hidden&quot;&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;997146590442799105&quot;&gt;
+&lt;/amp-twitter&gt;</content><author><name></name></author><summary type="html">Introduction and Acknowledgement</summary></entry></feed>

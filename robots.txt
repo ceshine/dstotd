@@ -1,1 +1,1 @@
-Sitemap: http://www.datascienceoftheday.ml/sitemap.xml
+Sitemap: http://www.datasciencetweetsoftheday.ml/sitemap.xml

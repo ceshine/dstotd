@@ -1,4 +1,150 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://www.datasciencetweetsoftheday.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.datasciencetweetsoftheday.ml/" rel="alternate" type="text/html" /><updated>2018-05-23T12:38:46+00:00</updated><id>http://www.datasciencetweetsoftheday.ml/</id><title type="html">Data Science Tweets of the Day</title><subtitle>Curated by &lt;a href=&quot;https://twitter.com/ceshine_en&quot; style=&quot;color: LightGray;&quot;&gt;@ceshine_en&lt;/a&gt;. Inpired by &lt;a href=&quot;https://twitter.com/wtfjht&quot; style=&quot;color: LightGray;&quot;&gt;@WTFJHT&lt;/a&gt;.</subtitle><entry><title type="html">Day 2</title><link href="http://www.datasciencetweetsoftheday.ml/2018/05/21/day-2.html" rel="alternate" type="text/html" title="Day 2" /><published>2018-05-21T00:00:00+00:00</published><updated>2018-05-21T00:00:00+00:00</updated><id>http://www.datasciencetweetsoftheday.ml/2018/05/21/day-2</id><content type="html" xml:base="http://www.datasciencetweetsoftheday.ml/2018/05/21/day-2.html">&lt;p&gt;Some changes to the site:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://www.datasciencetweetsoftheday.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.datasciencetweetsoftheday.ml/" rel="alternate" type="text/html" /><updated>2018-05-24T02:59:46+00:00</updated><id>http://www.datasciencetweetsoftheday.ml/</id><title type="html">Data Science Tweets of the Day</title><subtitle>Curated by &lt;a href=&quot;https://twitter.com/ceshine_en&quot; style=&quot;color: LightGray;&quot;&gt;@ceshine_en&lt;/a&gt;. Inpired by &lt;a href=&quot;https://twitter.com/wtfjht&quot; style=&quot;color: LightGray;&quot;&gt;@WTFJHT&lt;/a&gt;.</subtitle><entry><title type="html">Day 3</title><link href="http://www.datasciencetweetsoftheday.ml/2018/05/22/day-3.html" rel="alternate" type="text/html" title="Day 3" /><published>2018-05-22T00:00:00+00:00</published><updated>2018-05-22T00:00:00+00:00</updated><id>http://www.datasciencetweetsoftheday.ml/2018/05/22/day-3</id><content type="html" xml:base="http://www.datasciencetweetsoftheday.ml/2018/05/22/day-3.html">&lt;p&gt;Today we have a neural network that can translate music across musical instruments, genres, and styles! And an interesting thread on anxiety from Arxiv  barrage, peopling calling out Data Science Central, and many more.&lt;/p&gt;
+
+&lt;p&gt;I changed the Github Page setting to use pure static content on &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt; branch (instead of building from &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; branch), so we can have more Jekyll plugins that Github Page does not support. Nothing else changed. Baby steps.&lt;/p&gt;
+
+&lt;h2 id=&quot;universal-music-translation-network&quot;&gt;Universal Music Translation Network&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998740415019962369&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;quot;A Universal Music Translation Network,&amp;quot; Mor et al.: &lt;a href=&quot;https://t.co/iUzXTZkbH8&quot;&gt;https://t.co/iUzXTZkbH8&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Samples: &lt;a href=&quot;https://t.co/pXAMyx7ydK&quot;&gt;https://t.co/pXAMyx7ydK&lt;/a&gt;&lt;/p&gt;&amp;mdash; Miles Brundage (@Miles_Brundage) &lt;a href=&quot;https://twitter.com/Miles_Brundage/status/998740415019962369?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999097655723671552&quot; data-cards=&quot;hidden&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;quot;A Universal Music Translation Network&amp;quot;&lt;br /&gt;fun work from my colleages that translates one music organ / style to another&lt;a href=&quot;https://t.co/itFge4IUo3&quot;&gt;https://t.co/itFge4IUo3&lt;/a&gt;&lt;a href=&quot;https://t.co/TQOvsvodpB&quot;&gt;https://t.co/TQOvsvodpB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Soumith Chintala (@soumithchintala) &lt;a href=&quot;https://twitter.com/soumithchintala/status/999097655723671552?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998921006826729472&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Very cool work! 🎵 &lt;a href=&quot;https://t.co/hPJ0TM5wxD&quot;&gt;https://t.co/hPJ0TM5wxD&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/998921006826729472?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;on-arxiv-anxiety&quot;&gt;On Arxiv Anxiety&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998923984098988032&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The constant barrage of awesome-looking AI results can induce panic in AI researchers. How could you and I possibly keep up, let alone compete? I try to remember the following:&lt;br /&gt;* Most AI researchers oversell their results&lt;br /&gt;* Most “breakthroughs” rely on existing well-known methods&lt;/p&gt;&amp;mdash; Julian Togelius (@togelius) &lt;a href=&quot;https://twitter.com/togelius/status/998923984098988032?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998925060332277761&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;* ArXiv is not peer-reviewed, and some of what’s pushed out there will not replicate, or only works under very specific circumstances&lt;br /&gt;* Many researchers do atrocious literature reviews, and will claim novelty even when that’s dubious&lt;/p&gt;&amp;mdash; Julian Togelius (@togelius) &lt;a href=&quot;https://twitter.com/togelius/status/998925060332277761?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998925460271755265&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;* You will be able to read a textbook in five years, summing up all of the AI developments from 2018 they are actually worth caring about - probably in just a few pages&lt;/p&gt;&amp;mdash; Julian Togelius (@togelius) &lt;a href=&quot;https://twitter.com/togelius/status/998925460271755265?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998925705667899392&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Perhaps most importantly:&lt;br /&gt;* The world is large, and there’s still room for your research&lt;/p&gt;&amp;mdash; Julian Togelius (@togelius) &lt;a href=&quot;https://twitter.com/togelius/status/998925705667899392?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999157500283883520&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;You know, Julian, my personal feeling of AI being overhyped has gotten so much worse after I joined Twitter last year.&lt;/p&gt;&amp;mdash; Christoph Salge (@ChristophSalge) &lt;a href=&quot;https://twitter.com/ChristophSalge/status/999157500283883520?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999022455359328256&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A good thread about the flood of AI preprints. &lt;a href=&quot;https://t.co/8NhwF00rUT&quot;&gt;https://t.co/8NhwF00rUT&lt;/a&gt;&lt;/p&gt;&amp;mdash; François Chollet (@fchollet) &lt;a href=&quot;https://twitter.com/fchollet/status/999022455359328256?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;on-data-science-central&quot;&gt;On Data Science Central&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998826945964982273&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;quot;A good reminder that Data Science Central is completely insane&amp;quot; &lt;a href=&quot;https://t.co/68esZTv88d&quot;&gt;https://t.co/68esZTv88d&lt;/a&gt;&lt;/p&gt;&amp;mdash; mat kelcey (@mat_kelcey) &lt;a href=&quot;https://twitter.com/mat_kelcey/status/998826945964982273?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998963748772696064&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I&amp;#39;m blocked, so can&amp;#39;t see the tweet, but can imagine it&amp;#39;s the typical DSC nonsense. I regularly deter beginners from their unfortuately-easily-found sites, for many many reasons. And I call out prominent tweeters that continue to share their content.&lt;/p&gt;&amp;mdash; Data Science Renee (@BecomingDataSci) &lt;a href=&quot;https://twitter.com/BecomingDataSci/status/998963748772696064?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999385032102854657&quot; data-conversation=&quot;none&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I&amp;#39;m pretty sure it&amp;#39;s effectively a keyword farm &amp;amp; they are just after ad clicks. The content is beyond being technically wrong, it&amp;#39;s often just reads like random text.&lt;/p&gt;&amp;mdash; mat kelcey (@mat_kelcey) &lt;a href=&quot;https://twitter.com/mat_kelcey/status/999385032102854657?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;amazon-selling-face-recognition-tech-to-police&quot;&gt;Amazon Selling Face-recognition tech to Police&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999029135623278595&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Amazon is selling its face-recognition tech to police departments &lt;a href=&quot;https://t.co/X1Y28nnU5A&quot;&gt;https://t.co/X1Y28nnU5A&lt;/a&gt;&lt;/p&gt;&amp;mdash; MIT Tech Review (@techreview) &lt;a href=&quot;https://twitter.com/techreview/status/999029135623278595?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998938113253625858&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Machine learning could end up being a dangerous threat to our liberties. It&amp;#39;s going to be crucial for practitioners to fight so ML doesn&amp;#39;t become a tool for oppression. &lt;a href=&quot;https://t.co/OgSShdBPVF&quot;&gt;https://t.co/OgSShdBPVF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Bharath Ramsundar (@rbhar90) &lt;a href=&quot;https://twitter.com/rbhar90/status/998938113253625858?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999004288612364288&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The FBI:&lt;br /&gt;- has access to 411 million facial images &lt;br /&gt;- if true candidate exists in database, will be listed by their system in top 50 choices just 85% of the time&lt;br /&gt;- claims they don&amp;#39;t need to worry about false positives&lt;br /&gt;from &lt;a href=&quot;https://twitter.com/EFF?ref_src=twsrc%5Etfw&quot;&gt;@EFF&lt;/a&gt; report &lt;a href=&quot;https://t.co/SMu3OI8H6M&quot;&gt;https://t.co/SMu3OI8H6M&lt;/a&gt; &lt;a href=&quot;https://t.co/wYti4tKfLv&quot;&gt;pic.twitter.com/wYti4tKfLv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rachel Thomas (@math_rachel) &lt;a href=&quot;https://twitter.com/math_rachel/status/999004288612364288?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;tensorflowjs-demo&quot;&gt;Tensorflow.js demo&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998979722703876096&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🙋‍♀️ Are you curious about using Machine Learning in the browser? I took a basic TensorFlow.js example, put a neat graph on it and commented every line of code, so you can play with it!!&lt;br /&gt;&lt;br /&gt;💥 &lt;a href=&quot;https://t.co/WQvrRZ7b4Q&quot;&gt;https://t.co/WQvrRZ7b4Q&lt;/a&gt; &lt;a href=&quot;https://t.co/UzBWPu3cU0&quot;&gt;pic.twitter.com/UzBWPu3cU0&lt;/a&gt;&lt;/p&gt;&amp;mdash; Monica Dinculescu (@notwaldorf) &lt;a href=&quot;https://twitter.com/notwaldorf/status/998979722703876096?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;master-poker-ai-on-4-core-cpu&quot;&gt;Master Poker AI on 4-core CPU&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998902692050362375&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Last year I said superhuman poker AIs would be running on smartphones in 5 years. That timeline may have been pessimistic. Our new paper &amp;quot;Depth-Limited Solving for Imperfect-Information Games&amp;quot; shows how to develop a master poker AI on a 4-core CPU: &lt;a href=&quot;https://t.co/xzY4bc1blr&quot;&gt;https://t.co/xzY4bc1blr&lt;/a&gt; &lt;a href=&quot;https://t.co/oXWJt4hgzm&quot;&gt;pic.twitter.com/oXWJt4hgzm&lt;/a&gt;&lt;/p&gt;&amp;mdash; Noam Brown (@polynoamial) &lt;a href=&quot;https://twitter.com/polynoamial/status/998902692050362375?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;tutorials--write-ups&quot;&gt;Tutorials / Write-ups&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998991623286501377&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Detailed writeup of how Airbnb uses deep learning to classify our 170m+ listing photos and more. Nice writeup Shijing and Qiang! &lt;a href=&quot;https://t.co/sbYjdJe0vB&quot;&gt;https://t.co/sbYjdJe0vB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mike Curtis (@mikecurtis) &lt;a href=&quot;https://twitter.com/mikecurtis/status/998991623286501377?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999049416576241664&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Learn NLP the smart way, from the best.&lt;br /&gt;&lt;br /&gt;AAN (&amp;quot;All About NLP&amp;quot;), the search engine for NLP tutorials, is out now, after years of work: &lt;a href=&quot;https://t.co/UFc6mYgZTo&quot;&gt;https://t.co/UFc6mYgZTo&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;ACL paper:  &lt;a href=&quot;https://t.co/1uHQjJ4t24&quot;&gt;https://t.co/1uHQjJ4t24&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Blog post: &lt;a href=&quot;https://t.co/IaIhm4X6UL&quot;&gt;https://t.co/IaIhm4X6UL&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;LILY group: &lt;a href=&quot;https://t.co/5dbfXUyy0A&quot;&gt;https://t.co/5dbfXUyy0A&lt;/a&gt; &lt;a href=&quot;https://t.co/pldKFhWHOn&quot;&gt;pic.twitter.com/pldKFhWHOn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Dragomir Radev (@radevd) &lt;a href=&quot;https://twitter.com/radevd/status/999049416576241664?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998926654130016261&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;How I build an AI to play Dino Run via &lt;a href=&quot;https://twitter.com/Acing_AI?ref_src=twsrc%5Etfw&quot;&gt;@Acing_AI&lt;/a&gt; &lt;a href=&quot;https://t.co/tv0xUSteo3&quot;&gt;https://t.co/tv0xUSteo3&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Python?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Python&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ArtificialIntelligence?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ArtificialIntelligence&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/MachineLearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#MachineLearning&lt;/a&gt; &lt;a href=&quot;https://t.co/dGxtXnU3Ur&quot;&gt;pic.twitter.com/dGxtXnU3Ur&lt;/a&gt;&lt;/p&gt;&amp;mdash; Python Weekly (@PythonWeekly) &lt;a href=&quot;https://twitter.com/PythonWeekly/status/998926654130016261?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;more-gans&quot;&gt;More GANs&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998741251318079488&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This neural net will generate a soundscape to go with wherever in Google Maps you happen to be viewing. &lt;a href=&quot;https://t.co/ay06VGMQn5&quot;&gt;https://t.co/ay06VGMQn5&lt;/a&gt;&lt;br /&gt;Top-notch demo by &lt;a href=&quot;https://twitter.com/qosmo_inc?ref_src=twsrc%5Etfw&quot;&gt;@qosmo_inc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Janelle Shane (@JanelleCShane) &lt;a href=&quot;https://twitter.com/JanelleCShane/status/998741251318079488?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999109358876164096&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Self-attention for GANs. No more problems with losing track of how many faces the generator has drawn on the dog. &lt;a href=&quot;https://t.co/WOWglD3ft5&quot;&gt;https://t.co/WOWglD3ft5&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ian Goodfellow (@goodfellow_ian) &lt;a href=&quot;https://twitter.com/goodfellow_ian/status/999109358876164096?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999035763596578816&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This paper shows how to make adversarial examples with GANs. No need for a norm ball constraint. They look unperturbed to a human observer but break a model trained to resist large perturbations. &lt;a href=&quot;https://t.co/m8W1WpQQwu&quot;&gt;https://t.co/m8W1WpQQwu&lt;/a&gt; &lt;a href=&quot;https://t.co/CZEEd3Ssjj&quot;&gt;pic.twitter.com/CZEEd3Ssjj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ian Goodfellow (@goodfellow_ian) &lt;a href=&quot;https://twitter.com/goodfellow_ian/status/999035763596578816?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;more-deep-learning-papers&quot;&gt;More Deep Learning papers&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998934323259731968&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Beautiful paper from &lt;a href=&quot;https://twitter.com/ukhndlwl?ref_src=twsrc%5Etfw&quot;&gt;@ukhndlwl&lt;/a&gt; performing a battery of experiments to evaluate the long-range dependencies of LSTMs to word order, part of speech, word frequency, and more. Would be awesome to see these tests become part of the standard evaluation of RNNs! &lt;a href=&quot;https://t.co/MVA8Kug0Fa&quot;&gt;https://t.co/MVA8Kug0Fa&lt;/a&gt; &lt;a href=&quot;https://t.co/nMulH3ehlj&quot;&gt;pic.twitter.com/nMulH3ehlj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ari Morcos (@arimorcos) &lt;a href=&quot;https://twitter.com/arimorcos/status/998934323259731968?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998887704464150528&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;quot;A Spline Theory of Deep Networks&amp;quot;&lt;br /&gt;Expanded version of  ICML 2018 paper.&lt;br /&gt;&lt;br /&gt;* Links DNs to the theory of vector quantization (VQ) and K-means clustering&lt;br /&gt;* Propose simple cost penalty that leads to significantly improved classification&lt;br /&gt;* ...&lt;br /&gt; &lt;a href=&quot;https://t.co/EYqWB4n68y&quot;&gt;https://t.co/EYqWB4n68y&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DeepLearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DeepLearning&lt;/a&gt; &lt;a href=&quot;https://t.co/NnsOuqCYAp&quot;&gt;pic.twitter.com/NnsOuqCYAp&lt;/a&gt;&lt;/p&gt;&amp;mdash; ML Review (@ml_review) &lt;a href=&quot;https://twitter.com/ml_review/status/998887704464150528?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999183266237198336&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Re-parameterize all the things! If you want to backprop thru samples from mixture, truncated, Gamma, Beta, Dirichlet, Student-t, or von Mises distributions, this paper has gotchu covered. Also faster than RSVI, another general reparameterization trick based on rejection sampling &lt;a href=&quot;https://t.co/XZ97q21i6C&quot;&gt;https://t.co/XZ97q21i6C&lt;/a&gt;&lt;/p&gt;&amp;mdash; Eric Jang (@ericjang11) &lt;a href=&quot;https://twitter.com/ericjang11/status/999183266237198336?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999153460657475585&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;iVQA: Inverse Visual Question Answering &lt;a href=&quot;https://twitter.com/hashtag/CVPR2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#CVPR2018&lt;/a&gt; &lt;br /&gt;By Feng Liu et al.&lt;br /&gt;&lt;br /&gt;Generate a question that corresponds to a given image and answer pair.&lt;a href=&quot;https://t.co/gZi6A2hd05&quot;&gt;https://t.co/gZi6A2hd05&lt;/a&gt; &lt;a href=&quot;https://t.co/WHdBgu9V2C&quot;&gt;pic.twitter.com/WHdBgu9V2C&lt;/a&gt;&lt;/p&gt;&amp;mdash; ML Review (@ml_review) &lt;a href=&quot;https://twitter.com/ml_review/status/999153460657475585?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998229932751949824&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Can we state once and for all that any modestly sized combinatorial problem has more configurations than &amp;quot;atoms in the universe&amp;quot; so that we don&amp;#39;t have to say it every single time?&lt;/p&gt;&amp;mdash; Serkan Cabi (@serkancabi) &lt;a href=&quot;https://twitter.com/serkancabi/status/998229932751949824?ref_src=twsrc%5Etfw&quot;&gt;May 20, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999119303101169664&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;But even here, machine learning itself isn’t the thing. It’s ML + heuristics + data + user experience together with smart product design and a problem that’s worth solving.&lt;br /&gt;&lt;br /&gt;Companies which bring all of this together, harmoniously, in important domains, will rule the next decade.&lt;/p&gt;&amp;mdash; Jensen Harris (@jensenharris) &lt;a href=&quot;https://twitter.com/jensenharris/status/999119303101169664?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999154039026667526&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;quot;Theoretical Impediments to Machine Learning With Seven Sparks from the Causal Revolution&amp;quot;: Judea Pearl presents seven tasks which he claims are beyond reach of current machine learning systems but have been accomplished using the tools of causal modeling. &lt;a href=&quot;https://t.co/Z2VBCm0jhn&quot;&gt;https://t.co/Z2VBCm0jhn&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/999154039026667526?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;998891624976527361&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I&amp;#39;ve filled out 1000s of these horrible captchas and not once have they asked to ID pedestrians or cyclists. Only street signs and cars and other detritus of car-dependency. If we are truly doing the work of machine vision for AVs, show me the most vulnerable road users. &lt;a href=&quot;https://t.co/yl9WsKUPWc&quot;&gt;pic.twitter.com/yl9WsKUPWc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jeff Novich 🚴 (@jeffnovich) &lt;a href=&quot;https://twitter.com/jeffnovich/status/998891624976527361?ref_src=twsrc%5Etfw&quot;&gt;May 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;500&quot; layout=&quot;responsive&quot; data-tweetid=&quot;999121796602314752&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;AI cities for the ultra-rich titans of an automated future. Sci-fi short from Import AI this week. Book is on the way! &lt;a href=&quot;https://t.co/vINoUkULGP&quot;&gt;https://t.co/vINoUkULGP&lt;/a&gt; &lt;a href=&quot;https://t.co/LrM8zPaXKo&quot;&gt;pic.twitter.com/LrM8zPaXKo&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jack Clark (@jackclarkSF) &lt;a href=&quot;https://twitter.com/jackclarkSF/status/999121796602314752?ref_src=twsrc%5Etfw&quot;&gt;May 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;</content><author><name></name></author><summary type="html">Today we have a neural network that can translate music across musical instruments, genres, and styles! And an interesting thread on anxiety from Arxiv barrage, peopling calling out Data Science Central, and many more.</summary></entry><entry><title type="html">Day 2</title><link href="http://www.datasciencetweetsoftheday.ml/2018/05/21/day-2.html" rel="alternate" type="text/html" title="Day 2" /><published>2018-05-21T00:00:00+00:00</published><updated>2018-05-21T00:00:00+00:00</updated><id>http://www.datasciencetweetsoftheday.ml/2018/05/21/day-2</id><content type="html" xml:base="http://www.datasciencetweetsoftheday.ml/2018/05/21/day-2.html">&lt;p&gt;Some changes to the site:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Acknowledge @WTFJHT in the site description above.&lt;/li&gt;

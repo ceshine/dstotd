@@ -44,5 +44,5 @@ defaults:
     values:
       type: posts
       image:
-        twitter: "/public/dstotd-wide.png"
+        twitter: "/public/dstotd-twitter.png"
         facebook: "/public/dstotd-wide.png"

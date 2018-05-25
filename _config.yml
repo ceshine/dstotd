@@ -1,5 +1,5 @@
 timezone: UTC
-url: http://www.datascienceoftheday.ml
+url: http://www.datasciencetweetsoftheday.ml
 baseurl:
 source: "."
 destination: "./_site"
@@ -12,8 +12,9 @@ includes_dir: _includes
 theme: jekyll-theme-leap-day
 title: Data Science Tweets of the Day
 description: "Curated by <a href=\"https://twitter.com/ceshine_en\" style=\"color: LightGray;\">@ceshine_en</a>. Inpired by <a href=\"https://twitter.com/wtfjht\" style=\"color: LightGray;\">@WTFJHT</a>."
+# Theme Options
 show_downloads: false
-google_analytics: UA-24180048-5
+# Paginate
 paginate: 1
 paginate_path: "/page/:num/"
 plugins:
@@ -24,4 +25,14 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: _sass
-  # style: compressed
+  style: compressed
+# SEO
+logo: "/public/dstotd-wide.jpg"
+twitter:
+  username: ceshine_en
+  card: summary
+author:
+  twitter: ceshine_en
+  name: Ceshine Lee
+  url: https://www.datasciencetweetsoftheday.ml
+google_analytics: UA-24180048-5

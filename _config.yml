@@ -27,7 +27,7 @@ sass:
   sass_dir: _sass
   style: compressed
 # SEO
-logo: "/public/dstotd-wide.jpg"
+logo: "/public/dstotd-wide.png"
 twitter:
   username: ceshine_en
   card: summary

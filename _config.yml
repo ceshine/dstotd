@@ -36,6 +36,7 @@ author:
   name: Ceshine Lee
   url: https://www.datasciencetweetsoftheday.ml
 google_analytics: UA-24180048-5
+permalink: pretty
 # Defaults
 defaults:
   - scope:

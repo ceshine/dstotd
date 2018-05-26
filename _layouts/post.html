@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="post">
+  <h2 class="post-title">
+    <a href="{{ site.baseurl }}{{ page.url }}">
+      {{ page.title }}:
+    <span class="post-small">{{ page.description }}</span></a>
+  </h2>
+
+  <div class="post-date">
+    <time datetime="{% if post.last_modified %}{{ post.last_modified | date_to_xmlschema }}{% endif %}">
+      {{ page.date | date: "%-m/%-d/%Y" }}
+    </time>
+  </div>
+
+  <div>
+    <small>
+      <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/edit/master/{{ page.path }}" target="_blank">Improve this article</a> &nbsp;
+      <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/commits/master/{{ page.path }}" target="_blank">Revision history</a>
+    </small>
+  </div>
+
+  <div class="post-content">
+    {{ page.content }}
+  </div>
+</article>
+
+
+<div class="pagination">
+  <div class="next-prev">
+    {% if page.previous.url %}
+      <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
+</div>

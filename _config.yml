@@ -1,5 +1,5 @@
 timezone: UTC
-url: http://www.datasciencetweetsoftheday.ml
+url: https://www.datasciencetweetsoftheday.ml
 baseurl:
 source: "."
 destination: "./_site"

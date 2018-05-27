@@ -7,11 +7,11 @@ seo:
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
-    <h2 class="post-title">
+    <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}:
       <span class="post-small">{{ post.description }}</span></a>
-    </h2>
+    </h1>
 
     <div class="post-date">
       <time datetime="{% if post.last_modified %}{{ post.last_modified | date_to_xmlschema }}{% endif %}">
@@ -42,10 +42,13 @@ seo:
     <span>&laquo; Prev</span>
   {% endif %}
 
-  {% capture prevpage %}{{ paginator.next_page | minus:2 }}{% endcapture %}
-  {% capture nextpage %}{{ paginator.previous_page | plus: 2 }}{% endcapture %}
+  {% if paginator.next_page > paginator.page %}
+    {% assign nextpage = paginator.next_page %}
+  {% else %}
+    {% assign nextpage = paginator.page %}
+  {% endif %}
 
-    {% for page in (1..nextpage) %}
+  {% for page in (1..nextpage) %}
     {% if page == paginator.page %}
       <span>{{ page }}</span>
     {% elsif page < 1 %}

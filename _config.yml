@@ -6,7 +6,7 @@ destination: "./_site"
 layouts_dir: _layouts
 plugins_dir: _plugins
 github:
-  repo: https://github.com/ceshine/dstotd
+ repo: https://github.com/ceshine/dstotd
 data_dir: _data
 includes_dir: _includes
 theme: jekyll-theme-leap-day
@@ -18,11 +18,11 @@ show_downloads: false
 paginate: 1
 paginate_path: "/page/:num/"
 plugins:
-  - github-pages
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-archives
 sass:
   sass_dir: _sass
   style: compressed
@@ -48,3 +48,14 @@ defaults:
     values:
       type: posts
       image: "/public/dstotd-twitter.png"
+# Archives
+jekyll-archives:
+  enabled:
+  - year
+  - month
+  layouts:
+    year: year-archive
+    month: month-archive
+  permalinks:
+    year: "/archive/:year/"
+    month: "/archive/:year/:month/"

@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'jekyll-theme-leap-day'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
-gem "github-pages", group: :jekyll_plugins
+gem 'jekyll-archives'
+gem 'jekyll-feed'

@@ -2,11 +2,11 @@
 layout: default
 ---
 <article class="post">
-  <h2 class="post-title">
+  <h1 class="post-title">
     <a href="{{ site.baseurl }}{{ page.url }}">
       {{ page.title }}:
     <span class="post-small">{{ page.description }}</span></a>
-  </h2>
+  </h1>
 
   <div class="post-date">
     <time datetime="{% if post.last_modified %}{{ post.last_modified | date_to_xmlschema }}{% endif %}">

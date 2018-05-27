@@ -48,3 +48,16 @@ footer small{
 .pagination {
     text-align: center;
  }
+
+.next-prev {
+  text-align: center;
+  padding: 1em 0em 0em 0em;
+  font-size: 1.25em;
+  a {
+    padding: 0 .25em;
+  }
+}
+
+#banner .archive-button{
+  margin-left: -190px;
+}

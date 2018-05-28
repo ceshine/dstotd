@@ -59,3 +59,25 @@ jekyll-archives:
   permalinks:
     year: "/archive/:year/"
     month: "/archive/:year/:month/"
+# Algolia
+algolia:
+  application_id: YLTA1XCGK6
+  index_name: DSTOTD
+  search_only_api_key: db0c5bd0fd28205f9100c3cf1520eb70
+  nodes_to_index: "blockquote"
+  files_to_exclude:
+  - archive.html
+  - atom.xml
+  - index.html
+  - rss.xml
+  - page/*/*.html
+  - posts/2018/5/20/day-1/*
+  - _posts/2018-05-20-day-1.md
+  - search.html
+  settings:
+    searchableAttributes:
+    - content
+    - headings
+    - title
+    - description
+    distinct: true

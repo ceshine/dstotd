@@ -10,11 +10,11 @@ layout: default
 
   <div class="post-date">
     <time datetime="{% if post.last_modified %}{{ post.last_modified | date_to_xmlschema }}{% endif %}">
-      {{ post.date | date: "%-m/%-d/%Y" }}
+      {{ page.date | date: "%-m/%-d/%Y" }}
     </time>
     <div>
       <small>
-        <em>Updated {{ post.last_modified | date: "%-m/%-d/%Y %l:%M %p %Z" }}</em>
+        <em>Updated {{ page.last_modified | date: "%-m/%-d/%Y %l:%M %p %Z" }}</em>
       </small>
     </div>
   </div>
@@ -22,7 +22,7 @@ layout: default
   <div>
     <small>
       <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/edit/master/{{ post.path }}" target="_blank">Improve this article</a> &nbsp; <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/commits/master/{{ post.path }}" target="_blank">Revision history</a> &nbsp; <i class="fa fa-user" aria-hidden="true"></i>
-      {% if post.contributors == "1" %}{{ post.contributors }} Contributor{% else %}{{ post.contributors }} Contributors{% endif %}
+      {% if post.contributors == "1" %}{{ page.contributors }} Contributor{% else %}{{ page.contributors }} Contributors{% endif %}
     </small>
   </div>
 

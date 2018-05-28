@@ -11,7 +11,7 @@ data_dir: _data
 includes_dir: _includes
 theme: jekyll-theme-leap-day
 title: Data Science Tweets of the Day
-description: "Curated by <a href=\"https://twitter.com/ceshine_en\" style=\"color: LightGray;\">@ceshine_en</a>. Inpired by <a href=\"https://twitter.com/wtfjht\" style=\"color: LightGray;\">@WTFJHT</a>."
+description: "Curated by <a href=\"https://twitter.com/ceshine_en\" class=\"desc\">@ceshine_en</a>. Inpired by <a href=\"https://twitter.com/wtfjht\" class=\"desc\">@WTFJHT</a>."
 # Theme Options
 show_downloads: false
 # Paginate

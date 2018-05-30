@@ -73,7 +73,8 @@ algolia:
   - index.html
   - rss.xml
   - page/*/*.html
-  - posts/2018/5/20/day-1/*
+  - amp/post/*/*/*/*/index.html
+  - post/2018/5/20/day-1/*
   - _posts/2018-05-20-day-1.md
   - search.html
   settings:

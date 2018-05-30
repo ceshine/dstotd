@@ -9,12 +9,17 @@ GEM
     algoliasearch (1.21.0)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
+    amp-jekyll (1.0.2)
+      fastimage (>= 1.8.0)
+      jekyll (~> 3.0)
+      nokogiri (>= 1.6.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    fastimage (2.1.3)
     ffi (1.9.23)
     filesize (0.1.1)
     forwardable-extended (2.6.0)
@@ -92,6 +97,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  amp-jekyll
   jekyll-algolia
   jekyll-archives
   jekyll-feed

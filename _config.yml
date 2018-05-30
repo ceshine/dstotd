@@ -23,6 +23,8 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-archives
+- amp-jekyll
+ampdir: amp/
 sass:
   sass_dir: _sass
   style: compressed

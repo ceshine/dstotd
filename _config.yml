@@ -43,7 +43,7 @@ collections:
   posts:
     title: Posts
     output: true
-    permalink: /posts/:year/:month/:day/:title/
+    permalink: /post/:year/:month/:day/:title/
 defaults:
   - scope:
       path: ""

@@ -6,6 +6,7 @@ gem 'jekyll-paginate'
 gem 'jekyll-archives'
 gem 'jekyll-feed'
 gem 'amp-jekyll'
+gem 'jemoji'
 
 group :jekyll_plugins do
   gem 'jekyll-algolia'

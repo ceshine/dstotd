@@ -24,6 +24,7 @@ plugins:
 - jekyll-feed
 - jekyll-archives
 - amp-jekyll
+- jemoji
 ampdir: amp/
 sass:
   sass_dir: _sass

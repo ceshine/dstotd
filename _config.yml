@@ -50,7 +50,7 @@ defaults:
       path: ""
     values:
       type: posts
-      image: "/public/dstotd-twitter.png"
+      image: "/publis/dstotd-wide.png"
 # Archives
 jekyll-archives:
   enabled:

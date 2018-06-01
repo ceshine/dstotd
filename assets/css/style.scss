@@ -15,6 +15,7 @@ nav ul li {
 
 h2 {
   font-size: 28px;
+  padding-top: 20px;
 }
 
 small {
@@ -84,4 +85,9 @@ header a.desc{
 
 #search-hits{
   height:2000px;
+}
+
+.post-content p{
+  margin-top: 20px;
+  margin-bottom: 0px;
 }

@@ -6,7 +6,7 @@ destination: "./_site"
 layouts_dir: _layouts
 plugins_dir: _plugins
 github:
- repo: https://github.com/ceshine/dstotd
+ repository_url: https://github.com/ceshine/dstotd
 data_dir: _data
 includes_dir: _includes
 theme: jekyll-theme-leap-day

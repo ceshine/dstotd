@@ -91,3 +91,13 @@ header a.desc{
   margin-top: 20px;
   margin-bottom: 0px;
 }
+
+@media print, screen and (max-width: 720px) {
+  #banner .archive-button{
+    left: 340px;
+  }
+
+  #banner .search-button{
+    left: 335px;
+  }
+}

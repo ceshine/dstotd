@@ -23,6 +23,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-archives
+- jekyll-redirect-from
 - amp-jekyll
 - jemoji
 ampdir: amp/

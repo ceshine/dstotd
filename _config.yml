@@ -25,7 +25,6 @@ plugins:
 - jekyll-archives
 - jekyll-redirect-from
 - amp-jekyll
-- jemoji
 ampdir: amp/
 sass:
   sass_dir: _sass

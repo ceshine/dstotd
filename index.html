@@ -4,6 +4,7 @@ layout: default
 seo:
   name: Data Science Tweets of the Day - Twitter Sanity Preserver
 ---
+
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
@@ -24,12 +25,47 @@ seo:
       </div>
     </div>
 
-    <div>
+    <div class="post-contributor">
       <small>
         <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/edit/master/{{ post.path }}" target="_blank">Improve this article</a> &nbsp; <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/commits/master/{{ post.path }}" target="_blank">Revision history</a> &nbsp; <i class="fa fa-user" aria-hidden="true"></i>
         {% if post.contributors == "1" %}{{ post.contributors }} Contributor{% else %}{{ post.contributors }} Contributors{% endif %}
       </small>
     </div>
+
+    <!-- pagination -->
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">&laquo; Prev</a>
+      {% else %}
+        <span>&laquo; Prev</span>
+      {% endif %}
+
+      {% assign nextpage = paginator.page | plus: 2 %}
+      {% if nextpage > paginator.total_pages %}
+        {% assign nextpage = paginator.total_pages %}
+      {% endif %}
+      {% assign prevpage = paginator.page | minus: 2 %}
+
+      {% for page in (prevpage..nextpage) %}
+        {% if page == paginator.page %}
+          <span>{{ page }}</span>
+        {% elsif page < 1 %}
+
+        {% elsif page == 1 %}
+          <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if nextpage > paginator.page %}
+        <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">Next &raquo;</a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
+    </div>
+    {% endif %}
 
     <div class="post-content">
       {{ post.content }}
@@ -48,13 +84,13 @@ seo:
     <span>&laquo; Prev</span>
   {% endif %}
 
-  {% if paginator.next_page > paginator.page %}
-    {% assign nextpage = paginator.next_page %}
-  {% else %}
-    {% assign nextpage = paginator.page %}
+  {% assign nextpage = paginator.page | plus: 2 %}
+  {% if nextpage > paginator.total_pages %}
+    {% assign nextpage = paginator.total_pages %}
   {% endif %}
+  {% assign prevpage = paginator.page | minus: 2 %}
 
-  {% for page in (1..nextpage) %}
+  {% for page in (prevpage..nextpage) %}
     {% if page == paginator.page %}
       <span>{{ page }}</span>
     {% elsif page < 1 %}
@@ -66,7 +102,7 @@ seo:
     {% endif %}
   {% endfor %}
 
-  {% if paginator.next_page %}
+  {% if nextpage > paginator.page %}
     <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">Next &raquo;</a>
   {% else %}
     <span>Next &raquo;</span>

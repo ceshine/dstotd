@@ -19,11 +19,20 @@ layout: default
     </div>
   </div>
 
-  <div>
+  <div class="post-contributor">
     <small>
       <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/edit/master/{{ post.path }}" target="_blank">Improve this article</a> &nbsp; <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/commits/master/{{ post.path }}" target="_blank">Revision history</a> &nbsp; <i class="fa fa-user" aria-hidden="true"></i>
       {% if post.contributors == "1" %}{{ page.contributors }} Contributor{% else %}{{ page.contributors }} Contributors{% endif %}
     </small>
+  </div>
+
+  <div class="pagination">
+      {% if page.next.url %}
+        <a href="{{page.next.url}}">&laquo;  {{page.next.title}}</a>
+      {% endif %}
+      {% if page.previous.url %}
+        <a href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
+      {% endif %}
   </div>
 
   <div class="post-content">
@@ -31,14 +40,11 @@ layout: default
   </div>
 </article>
 
-
 <div class="pagination">
-  <div class="next-prev">
-    {% if page.previous.url %}
-      <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-    {% endif %}
     {% if page.next.url %}
-      <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+      <a href="{{page.next.url}}">&laquo;  {{page.next.title}}</a>
     {% endif %}
-  </div>
+    {% if page.previous.url %}
+      <a href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
+    {% endif %}
 </div>

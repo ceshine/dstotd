@@ -2,10 +2,13 @@
 title: Data Science Tweets of the Day - Search
 layout: default
 ---
-<div id="search-searchbar"></div>
+<main class="content" role="main">
+  <h1 class="post-title">Search</h1>
+  <div id="search-searchbar"></div>
 
-<div class="post-list" id="search-hits">
+  <div class="cf frame" id="search-hits">
 
-</div>
+  </div>
+  {% include algolia.html %}
 
-{% include algolia.html %}
+</main>

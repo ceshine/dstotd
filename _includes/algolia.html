@@ -25,11 +25,11 @@ search.addWidget(
         if (typeof hit.headings !== 'undefined') {
         return `
           <article class="post">
-            <h1 class="post-title">
+            <h2 class="archive-post-title">
               <a href="{{ site.baseurl }}${hit.url}">
                 ${hit.title}:
               <span class="post-small">${hit.description || ''}</span></a>
-            </h1>
+            </h2>
             <b>${hit.headings[0] || ''}</b>
             <div class="post-content">${hit._highlightResult.content.value || ''}</div>
           </article>
@@ -37,11 +37,11 @@ search.addWidget(
       } else{
         return `
           <article class="post">
-            <h1 class="post-title">
+            <h2 class="archive-post-title">
               <a href="{{ site.baseurl }}${hit.url}">
                 ${hit.title}:
               <span class="post-small">${hit.description || ''}</span></a>
-            </h1>
+            </h2>
             <div class="post-content">${hit._highlightResult.content.value || ''}</div>
           </article>
         `;

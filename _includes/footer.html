@@ -1,0 +1,28 @@
+<div class="bottom-teaser cf">
+  <div class="isLeft">
+    <h5 class="index-headline featured"><span>Curated by</span></h5>
+    <section class="author">
+      <div class="author-image"></div>
+      <h4><a href="https://twitter.com/ceshine_en" class="desc">@ceshine_en</a></h4>
+      <p class="bio">Inpired by <a href="https://twitter.com/wtfjht" class="desc">@WTFJHT</a></p>
+      <p>
+        <span>
+          {% if site.github_username %}
+            {% include icon-github.html username=site.github_username %}
+          {% endif %}
+        </span>
+      </p>
+      <hr>
+    </section>
+  </div>
+  <div class="isRight">
+    <h5 class="index-headline featured"><span>Supported by</span></h5>
+    <footer class="site-footer">
+      <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a> and <a href="https://github.com/ageitgey/amplify">Amplify</a></section>
+      <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
+      <div class="inner">
+        <section class="copyright">Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></section>
+      </div>
+    </footer>
+  </div>
+</div>

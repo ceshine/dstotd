@@ -5,13 +5,15 @@ source: "."
 destination: "./_site"
 layouts_dir: _layouts
 plugins_dir: _plugins
-github:
- repository_url: https://github.com/ceshine/dstotd
+github_username:  ceshine
+twitter_username: ceshine_en
+author_image: "/public/author.jpg"
+# github:
+#  repository_url: https://github.com/ceshine/dstotd
 data_dir: _data
 includes_dir: _includes
-theme: jekyll-theme-leap-day
 title: Data Science Tweets of the Day
-description: "Curated by <a href=\"https://twitter.com/ceshine_en\" class=\"desc\">@ceshine_en</a>. Inpired by <a href=\"https://twitter.com/wtfjht\" class=\"desc\">@WTFJHT</a>."
+description: "Curated by <a href=\"https://twitter.com/ceshine_en\" class=\"desc\">@ceshine_en</a>. c."
 # Theme Options
 show_downloads: false
 # Paginate
@@ -21,16 +23,14 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-sitemap
-- jekyll-feed
 - jekyll-archives
 - jekyll-redirect-from
-- amp-jekyll
-ampdir: amp/
 sass:
   sass_dir: _sass
   style: compressed
 # SEO
 logo: "/public/dstotd-wide.png"
+pagelogo: "/public/logo.png"
 twitter:
   username: ceshine_en
   card: summary
@@ -38,7 +38,8 @@ author:
   twitter: ceshine_en
   name: Ceshine Lee
   url: https://www.datasciencetweetsoftheday.ml
-google_analytics: UA-24180048-5
+# google_analytics: UA-24180048-5
+analytics_id: UA-24180048-5
 # Collections
 collections:
   posts:

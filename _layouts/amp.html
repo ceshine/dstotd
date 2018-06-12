@@ -36,7 +36,11 @@ layout: amp
       </address>
       <h1>{{ page.title }}</h1>
       <h3><i>{{ page.description }}</i></h3>
+      {% capture ampcontent %}
       {{ content | markdownify | amp_images }}
+      {% endcapture %}
+      {% include toc.html html=ampcontent %}
+      {{ ampcontent }}
     </main>
     <amp-analytics type="googleanalytics">
       <script type="application/json">

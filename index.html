@@ -66,8 +66,10 @@ seo:
       {% endif %}
     </div>
     {% endif %}
-
-    {% include toc.html html=post.content %}
+    {% include scroll-to-top.html %}
+    <div id="toc">
+      {% include toc.html html=post.content %}
+    </div>
     <div class="post-content">
       {{ post.content }}
     </div>

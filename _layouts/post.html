@@ -34,8 +34,10 @@ layout: default
         <a href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
       {% endif %}
   </div>
-
-  {% include toc.html html=page.content %}
+  {% include scroll-to-top.html %}
+  <div id="toc">
+    {% include toc.html html=page.content %}
+  </div>
   <div class="post-content">
     {{ page.content }}
   </div>

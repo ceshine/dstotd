@@ -47,11 +47,18 @@ collections:
     output: true
     permalink: /post/:year/:month/:day/:title/
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
     values:
+      image: "/public/dstotd-wide.png"
+      sitemap: false
+  -
+    scope:
+      path: ""
       type: posts
-      image: "/publis/dstotd-wide.png"
+    values:
+      sitemap: true
 # Archives
 jekyll-archives:
   enabled:

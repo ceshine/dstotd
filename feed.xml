@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="https://www.datasciencetweetsoftheday.ml/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.datasciencetweetsoftheday.ml/" rel="alternate" type="text/html" /><updated>2018-06-12T02:07:04+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/</id><title type="html">Data Science Tweets of the Day</title><subtitle>Curated by &lt;a href=&quot;https://twitter.com/ceshine_en&quot; class=&quot;desc&quot;&gt;@ceshine_en&lt;/a&gt;. Inpired by &lt;a href=&quot;https://twitter.com/wtfjht&quot; class=&quot;desc&quot;&gt;@WTFJHT&lt;/a&gt;.</subtitle><author><name>Ceshine Lee</name></author><entry><title type="html">Day 21</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/09/day-21/" rel="alternate" type="text/html" title="Day 21" /><published>2018-06-09T00:00:00+00:00</published><updated>2018-06-09T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/09/day-21</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/09/day-21/">&lt;h2 id=&quot;suicide-prevention&quot;&gt;Suicide Prevention&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Tweets of the Day</title>
+    <description>Curated by &lt;a href=&quot;https://twitter.com/ceshine_en&quot; class=&quot;desc&quot;&gt;@ceshine_en&lt;/a&gt;. c.</description>
+    <link>https://www.datasciencetweetsoftheday.ml/</link>
+    <atom:link href="https://www.datasciencetweetsoftheday.ml/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 Jun 2018 06:25:29 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Jun 2018 06:25:29 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Day 21</title>
+        <description>&lt;h2 id=&quot;suicide-prevention&quot;&gt;Suicide Prevention&lt;/h2&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1005560773182148609&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;How data scientists are using Machine learning to assist suicide prevention initiatives. Very cool. I hope ML can make a positive contribution to mental health &lt;a href=&quot;https://t.co/cpBdUvBN7p&quot;&gt;https://t.co/cpBdUvBN7p&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nando de Freitas (@NandoDF) &lt;a href=&quot;https://twitter.com/NandoDF/status/1005560773182148609?ref_src=twsrc%5Etfw&quot;&gt;June 9, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;/amp-twitter&gt;
@@ -63,7 +76,18 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1005599444849577984&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Oh wow, seems like a major pivot. &lt;a href=&quot;https://t.co/DWfNPZYVay&quot;&gt;pic.twitter.com/DWfNPZYVay&lt;/a&gt;&lt;/p&gt;&amp;mdash; Vicki Boykis (@vboykis) &lt;a href=&quot;https://twitter.com/vboykis/status/1005599444849577984?ref_src=twsrc%5Etfw&quot;&gt;June 9, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">Suicide Prevention How data scientists are using Machine learning to assist suicide prevention initiatives. Very cool. I hope ML can make a positive contribution to mental health https://t.co/cpBdUvBN7p&amp;mdash; Nando de Freitas (@NandoDF) June 9, 2018</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 20</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/08/day-20/" rel="alternate" type="text/html" title="Day 20" /><published>2018-06-08T00:00:00+00:00</published><updated>2018-06-08T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/08/day-20</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/08/day-20/">&lt;h2 id=&quot;visualization&quot;&gt;Visualization&lt;/h2&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/09/day-21/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/09/day-21/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 20</title>
+        <description>&lt;h2 id=&quot;visualization&quot;&gt;Visualization&lt;/h2&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1005095631226933252&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;What can cause cycles in predator–prey 🐈🐁 populations? Let’s use visualization to explore a dynamical system! &lt;a href=&quot;https://t.co/HnaBRVedm5&quot;&gt;https://t.co/HnaBRVedm5&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mike Bostock (@mbostock) &lt;a href=&quot;https://twitter.com/mbostock/status/1005095631226933252?ref_src=twsrc%5Etfw&quot;&gt;June 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;/amp-twitter&gt;
@@ -143,7 +167,18 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1005179997651210240&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;“The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.” —Edsger W. Dijkstra&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/1005179997651210240?ref_src=twsrc%5Etfw&quot;&gt;June 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">Visualization What can cause cycles in predator–prey 🐈🐁 populations? Let’s use visualization to explore a dynamical system! https://t.co/HnaBRVedm5&amp;mdash; Mike Bostock (@mbostock) June 8, 2018</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 19</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/07/day-19/" rel="alternate" type="text/html" title="Day 19" /><published>2018-06-07T00:00:00+00:00</published><updated>2018-06-07T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/07/day-19</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/07/day-19/">&lt;h2 id=&quot;real-person-to-anime&quot;&gt;Real Person to Anime&lt;/h2&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/08/day-20/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/08/day-20/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 19</title>
+        <description>&lt;h2 id=&quot;real-person-to-anime&quot;&gt;Real Person to Anime&lt;/h2&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1004751442190581760&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;und&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://t.co/G2WkI9mx85&quot;&gt;https://t.co/G2WkI9mx85&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ian Goodfellow (@goodfellow_ian) &lt;a href=&quot;https://twitter.com/goodfellow_ian/status/1004751442190581760?ref_src=twsrc%5Etfw&quot;&gt;June 7, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;/amp-twitter&gt;
@@ -256,7 +291,18 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1004622061011009536&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;As a data science type person, if there was one thing I could say to most companies, it would be this: Store your data properly, goddammit. &lt;br /&gt;We can talk about ML and AI all you like, but if the data&amp;#39;s not there or the quality&amp;#39;s not there, that&amp;#39;s all for nothing.&lt;/p&gt;&amp;mdash; Emma Vitz (@EmmaVitz) &lt;a href=&quot;https://twitter.com/EmmaVitz/status/1004622061011009536?ref_src=twsrc%5Etfw&quot;&gt;June 7, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">Real Person to Anime https://t.co/G2WkI9mx85&amp;mdash; Ian Goodfellow (@goodfellow_ian) June 7, 2018</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 18</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/06/day-18/" rel="alternate" type="text/html" title="Day 18" /><published>2018-06-06T00:00:00+00:00</published><updated>2018-06-06T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/06/day-18</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/06/day-18/">&lt;p&gt;Today we witness the birth of the world’s first psychopath AI - Norman. And another beutiful work by Nathan Yao @flowingdata.&lt;/p&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/07/day-19/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/07/day-19/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 18</title>
+        <description>&lt;p&gt;Today we witness the birth of the world’s first psychopath AI - Norman. And another beutiful work by Nathan Yao @flowingdata.&lt;/p&gt;
 
 &lt;h2 id=&quot;spiking-neural-networks&quot;&gt;Spiking Neural Networks&lt;/h2&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1004153733096361985&quot;&gt;
@@ -372,7 +418,18 @@
 &lt;h3 id=&quot;superintelligence&quot;&gt;Superintelligence&lt;/h3&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1004632348565098496&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This essay is a must read for everyone thinking about AI predictions.  &lt;a href=&quot;https://t.co/lkzAmF8rBc&quot;&gt;https://t.co/lkzAmF8rBc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nando de Freitas (@NandoDF) &lt;a href=&quot;https://twitter.com/NandoDF/status/1004632348565098496?ref_src=twsrc%5Etfw&quot;&gt;June 7, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">Today we witness the birth of the world’s first psychopath AI - Norman. And another beutiful work by Nathan Yao @flowingdata.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 17</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/05/day-17/" rel="alternate" type="text/html" title="Day 17" /><published>2018-06-05T00:00:00+00:00</published><updated>2018-06-05T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/05/day-17</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/05/day-17/">&lt;p&gt;Yet another Facebook “controversy” (to put it mildly) surface today. Udacity and Google launch free courses. And people debating what constitutes “Real Research” (check the first tweet in the &lt;a href=&quot;#miscellaneous&quot;&gt;Miscellaneous&lt;/a&gt; section).&lt;/p&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/06/day-18/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/06/day-18/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 17</title>
+        <description>&lt;p&gt;Yet another Facebook “controversy” (to put it mildly) surface today. Udacity and Google launch free courses. And people debating what constitutes “Real Research” (check the first tweet in the &lt;a href=&quot;#miscellaneous&quot;&gt;Miscellaneous&lt;/a&gt; section).&lt;/p&gt;
 
 &lt;h2 id=&quot;ethics-facebook-sharing-data&quot;&gt;[ethics] Facebook Sharing Data&lt;/h2&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1004180231299780609&quot;&gt;
@@ -511,7 +568,18 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1003983278750289920&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;For the next ±3 months you can send in your (own, or another&amp;#39;s) favorite &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt; made in the past year! 🎖️ And please do! I get loads of inspiration from browsing through the eventual Showcase that comes out 😃 &lt;a href=&quot;https://t.co/j4avJQuJk5&quot;&gt;https://t.co/j4avJQuJk5&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nadieh Bremer (@NadiehBremer) &lt;a href=&quot;https://twitter.com/NadiehBremer/status/1003983278750289920?ref_src=twsrc%5Etfw&quot;&gt;June 5, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">Yet another Facebook “controversy” (to put it mildly) surface today. Udacity and Google launch free courses. And people debating what constitutes “Real Research” (check the first tweet in the Miscellaneous section).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 16</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/04/day-16/" rel="alternate" type="text/html" title="Day 16" /><published>2018-06-04T00:00:00+00:00</published><updated>2018-06-04T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/04/day-16</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/04/day-16/">&lt;p&gt;The most interesting news today is Google introducing an algorithm which automatically finds optimal image augmentation policies, and a paper investigating the possible overfitting in published CIFAR-10 models.&lt;/p&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/05/day-17/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/05/day-17/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 16</title>
+        <description>&lt;p&gt;The most interesting news today is Google introducing an algorithm which automatically finds optimal image augmentation policies, and a paper investigating the possible overfitting in published CIFAR-10 models.&lt;/p&gt;
 
 &lt;h2 id=&quot;autoaugment&quot;&gt;AutoAugment&lt;/h2&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1003722208672268288&quot;&gt;
@@ -697,7 +765,18 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1003820989443026944&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;(Actual conversation)&lt;br /&gt;&lt;br /&gt;“What do you do?”&lt;br /&gt;“I’m a data scientist”&lt;br /&gt;&amp;lt;silence&amp;gt;&lt;br /&gt;“I work with computers”&lt;br /&gt;&amp;lt;stares at my sweet jogging pants&amp;gt;&lt;br /&gt;“from home”&lt;br /&gt;“Like the jobs on the telephone poles?” &lt;a href=&quot;https://t.co/Z6G2uyOs7s&quot;&gt;https://t.co/Z6G2uyOs7s&lt;/a&gt;&lt;/p&gt;&amp;mdash; Chris Albon (@chrisalbon) &lt;a href=&quot;https://twitter.com/chrisalbon/status/1003820989443026944?ref_src=twsrc%5Etfw&quot;&gt;June 5, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">The most interesting news today is Google introducing an algorithm which automatically finds optimal image augmentation policies, and a paper investigating the possible overfitting in published CIFAR-10 models.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 15</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/03/day-15/" rel="alternate" type="text/html" title="Day 15" /><published>2018-06-03T00:00:00+00:00</published><updated>2018-06-03T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/03/day-15</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/03/day-15/">&lt;p&gt;Today we have a few very creative &lt;a href=&quot;#lebron-memes&quot;&gt;Lebron James memes&lt;/a&gt;(you’re welcome to submit more similar memes!), and a interesting discussion thread about symbolic and deep learning systems.&lt;/p&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/04/day-16/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/04/day-16/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 15</title>
+        <description>&lt;p&gt;Today we have a few very creative &lt;a href=&quot;#lebron-memes&quot;&gt;Lebron James memes&lt;/a&gt;(you’re welcome to submit more similar memes!), and a interesting discussion thread about symbolic and deep learning systems.&lt;/p&gt;
 
 &lt;h2 id=&quot;microsoft-buys-github&quot;&gt;Microsoft Buys Github&lt;/h2&gt;
 &lt;p&gt;Jason Fried predicted it years ago (2014):&lt;/p&gt;
@@ -820,7 +899,18 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1002707254011944966&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Presenting a new idea for the first time vs presenting the published paper 2 years, 9 drafts, and 4 rounds of peer review later &lt;a href=&quot;https://t.co/i3ja935zoM&quot;&gt;pic.twitter.com/i3ja935zoM&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brooke Watson (@brookLYNevery1) &lt;a href=&quot;https://twitter.com/brookLYNevery1/status/1002707254011944966?ref_src=twsrc%5Etfw&quot;&gt;June 2, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">Today we have a few very creative Lebron James memes(you’re welcome to submit more similar memes!), and a interesting discussion thread about symbolic and deep learning systems.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 14</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/02/day-14/" rel="alternate" type="text/html" title="Day 14" /><published>2018-06-02T00:00:00+00:00</published><updated>2018-06-02T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/02/day-14</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/02/day-14/">&lt;p&gt;Quite a few tweets popped out this day with #NAACL2018 hashtag. I’m not organizing them into one single section, though. They are scattered in different sections.&lt;/p&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/03/day-15/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/03/day-15/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 14</title>
+        <description>&lt;p&gt;Quite a few tweets popped out this day with #NAACL2018 hashtag. I’m not organizing them into one single section, though. They are scattered in different sections.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-roads-to-rome&quot;&gt;The Roads to Rome&lt;/h2&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1002236610610524160&quot;&gt;
@@ -1002,7 +1092,18 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1003142697459183616&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;for this one I used textgenrnn. It&amp;#39;s basically a char-rnn.&lt;/p&gt;&amp;mdash; Janelle Shane (@JanelleCShane) &lt;a href=&quot;https://twitter.com/JanelleCShane/status/1003142697459183616?ref_src=twsrc%5Etfw&quot;&gt;June 3, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">Quite a few tweets popped out this day with #NAACL2018 hashtag. I’m not organizing them into one single section, though. They are scattered in different sections.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 13</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/06/01/day-13/" rel="alternate" type="text/html" title="Day 13" /><published>2018-06-01T00:00:00+00:00</published><updated>2018-06-01T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/06/01/day-13</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/06/01/day-13/">&lt;p&gt;There are so many great tweets today that it’s almost overwhelming. Enjoy!&lt;/p&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/02/day-14/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/02/day-14/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 13</title>
+        <description>&lt;p&gt;There are so many great tweets today that it’s almost overwhelming. Enjoy!&lt;/p&gt;
 
 &lt;h2 id=&quot;awesome-collection-of-paper-summaries&quot;&gt;Awesome Collection of Paper Summaries&lt;/h2&gt;
 &lt;p&gt;(All written within one month! Very impressive.)&lt;/p&gt;
@@ -1207,7 +1308,18 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1002600815536812033&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Check out my new &lt;a href=&quot;https://twitter.com/TheAtlantic?ref_src=twsrc%5Etfw&quot;&gt;@TheAtlantic&lt;/a&gt; article using sociological research to explain why the classic marshmallow test didn&amp;#39;t hold up under closer scrutiny. &lt;br /&gt;And thanks to &lt;a href=&quot;https://twitter.com/tw_watts?ref_src=twsrc%5Etfw&quot;&gt;@tw_watts&lt;/a&gt; for the new study that inspired this piece!  &lt;a href=&quot;https://t.co/elttBCz6DC&quot;&gt;https://t.co/elttBCz6DC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jess Calarco (@JessicaCalarco) &lt;a href=&quot;https://twitter.com/JessicaCalarco/status/1002600815536812033?ref_src=twsrc%5Etfw&quot;&gt;June 1, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">There are so many great tweets today that it’s almost overwhelming. Enjoy!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry><entry><title type="html">Day 12</title><link href="https://www.datasciencetweetsoftheday.ml/post/2018/05/31/day-12/" rel="alternate" type="text/html" title="Day 12" /><published>2018-05-31T00:00:00+00:00</published><updated>2018-05-31T00:00:00+00:00</updated><id>https://www.datasciencetweetsoftheday.ml/post/2018/05/31/day-12</id><content type="html" xml:base="https://www.datasciencetweetsoftheday.ml/post/2018/05/31/day-12/">&lt;p&gt;Today we have a dedicated section for ethical issues. They may not directly related to data science, but I believe that we tech workers need to have a firm grasp of how our work is going to affect our people’s life, and make moral decisions. As Dwight D. Eisenhower put it, “&lt;strong&gt;A people that values its privileges above its principles soon loses both.&lt;/strong&gt;” 😔&lt;/p&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/01/day-13/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/01/day-13/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 12</title>
+        <description>&lt;p&gt;Today we have a dedicated section for ethical issues. They may not directly related to data science, but I believe that we tech workers need to have a firm grasp of how our work is going to affect our people’s life, and make moral decisions. As Dwight D. Eisenhower put it, “&lt;strong&gt;A people that values its privileges above its principles soon loses both.&lt;/strong&gt;” 😔&lt;/p&gt;
 
 &lt;h2 id=&quot;competition-on-adversarial-attacks--defences&quot;&gt;Competition on Adversarial Attacks &amp;amp; Defences&lt;/h2&gt;
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1002139227663011841&quot;&gt;
@@ -1324,4 +1436,14 @@
 
 &lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1002343473167654913&quot;&gt;
     &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Just re-formatted all the deep learning book contents I had previously posted (i.e., the appendix sections) in LaTeX. Was a bunch of work, but looks prettier and most importantly, it hopefully lowers the barrier for adding more &amp;amp; new content ;) &lt;a href=&quot;https://t.co/v7oFwgi8ew&quot;&gt;https://t.co/v7oFwgi8ew&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sebastian Raschka (@rasbt) &lt;a href=&quot;https://twitter.com/rasbt/status/1002343473167654913?ref_src=twsrc%5Etfw&quot;&gt;June 1, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;</content><author><name>Ceshine Lee</name></author><summary type="html">Today we have a dedicated section for ethical issues. They may not directly related to data science, but I believe that we tech workers need to have a firm grasp of how our work is going to affect our people’s life, and make moral decisions. As Dwight D. Eisenhower put it, “A people that values its privileges above its principles soon loses both.” 😔</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.datasciencetweetsoftheday.ml/publis/dstotd-wide.png" /></entry></feed>
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/05/31/day-12/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/05/31/day-12/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

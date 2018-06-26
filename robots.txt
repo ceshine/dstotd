@@ -1,3 +1,2 @@
 User-agent: *
 Sitemap: https://www.datasciencetweetsoftheday.ml/sitemap.xml
-Disallow: /page/

@@ -5,9 +5,90 @@
     <description>Curated by &lt;a href=&quot;https://twitter.com/ceshine_en&quot; class=&quot;desc&quot;&gt;@ceshine_en&lt;/a&gt;. c.</description>
     <link>https://www.datasciencetweetsoftheday.ml/</link>
     <atom:link href="https://www.datasciencetweetsoftheday.ml/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jun 2018 08:03:43 +0000</pubDate>
-    <lastBuildDate>Tue, 26 Jun 2018 08:03:43 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Jun 2018 12:49:41 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Jun 2018 12:49:41 +0000</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Day 36</title>
+        <description>&lt;h2 id=&quot;warnings&quot;&gt;Warnings!&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010912547745263616&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;If use of every statistical model was accompanied warnings similar to those accompanying every prescription drug.   In medical research, mistakes in data analysis can shorten 1000s of lives.  &lt;a href=&quot;https://twitter.com/hashtag/biostatistics?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#biostatistics&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/statistics?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#statistics&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/datascience?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#datascience&lt;/a&gt; &lt;a href=&quot;https://t.co/GhLltkd3NG&quot;&gt;pic.twitter.com/GhLltkd3NG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Edward Tufte (@EdwardTufte) &lt;a href=&quot;https://twitter.com/EdwardTufte/status/1010912547745263616?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;regression-to-the-mean&quot;&gt;Regression to the Mean&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010881471978995714&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Regression to the mean continues to confuse people and lead to errors in published research &lt;a href=&quot;https://t.co/MEa2h3ud2t&quot;&gt;https://t.co/MEa2h3ud2t&lt;/a&gt;&lt;/p&gt;&amp;mdash; Andrew Gelman (@StatModeling) &lt;a href=&quot;https://twitter.com/StatModeling/status/1010881471978995714?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;visualization&quot;&gt;Visualization&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010996874336059392&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The reigns and deaths of the Roman Emperors. &lt;a href=&quot;https://twitter.com/hashtag/history?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#history&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt;&lt;a href=&quot;https://t.co/AcjOsiuORI&quot;&gt;https://t.co/AcjOsiuORI&lt;/a&gt; &lt;a href=&quot;https://t.co/6fAANvl5y0&quot;&gt;pic.twitter.com/6fAANvl5y0&lt;/a&gt;&lt;/p&gt;&amp;mdash; Randy Olson (@randal_olson) &lt;a href=&quot;https://twitter.com/randal_olson/status/1010996874336059392?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1011025793563152384&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;👋 welcome to &amp;quot;the Twitter,&amp;quot; &lt;a href=&quot;https://twitter.com/visdesignlab?ref_src=twsrc%5Etfw&quot;&gt;@visdesignlab&lt;/a&gt;!&lt;br /&gt;🐦 at the 👩‍💻👨‍💻 who brought you UpSetR, and lots o&amp;#39;cool &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt; research...&lt;br /&gt;🔗 &lt;a href=&quot;https://t.co/E9QJH83Q2w&quot;&gt;https://t.co/E9QJH83Q2w&lt;/a&gt;&lt;a href=&quot;https://twitter.com/hashtag/infovis?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#infovis&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/visualization?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#visualization&lt;/a&gt; &lt;a href=&quot;https://t.co/sLLKDkQyM5&quot;&gt;pic.twitter.com/sLLKDkQyM5&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mara Averick (@dataandme) &lt;a href=&quot;https://twitter.com/dataandme/status/1011025793563152384?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010815749659623424&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;And here&amp;#39;s one version of the &amp;quot;permutation plot&amp;quot; for each team in the group: &lt;a href=&quot;https://t.co/DfJUDh8HNu&quot;&gt;pic.twitter.com/DfJUDh8HNu&lt;/a&gt;&lt;/p&gt;&amp;mdash; John Burn-Murdoch (@jburnmurdoch) &lt;a href=&quot;https://twitter.com/jburnmurdoch/status/1010815749659623424?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+&lt;h3 id=&quot;detecting-sarcasm&quot;&gt;Detecting Sarcasm&lt;/h3&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010881496650080256&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Detecting Sarcasm with Deep Convolutional Neural Networks &lt;a href=&quot;https://t.co/C05UdMjCoe&quot;&gt;https://t.co/C05UdMjCoe&lt;/a&gt; &lt;a href=&quot;https://t.co/q50x9QqXhD&quot;&gt;pic.twitter.com/q50x9QqXhD&lt;/a&gt;&lt;/p&gt;&amp;mdash; KDnuggets (@kdnuggets) &lt;a href=&quot;https://twitter.com/kdnuggets/status/1010881496650080256?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;atari-bowling&quot;&gt;Atari Bowling&lt;/h3&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010922817205035010&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This program gets a score of 162 in Atari Bowling, which is now the new state-of-art for Bowling beating RUDDER&amp;#39;s previously held state-of-art of 108. I didn&amp;#39;t have a lot of resources so I only did Bowling. I hope the community can continue investigating this new type of AI. &lt;a href=&quot;https://t.co/1T3O1AH5qu&quot;&gt;pic.twitter.com/1T3O1AH5qu&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sherjil Ozair (@sherjilozair) &lt;a href=&quot;https://twitter.com/sherjilozair/status/1010922817205035010?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;tutorials--reviews&quot;&gt;Tutorials / Reviews&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010976212485894145&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;New blog post: Kaggle’s Yelp Restaurant Photo Classification Competition, &lt;a href=&quot;https://t.co/px5xDfQire&quot;&gt;https://t.co/px5xDfQire&lt;/a&gt; Style: Part 1 &lt;a href=&quot;https://t.co/Wz6sth1Dpd&quot;&gt;https://t.co/Wz6sth1Dpd&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nick Johnson (@HarveyNick) &lt;a href=&quot;https://twitter.com/HarveyNick/status/1010976212485894145?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;notes-from-cvpr-2018---day-1&quot;&gt;Notes from CVPR 2018 - Day 1&lt;/h3&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010786578464047104&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Sharing my notes from CVPR 2018 - Day 1 &lt;a href=&quot;https://t.co/5zgonAkiqE&quot;&gt;https://t.co/5zgonAkiqE&lt;/a&gt;&lt;/p&gt;&amp;mdash; erika menezes (@erikadmenezes) &lt;a href=&quot;https://twitter.com/erikadmenezes/status/1010786578464047104?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;quantizing-deep-convolutional-networks&quot;&gt;Quantizing Deep Convolutional Networks&lt;/h3&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010180240419753985&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;My colleague Raghu has just released &amp;quot;Quantizing deep convolutional networks for efficient inference&amp;quot; - &lt;a href=&quot;https://t.co/D87ziflTqd&quot;&gt;https://t.co/D87ziflTqd&lt;/a&gt;&lt;br /&gt;This white paper covers practical quantization approaches for most common CNNs in &lt;a href=&quot;https://twitter.com/TensorFlow?ref_src=twsrc%5Etfw&quot;&gt;@TensorFlow&lt;/a&gt;, I think it will be super useful!&lt;/p&gt;&amp;mdash; Pete Warden (@petewarden) &lt;a href=&quot;https://twitter.com/petewarden/status/1010180240419753985?ref_src=twsrc%5Etfw&quot;&gt;June 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;rstats&quot;&gt;rstats&lt;/h3&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1011068724978290690&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;ICYMI, 📕 import ⇨ analyze:&lt;br /&gt;&amp;quot;Data Manipulation in R&amp;quot; 👩‍💻 &lt;a href=&quot;https://twitter.com/TheStephLocke?ref_src=twsrc%5Etfw&quot;&gt;@TheStephLocke&lt;/a&gt;&lt;a href=&quot;https://t.co/sP8MKzbmin&quot;&gt;https://t.co/sP8MKzbmin&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/tidyverse?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#tidyverse&lt;/a&gt; (feat. &lt;a href=&quot;https://twitter.com/LVaudor?ref_src=twsrc%5Etfw&quot;&gt;@LVaudor&lt;/a&gt;&amp;#39;s 😍 visuals) &lt;a href=&quot;https://t.co/Ix6jnRwsLS&quot;&gt;pic.twitter.com/Ix6jnRwsLS&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mara Averick (@dataandme) &lt;a href=&quot;https://twitter.com/dataandme/status/1011068724978290690?ref_src=twsrc%5Etfw&quot;&gt;June 25, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1008908837175242753&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Advice to graduate students, beginning with &amp;quot;A PhD is not a picnic&amp;quot; &lt;a href=&quot;https://t.co/gWzeYPwv7r&quot;&gt;https://t.co/gWzeYPwv7r&lt;/a&gt; &lt;a href=&quot;https://t.co/I2978L4AyB&quot;&gt;pic.twitter.com/I2978L4AyB&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ash Jogalekar (@curiouswavefn) &lt;a href=&quot;https://twitter.com/curiouswavefn/status/1008908837175242753?ref_src=twsrc%5Etfw&quot;&gt;June 19, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010818043948228608&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Glad people are thinking and talking more about the risks of face recognition lately, but important to remember that it&amp;#39;s only one of many emerging computer vision tools. Others with similar implications include action recognition, emotion recognition, video summarization, etc.&lt;/p&gt;&amp;mdash; Miles Brundage (@Miles_Brundage) &lt;a href=&quot;https://twitter.com/Miles_Brundage/status/1010818043948228608?ref_src=twsrc%5Etfw&quot;&gt;June 24, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1010657514810232832&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The more econometrics I learn, the less I trust any given estimate that&amp;#39;s not a simple difference in means from an experiment.&lt;/p&gt;&amp;mdash; Tatyana Deryugina (@TDeryugina) &lt;a href=&quot;https://twitter.com/TDeryugina/status/1010657514810232832?ref_src=twsrc%5Etfw&quot;&gt;June 23, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+
+&lt;h3 id=&quot;ai2-reasoning-challenge&quot;&gt;AI2 Reasoning Challenge&lt;/h3&gt;
+&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1009858076235698176&quot;&gt;
+    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Congratulations to Yuyu Zhang, Hanjun Dai, Kamil Toraman, &amp;amp; Le Song on achieving a new highest score of 31.7% on the AI2 Reasoning Challenge (ARC) dataset! Can you top that? 📈 Learn more on the ARC webpage: &lt;a href=&quot;https://t.co/rgQx5NynIu&quot;&gt;https://t.co/rgQx5NynIu&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/AI2?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#AI2&lt;/a&gt; &lt;a href=&quot;https://t.co/Q0lllcOzxI&quot;&gt;pic.twitter.com/Q0lllcOzxI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Allen Institute for Artificial Intelligence (AI2) (@allenai_org) &lt;a href=&quot;https://twitter.com/allenai_org/status/1009858076235698176?ref_src=twsrc%5Etfw&quot;&gt;June 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/amp-twitter&gt;
+</description>
+        <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
+        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/24/day-36/</link>
+        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/24/day-36/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 35</title>
@@ -1079,142 +1160,6 @@
         <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
         <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/15/day-27/</link>
         <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/15/day-27/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 26</title>
-        <description>&lt;h2 id=&quot;unconscious-bias&quot;&gt;Unconscious Bias&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007342226714710016&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A great workflow for investigating unconscious bias in predictive models, and a case study in R using the C5.0 package, by &lt;a href=&quot;https://twitter.com/DynamicWebPaige?ref_src=twsrc%5Etfw&quot;&gt;@DynamicWebPaige&lt;/a&gt; &lt;a href=&quot;https://t.co/v9YdpiALGS&quot;&gt;https://t.co/v9YdpiALGS&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Smith (@revodavid) &lt;a href=&quot;https://twitter.com/revodavid/status/1007342226714710016?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;pre-trained-transformer-in-pytorch-nlp&quot;&gt;Pre-trained Transformer in PyTorch (NLP)&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.datasciencetweetsoftheday.ml/post/2018/06/11/day-23/#openai&quot;&gt;Reference: Day 23 NLP Transfer Learning / OpenAI&lt;/a&gt;&lt;/p&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007285778618167299&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I made a &lt;a href=&quot;https://twitter.com/PyTorch?ref_src=twsrc%5Etfw&quot;&gt;@pytorch&lt;/a&gt; implementation of &lt;a href=&quot;https://twitter.com/OpenAI?ref_src=twsrc%5Etfw&quot;&gt;@openai&lt;/a&gt;&amp;#39;s pretrained transformer with a script to import OpenAI&amp;#39;s pre-trained model.&lt;br /&gt;&lt;br /&gt;Link: &lt;a href=&quot;https://t.co/6zY8NavPA3&quot;&gt;https://t.co/6zY8NavPA3&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Thanks &lt;a href=&quot;https://twitter.com/AlecRad?ref_src=twsrc%5Etfw&quot;&gt;@AlecRad&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/karthik_r_n?ref_src=twsrc%5Etfw&quot;&gt;@karthik_r_n&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/TimSalimans?ref_src=twsrc%5Etfw&quot;&gt;@TimSalimans&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ilyasut?ref_src=twsrc%5Etfw&quot;&gt;@ilyasut&lt;/a&gt; for open-sourcing the code right away!&lt;/p&gt;&amp;mdash; Thomas Wolf (@Thom_Wolf) &lt;a href=&quot;https://twitter.com/Thom_Wolf/status/1007285778618167299?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;generative-query-network&quot;&gt;Generative Query Network&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007322661733597184&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The Generative Query Network, published today in &lt;a href=&quot;https://twitter.com/sciencemagazine?ref_src=twsrc%5Etfw&quot;&gt;@ScienceMagazine&lt;/a&gt;, learns without human supervision to (1) describe scene elements abstractly, and (2) &amp;#39;imagine&amp;#39; unobserved parts of the scene by rendering from any camera angle. &lt;a href=&quot;https://twitter.com/arkitus?ref_src=twsrc%5Etfw&quot;&gt;@arkitus&lt;/a&gt; &lt;a href=&quot;https://twitter.com/DeepSpiker?ref_src=twsrc%5Etfw&quot;&gt;@DeepSpiker&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Blog: &lt;a href=&quot;https://t.co/mD8RR7CA4M&quot;&gt;https://t.co/mD8RR7CA4M&lt;/a&gt; &lt;a href=&quot;https://t.co/HxcqFAYhcz&quot;&gt;pic.twitter.com/HxcqFAYhcz&lt;/a&gt;&lt;/p&gt;&amp;mdash; DeepMind (@DeepMindAI) &lt;a href=&quot;https://twitter.com/DeepMindAI/status/1007322661733597184?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007344549138747392&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A new machine-learning system can &amp;quot;observe&amp;quot; a scene and predict how it would look from any perspective with just a few photos. Read the research: &lt;a href=&quot;https://t.co/l47S13yh3y&quot;&gt;https://t.co/l47S13yh3y&lt;/a&gt; &lt;a href=&quot;https://t.co/iMw0Z9TdZe&quot;&gt;pic.twitter.com/iMw0Z9TdZe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Science Magazine (@sciencemagazine) &lt;a href=&quot;https://twitter.com/sciencemagazine/status/1007344549138747392?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007322721699663872&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Our work of 1.5+ years, Neural Scene Representation and Rendering, is finally out in &lt;a href=&quot;https://twitter.com/sciencemagazine?ref_src=twsrc%5Etfw&quot;&gt;@sciencemagazine&lt;/a&gt;, &lt;a href=&quot;https://t.co/7g6vd9hVyQ&quot;&gt;https://t.co/7g6vd9hVyQ&lt;/a&gt; … &lt;a href=&quot;https://t.co/BkltSJ1ko2&quot;&gt;https://t.co/BkltSJ1ko2&lt;/a&gt; … &lt;a href=&quot;https://twitter.com/arkitus?ref_src=twsrc%5Etfw&quot;&gt;@arkitus&lt;/a&gt;  &lt;a href=&quot;https://twitter.com/hashtag/unsupervisedlearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#unsupervisedlearning&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/thecake?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#thecake&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/generativemodels?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#generativemodels&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/RL?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#RL&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/inference?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#inference&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/uncertainty?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#uncertainty&lt;/a&gt;&lt;/p&gt;&amp;mdash; Danilo J. Rezende (@DeepSpiker) &lt;a href=&quot;https://twitter.com/DeepSpiker/status/1007322721699663872?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007327226956845058&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Neural Video Games: distilling video games with Neural Networks so accurately that you can play as if you were playing the real thing in real time. Congrats &lt;a href=&quot;https://twitter.com/arkitus?ref_src=twsrc%5Etfw&quot;&gt;@arkitus&lt;/a&gt; &lt;a href=&quot;https://twitter.com/DeepSpiker?ref_src=twsrc%5Etfw&quot;&gt;@DeepSpiker&lt;/a&gt; &amp;amp; al! &lt;a href=&quot;https://twitter.com/hashtag/NeuralVideoGames?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#NeuralVideoGames&lt;/a&gt; &lt;a href=&quot;https://t.co/p69903toOU&quot;&gt;https://t.co/p69903toOU&lt;/a&gt; &lt;a href=&quot;https://t.co/DiClh8GBTy&quot;&gt;pic.twitter.com/DiClh8GBTy&lt;/a&gt;&lt;/p&gt;&amp;mdash; Oriol Vinyals (@OriolVinyalsML) &lt;a href=&quot;https://twitter.com/OriolVinyalsML/status/1007327226956845058?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007532474388373507&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Great work. The approach allows you to learn compact representations of high-dimensional states (like 3D scenes) by training on lower-dimensional query-response pairs (like 2D images). This can be extended to other domains where complex states are hard to autoencode. &lt;a href=&quot;https://t.co/rUXuEgafoy&quot;&gt;https://t.co/rUXuEgafoy&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denny Britz (@dennybritz) &lt;a href=&quot;https://twitter.com/dennybritz/status/1007532474388373507?ref_src=twsrc%5Etfw&quot;&gt;June 15, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007367543307137024&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Really cool work from the “dream team” &lt;a href=&quot;https://twitter.com/DeepMindAI?ref_src=twsrc%5Etfw&quot;&gt;@DeepMindAI&lt;/a&gt;. Generative models of environments might pave the way toward machines that autonomously learn to understand the world around them. &lt;a href=&quot;https://t.co/qmLsytuyEQ&quot;&gt;https://t.co/qmLsytuyEQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/1007367543307137024?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;10k-layer-vanilla-cnn&quot;&gt;10k Layer Vanilla CNN&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007444612951072768&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;“How to Train 10,000-Layer Vanilla Convolutional Neural Networks?” &lt;a href=&quot;https://t.co/6FWwZ1p68I&quot;&gt;https://t.co/6FWwZ1p68I&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/1007444612951072768?ref_src=twsrc%5Etfw&quot;&gt;June 15, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007440829097492481&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Ever wanted to train a 10k layer vanilla conv net? Curious why gating helps RNNs train? Super excited about our pair of ICML papers!!  &lt;a href=&quot;https://t.co/sdLx1f64am&quot;&gt;https://t.co/sdLx1f64am&lt;/a&gt; &lt;a href=&quot;https://t.co/CV0Y2kBmNP&quot;&gt;https://t.co/CV0Y2kBmNP&lt;/a&gt;. Really fun collaboration with &lt;a href=&quot;https://twitter.com/Locchiu?ref_src=twsrc%5Etfw&quot;&gt;@Locchiu&lt;/a&gt;, Minmin, &lt;a href=&quot;https://twitter.com/yasamanbb?ref_src=twsrc%5Etfw&quot;&gt;@yasamanbb&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/jaschasd?ref_src=twsrc%5Etfw&quot;&gt;@jaschasd&lt;/a&gt;, &amp;amp; Jeffrey. &lt;a href=&quot;https://t.co/YcN6NTVIjX&quot;&gt;pic.twitter.com/YcN6NTVIjX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sam Schoenholz (@sschoenholz) &lt;a href=&quot;https://twitter.com/sschoenholz/status/1007440829097492481?ref_src=twsrc%5Etfw&quot;&gt;June 15, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;visualization&quot;&gt;Visualization&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1006783615022391297&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Fun fact for the &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt; crowd:&lt;br /&gt;&lt;br /&gt;This chart (and the ones in the story) are the first we&amp;#39;ve done 100% in ggplot, right down to the custom &lt;a href=&quot;https://twitter.com/FT?ref_src=twsrc%5Etfw&quot;&gt;@FT&lt;/a&gt; font and the white bar in the top left. &lt;a href=&quot;https://t.co/BVFmoYX2WL&quot;&gt;https://t.co/BVFmoYX2WL&lt;/a&gt;&lt;/p&gt;&amp;mdash; John Burn-Murdoch (@jburnmurdoch) &lt;a href=&quot;https://twitter.com/jburnmurdoch/status/1006783615022391297?ref_src=twsrc%5Etfw&quot;&gt;June 13, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;notable-research&quot;&gt;Notable Research&lt;/h2&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007210301304070145&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I want to flag this fascinating arxiv (by friends incl. &lt;a href=&quot;https://twitter.com/andrea_e_martin?ref_src=twsrc%5Etfw&quot;&gt;@andrea_e_martin&lt;/a&gt;), showing a neural net architecture that can both learn _and_ generalise. If you follow &lt;a href=&quot;https://twitter.com/GaryMarcus?ref_src=twsrc%5Etfw&quot;&gt;@GaryMarcus&lt;/a&gt; then you&amp;#39;ll know that deep nets don&amp;#39;t generalise, so this seems a real advance. &lt;a href=&quot;https://t.co/aZvZWARWQF&quot;&gt;https://t.co/aZvZWARWQF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Hugh Rabagliati (@hugh_rab) &lt;a href=&quot;https://twitter.com/hugh_rab/status/1007210301304070145?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007491902818672640&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Differentiable Compositional Kernel Learning for Gaussian Processes &lt;a href=&quot;https://twitter.com/hashtag/ICML?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ICML&lt;/a&gt; 2018&lt;br /&gt;By &lt;a href=&quot;https://twitter.com/ssydasheng?ref_src=twsrc%5Etfw&quot;&gt;@ssydasheng&lt;/a&gt; &lt;a href=&quot;https://twitter.com/Guodzh?ref_src=twsrc%5Etfw&quot;&gt;@Guodzh&lt;/a&gt;&lt;a href=&quot;https://t.co/aBisxDTp2h&quot;&gt;https://t.co/aBisxDTp2h&lt;/a&gt; &lt;a href=&quot;https://t.co/AhPa71rRhm&quot;&gt;pic.twitter.com/AhPa71rRhm&lt;/a&gt;&lt;/p&gt;&amp;mdash; ML Review (@ml_review) &lt;a href=&quot;https://twitter.com/ml_review/status/1007491902818672640?ref_src=twsrc%5Etfw&quot;&gt;June 15, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007195671315861505&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&amp;#39;A Probabilistic U-net for Segmentation of Ambiguous Images&amp;#39;: a cool new paper by my colleagues at DeepMind on how to deal with uncertainty in segmentation models. &lt;a href=&quot;https://t.co/PIVQ1CAOuh&quot;&gt;https://t.co/PIVQ1CAOuh&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DeepLearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DeepLearning&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/MachineLearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#MachineLearning&lt;/a&gt; &lt;a href=&quot;https://t.co/6JJr68mZzD&quot;&gt;pic.twitter.com/6JJr68mZzD&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nenad Tomasev (@weballergy) &lt;a href=&quot;https://twitter.com/weballergy/status/1007195671315861505?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;tutorials-and-resources&quot;&gt;Tutorials and Resources&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007351980774379521&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Explore the SmoothGrad feature saliency technique in an Observable notebook with TensorFlow.js by &lt;a href=&quot;https://twitter.com/aman_gif?ref_src=twsrc%5Etfw&quot;&gt;@aman_gif&lt;/a&gt;. &lt;br /&gt;&lt;br /&gt;Learn more here → &lt;a href=&quot;https://t.co/rKbJ57yRH0&quot;&gt;https://t.co/rKbJ57yRH0&lt;/a&gt; &lt;a href=&quot;https://t.co/bnJnzgR5S9&quot;&gt;pic.twitter.com/bnJnzgR5S9&lt;/a&gt;&lt;/p&gt;&amp;mdash; TensorFlow (@TensorFlow) &lt;a href=&quot;https://twitter.com/TensorFlow/status/1007351980774379521?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1006921072288190464&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The Github repository for Grokking Deep Learning now has all code contained within the book - many thanks to &lt;a href=&quot;https://twitter.com/AmberLeighTrask?ref_src=twsrc%5Etfw&quot;&gt;@AmberLeighTrask&lt;/a&gt;!&lt;a href=&quot;https://t.co/3KEfLNjvj5&quot;&gt;https://t.co/3KEfLNjvj5&lt;/a&gt;&lt;/p&gt;&amp;mdash; Trask (@iamtrask) &lt;a href=&quot;https://twitter.com/iamtrask/status/1006921072288190464?ref_src=twsrc%5Etfw&quot;&gt;June 13, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1006744878640922625&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Video from my talk at &lt;a href=&quot;https://twitter.com/JailbreakBrewCo?ref_src=twsrc%5Etfw&quot;&gt;@JailbreakBrewCo&lt;/a&gt; on using machine learning to help augment bug discovery &lt;a href=&quot;https://t.co/iXhIfe0IUJ&quot;&gt;https://t.co/iXhIfe0IUJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sophia d’Antoine (@Calaquendi44) &lt;a href=&quot;https://twitter.com/Calaquendi44/status/1006744878640922625?ref_src=twsrc%5Etfw&quot;&gt;June 13, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007322747247226880&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Paper &amp;amp; &lt;a href=&quot;https://twitter.com/hashtag/PyTorch?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#PyTorch&lt;/a&gt; code for 2nd place in &lt;a href=&quot;https://twitter.com/hashtag/CVPR2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#CVPR2018&lt;/a&gt; DeepGlobe Building Extraction Challenge:&lt;br /&gt;TernausNetV2: Fully Convolutional Network for Instance Segmentation &lt;a href=&quot;https://t.co/RjI6bIMPvV&quot;&gt;https://t.co/RjI6bIMPvV&lt;/a&gt;&lt;br /&gt;-  WideResnet-38 encoder&lt;br /&gt;- 11 input channels&lt;br /&gt;- In-Place Activated BatchNorm&lt;br /&gt;- watershed transform &lt;a href=&quot;https://t.co/DEbyxHoBhZ&quot;&gt;pic.twitter.com/DEbyxHoBhZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Alexandr Kalinin (@alxndrkalinin) &lt;a href=&quot;https://twitter.com/alxndrkalinin/status/1007322747247226880?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007271456454135808&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A few weeks ago, &lt;a href=&quot;https://twitter.com/mbostock?ref_src=twsrc%5Etfw&quot;&gt;@mbostock&lt;/a&gt; wrote a tweet. I wanted to understand what he means. So I wrote a blog post about it: &lt;a href=&quot;https://t.co/Uw22U6smYr&quot;&gt;https://t.co/Uw22U6smYr&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lisa Charlotte Rost (@lisacrost) &lt;a href=&quot;https://twitter.com/lisacrost/status/1007271456454135808?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h3 id=&quot;rstats&quot;&gt;rstats&lt;/h3&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007304499977969675&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; ggplot2 tip: I use low alpha so I can draw hundreds of overlapping lines to display uncertainty. But it breaks the color guide (left). Adding `guides(color = guide_legend(override.aes = list(alpha = 1)))` to plot overrides the transparency in the guide (right) &lt;a href=&quot;https://t.co/dh3WiO6O36&quot;&gt;pic.twitter.com/dh3WiO6O36&lt;/a&gt;&lt;/p&gt;&amp;mdash; tj mahr 🍕🍍 (@tjmahr) &lt;a href=&quot;https://twitter.com/tjmahr/status/1007304499977969675?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007408897278148608&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Introducing dbx: a fast, easy-to-use database library for R. High performance batch operations, upserts, and more 🔥 &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; &lt;a href=&quot;https://t.co/FrHhgoUQw7&quot;&gt;https://t.co/FrHhgoUQw7&lt;/a&gt; &lt;a href=&quot;https://t.co/QYCxjyeGlF&quot;&gt;pic.twitter.com/QYCxjyeGlF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Andrew Kane (@andrewkane) &lt;a href=&quot;https://twitter.com/andrewkane/status/1007408897278148608?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007307201092947968&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Classic, 😻 deck 📽 w/ code:&lt;br /&gt;&amp;quot;A Gentle Introduction to Network Visualisation&amp;quot; by &lt;a href=&quot;https://twitter.com/_ColinFay?ref_src=twsrc%5Etfw&quot;&gt;@_ColinFay&lt;/a&gt; &lt;br /&gt; &lt;a href=&quot;https://t.co/bO6KlRjBBf&quot;&gt;https://t.co/bO6KlRjBBf&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ggraph?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ggraph&lt;/a&gt; &lt;a href=&quot;https://t.co/Nol89gj9f3&quot;&gt;pic.twitter.com/Nol89gj9f3&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mara Averick (@dataandme) &lt;a href=&quot;https://twitter.com/dataandme/status/1007307201092947968?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007444842929180672&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🤝 welcome to &lt;a href=&quot;https://twitter.com/drsimonj?ref_src=twsrc%5Etfw&quot;&gt;@drsimonj&lt;/a&gt; inc. – your first assignment:&lt;br /&gt;&amp;quot;Creating corporate colour palettes for ggplot2&amp;quot; &lt;a href=&quot;https://t.co/e0GkYu6Yta&quot;&gt;https://t.co/e0GkYu6Yta&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ggplot2?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ggplot2&lt;/a&gt; &lt;a href=&quot;https://t.co/5Y6f1bDTDY&quot;&gt;pic.twitter.com/5Y6f1bDTDY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mara Averick (@dataandme) &lt;a href=&quot;https://twitter.com/dataandme/status/1007444842929180672?ref_src=twsrc%5Etfw&quot;&gt;June 15, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;micellaneous&quot;&gt;Micellaneous&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007330003011264512&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Questions to ask about software using machine learning &lt;a href=&quot;https://t.co/dYnGt6OihT&quot;&gt;https://t.co/dYnGt6OihT&lt;/a&gt; &lt;a href=&quot;https://t.co/0lMbweWXLQ&quot;&gt;pic.twitter.com/0lMbweWXLQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rachel Thomas (@math_rachel) &lt;a href=&quot;https://twitter.com/math_rachel/status/1007330003011264512?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007480494483648512&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/DataScience?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DataScience&lt;/a&gt; has taught me to always aspire to be merely average.&lt;br /&gt;&lt;br /&gt;That way I will consistently match everyone’s expectations.&lt;a href=&quot;https://twitter.com/hashtag/statistics?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#statistics&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nihilist Data Scientist (@nihilist_ds) &lt;a href=&quot;https://twitter.com/nihilist_ds/status/1007480494483648512?ref_src=twsrc%5Etfw&quot;&gt;June 15, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007203249244590080&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Feature engineering is often the way to most improve the performance of your ML system. Domain experts make the best feature engineers. &lt;a href=&quot;https://t.co/QqsyOL7vUO&quot;&gt;https://t.co/QqsyOL7vUO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brandon Rohrer (@_brohrer_) &lt;a href=&quot;https://twitter.com/_brohrer_/status/1007203249244590080?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007442633579380736&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Yes! Machine learning product design boils down to:&lt;br /&gt;1. Having unique data&lt;br /&gt;2. Asking the right question for your users&lt;br /&gt;3. Figuring how to get more interesting data to ask better questions &lt;a href=&quot;https://t.co/dqVpKzbWlw&quot;&gt;https://t.co/dqVpKzbWlw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Drew Breunig (@dbreunig) &lt;a href=&quot;https://twitter.com/dbreunig/status/1007442633579380736?ref_src=twsrc%5Etfw&quot;&gt;June 15, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007319395448700928&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Now that &lt;a href=&quot;https://twitter.com/chrmanning?ref_src=twsrc%5Etfw&quot;&gt;@chrmanning&lt;/a&gt; has called me out, I will take my duty seriously and tweet more to stave off the impending AI Winter. 😛 &lt;a href=&quot;https://t.co/A7R0d2REPD&quot;&gt;https://t.co/A7R0d2REPD&lt;/a&gt;&lt;/p&gt;&amp;mdash; Andrew Ng (@AndrewYNg) &lt;a href=&quot;https://twitter.com/AndrewYNg/status/1007319395448700928?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1007400895120793600&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Twitter’s ML platform is now based on &lt;a href=&quot;https://twitter.com/hashtag/TensorFlow?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#TensorFlow&lt;/a&gt;. As usual, it came down to deployment. &lt;a href=&quot;https://t.co/oLjG26N2MT&quot;&gt;https://t.co/oLjG26N2MT&lt;/a&gt; &lt;a href=&quot;https://t.co/K7UrU6Em5C&quot;&gt;pic.twitter.com/K7UrU6Em5C&lt;/a&gt;&lt;/p&gt;&amp;mdash; Delip Rao (@deliprao) &lt;a href=&quot;https://twitter.com/deliprao/status/1007400895120793600?ref_src=twsrc%5Etfw&quot;&gt;June 14, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-</description>
-        <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
-        <link>https://www.datasciencetweetsoftheday.ml/post/2018/06/14/day-26/</link>
-        <guid isPermaLink="true">https://www.datasciencetweetsoftheday.ml/post/2018/06/14/day-26/</guid>
         
         
       </item>

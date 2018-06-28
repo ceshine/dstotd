@@ -36,7 +36,6 @@ The tweets are split by day. A day starts at 08:00 UTC, which was selected based
   width="750" height="250" layout="responsive" alt="Timeilne Activity Distribution">
 </amp-img>
 
-
 The time used to put a tweets in a day is the time it appeared on my timeline, not the creation time of the tweet (only retweets are affected).
 
 ## Contributions Welcome!

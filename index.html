@@ -23,7 +23,7 @@
 <meta name="twitter:site" content="@ceshine_en" />
 <meta name="twitter:creator" content="@ceshine_en" />
 <script type="application/ld+json">
-{"@type":"WebSite","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.datasciencetweetsoftheday.ml/public/dstotd-twitter.png"},"name":"Ceshine Lee"},"image":"https://www.datasciencetweetsoftheday.ml/public/dstotd-wide.png","url":"https://www.datasciencetweetsoftheday.ml/","name":"Data Science Tweets of the Day","author":{"@type":"Person","name":"Ceshine Lee"},"headline":"Data Science Tweets of the Day","description":"Curated by @ceshine_en. c.","@context":"http://schema.org"}</script>
+{"@type":"WebSite","headline":"Data Science Tweets of the Day","url":"https://www.datasciencetweetsoftheday.ml/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.datasciencetweetsoftheday.ml/public/dstotd-twitter.png"},"name":"Ceshine Lee"},"image":"https://www.datasciencetweetsoftheday.ml/public/dstotd-wide.png","name":"Data Science Tweets of the Day","author":{"@type":"Person","name":"Ceshine Lee"},"description":"Curated by @ceshine_en. c.","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -38,8 +38,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://www.datasciencetweetsoftheday.ml/",
   "headline": "Data Science Tweets of the Day",
-  "datePublished": "2018-06-26T13:02:33+00:00",
-  "dateModified": "2018-06-26T13:02:33+00:00",
+  "datePublished": "2018-07-12T14:27:33+00:00",
+  "dateModified": "2018-07-12T14:27:33+00:00",
   "description": "Curated by <a href="https://twitter.com/ceshine_en" class="desc">@ceshine_en</a>. c.",
   "author": {
     "@type": "Person",
@@ -151,18 +151,18 @@
         <div class="article-item">
           <header class="post-header">
             <h1 class="post-title">
-              <a href="/post/2018/06/24/day-36/">
-                Day 36:
-              <span class="post-small">A PhD is Not a Picnic</span></a>
+              <a href="/post/2018/07/09/day-51/">
+                Day 51:
+              <span class="post-small">Glow</span></a>
             </h1>
             <div class="post-meta">
               <div class="post-date">
-                <time datetime="2018-06-26T13:02:00+00:00">
-                  6/24/2018 <em>Updated 6/26/2018  1:02 PM UTC</em>
+                <time datetime="2018-07-11T07:31:45+00:00">
+                  7/9/2018 <em>Updated 7/11/2018  7:31 AM UTC</em>
                 </time>
               </div>
               <div class="post-contributor">
-                <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/edit/master/_posts/2018-06-24-day-36.md" target="_blank">Improve this article</a> &nbsp; <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/commits/master/_posts/2018-06-24-day-36.md" target="_blank">Revision history</a> &nbsp; <i class="fa fa-user" aria-hidden="true"></i>
+                <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/edit/master/_posts/2018-07-09-day-51.md" target="_blank">Improve this article</a> &nbsp; <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/commits/master/_posts/2018-07-09-day-51.md" target="_blank">Revision history</a> &nbsp; <i class="fa fa-user" aria-hidden="true"></i>
                 1 Contributor
               </div>
           </div>
@@ -215,100 +215,120 @@
           <div id="toc">
             <center>Table of Contents</center>
             <ul>
-  <li><a href="#warnings">Warnings!</a></li>
-  <li><a href="#regression-to-the-mean">Regression to the Mean</a></li>
-  <li><a href="#visualization">Visualization</a></li>
+  <li><a href="#troubling-trends-in-machine-learning-scholarship">Troubling Trends in Machine Learning Scholarship</a></li>
+  <li><a href="#tools">Tools</a>
+    <ul>
+      <li><a href="#gcp-vm-images-for-cloud-gpus">GCP VM Images for Cloud GPUs</a></li>
+      <li><a href="#dask">Dask</a></li>
+      <li><a href="#dlib">dlib</a></li>
+    </ul>
+  </li>
+  <li><a href="#tutorials">Tutorials</a>
+    <ul>
+      <li><a href="#confidence-intervals-and-bayesian-credible-intervals">Confidence Intervals and Bayesian Credible Intervals</a></li>
+      <li><a href="#design-patterns-for-production-nlp-systems">Design Patterns for Production NLP Systems</a></li>
+      <li><a href="#data-science-glossary">Data Science Glossary</a></li>
+      <li><a href="#a-tour-of-reinforcement-learning">A Tour of Reinforcement Learning</a></li>
+      <li><a href="#model-ai-assignments">Model AI Assignments</a></li>
+    </ul>
+  </li>
   <li><a href="#research">Research</a>
     <ul>
-      <li><a href="#detecting-sarcasm">Detecting Sarcasm</a></li>
-      <li><a href="#atari-bowling">Atari Bowling</a></li>
+      <li><a href="#synthesizing-realistic-high-resolution-images">Synthesizing Realistic High-Resolution Images</a></li>
+      <li><a href="#feature-wise-transformations">Feature-wise Transformations</a></li>
     </ul>
   </li>
-  <li><a href="#tutorials--reviews">Tutorials / Reviews</a>
-    <ul>
-      <li><a href="#notes-from-cvpr-2018---day-1">Notes from CVPR 2018 - Day 1</a></li>
-      <li><a href="#quantizing-deep-convolutional-networks">Quantizing Deep Convolutional Networks</a></li>
-      <li><a href="#data-manipulation-in-r">Data Manipulation in R</a></li>
-    </ul>
-  </li>
-  <li><a href="#miscellaneous">Miscellaneous</a>
-    <ul>
-      <li><a href="#ai2-reasoning-challenge">AI2 Reasoning Challenge</a></li>
-    </ul>
-  </li>
+  <li><a href="#visualization">Visualization</a></li>
+  <li><a href="#miscellaneous">Miscellaneous</a></li>
 </ul>
           </div>
           <div class="post-content">
-            <h2 id="warnings">Warnings!</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010912547745263616">
-    <blockquote placeholder=""><p lang="en" dir="ltr">If use of every statistical model was accompanied warnings similar to those accompanying every prescription drug.   In medical research, mistakes in data analysis can shorten 1000s of lives.  <a href="https://twitter.com/hashtag/biostatistics?src=hash&amp;ref_src=twsrc%5Etfw">#biostatistics</a> <a href="https://twitter.com/hashtag/statistics?src=hash&amp;ref_src=twsrc%5Etfw">#statistics</a> <a href="https://twitter.com/hashtag/datascience?src=hash&amp;ref_src=twsrc%5Etfw">#datascience</a> <a href="https://t.co/GhLltkd3NG">pic.twitter.com/GhLltkd3NG</a></p>&mdash; Edward Tufte (@EdwardTufte) <a href="https://twitter.com/EdwardTufte/status/1010912547745263616?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+            <h2 id="troubling-trends-in-machine-learning-scholarship">Troubling Trends in Machine Learning Scholarship</h2>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016450675625119745">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Well here goes. Our ICML Debates paper is live: &quot;Troubling Trends in Machine Learning Scholarship&quot;. If anyone needs me, I&#39;ll be in witness protection. 🙄 <a href="https://t.co/ziPWyhvwKP">https://t.co/ziPWyhvwKP</a></p>&mdash; Zachary Lipton (@zacharylipton) <a href="https://twitter.com/zacharylipton/status/1016450675625119745?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
-<h2 id="regression-to-the-mean">Regression to the Mean</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010881471978995714">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Regression to the mean continues to confuse people and lead to errors in published research <a href="https://t.co/MEa2h3ud2t">https://t.co/MEa2h3ud2t</a></p>&mdash; Andrew Gelman (@StatModeling) <a href="https://twitter.com/StatModeling/status/1010881471978995714?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+<h2 id="tools">Tools</h2>
+<h3 id="gcp-vm-images-for-cloud-gpus">GCP VM Images for Cloud GPUs</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016515749517582338">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Google Cloud Platform now provides prepackaged VM images for <a href="https://twitter.com/TensorFlow?ref_src=twsrc%5Etfw">@TensorFlow</a> and <a href="https://twitter.com/PyTorch?ref_src=twsrc%5Etfw">@PyTorch</a> that work with Cloud GPUs out of the box. Still in beta, please give any feedback to <a href="https://twitter.com/b0noi?ref_src=twsrc%5Etfw">@b0noi</a>! <a href="https://t.co/0h1R5va1z0">https://t.co/0h1R5va1z0</a> <a href="https://t.co/yU4pf9CCjs">pic.twitter.com/yU4pf9CCjs</a></p>&mdash; hardmaru (@hardmaru) <a href="https://twitter.com/hardmaru/status/1016515749517582338?ref_src=twsrc%5Etfw">July 10, 2018</a></blockquote>
 </amp-twitter>
 
-<h2 id="visualization">Visualization</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010996874336059392">
-    <blockquote placeholder=""><p lang="en" dir="ltr">The reigns and deaths of the Roman Emperors. <a href="https://twitter.com/hashtag/history?src=hash&amp;ref_src=twsrc%5Etfw">#history</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a><a href="https://t.co/AcjOsiuORI">https://t.co/AcjOsiuORI</a> <a href="https://t.co/6fAANvl5y0">pic.twitter.com/6fAANvl5y0</a></p>&mdash; Randy Olson (@randal_olson) <a href="https://twitter.com/randal_olson/status/1010996874336059392?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+<h3 id="dask">Dask</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016282325762691073">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Dask development status update:<a href="https://t.co/NikcIo26D4">https://t.co/NikcIo26D4</a><br /><br />Yarn, incremental machine learning, and more examples <a href="https://t.co/tftfaWnqVN">pic.twitter.com/tftfaWnqVN</a></p>&mdash; Dask (@dask_dev) <a href="https://twitter.com/dask_dev/status/1016282325762691073?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1011025793563152384">
-    <blockquote placeholder=""><p lang="en" dir="ltr">👋 welcome to &quot;the Twitter,&quot; <a href="https://twitter.com/visdesignlab?ref_src=twsrc%5Etfw">@visdesignlab</a>!<br />🐦 at the 👩‍💻👨‍💻 who brought you UpSetR, and lots o&#39;cool <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> research...<br />🔗 <a href="https://t.co/E9QJH83Q2w">https://t.co/E9QJH83Q2w</a><a href="https://twitter.com/hashtag/infovis?src=hash&amp;ref_src=twsrc%5Etfw">#infovis</a> <a href="https://twitter.com/hashtag/visualization?src=hash&amp;ref_src=twsrc%5Etfw">#visualization</a> <a href="https://t.co/sLLKDkQyM5">pic.twitter.com/sLLKDkQyM5</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1011025793563152384?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+<h3 id="dlib">dlib</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1015698401856499712">
+    <blockquote placeholder=""><p lang="en" dir="ltr">dlib 19.14 is out. Pushed more stuff into the Python API.  Also added a simple auto-ML tool for training binary classifiers.  See for details: <a href="https://t.co/YpXr6h04xg">https://t.co/YpXr6h04xg</a></p>&mdash; Davis King (@nulhom) <a href="https://twitter.com/nulhom/status/1015698401856499712?ref_src=twsrc%5Etfw">July 7, 2018</a></blockquote>
 </amp-twitter>
 
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010815749659623424">
-    <blockquote placeholder=""><p lang="en" dir="ltr">And here&#39;s one version of the &quot;permutation plot&quot; for each team in the group: <a href="https://t.co/DfJUDh8HNu">pic.twitter.com/DfJUDh8HNu</a></p>&mdash; John Burn-Murdoch (@jburnmurdoch) <a href="https://twitter.com/jburnmurdoch/status/1010815749659623424?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+<h2 id="tutorials">Tutorials</h2>
+<h3 id="confidence-intervals-and-bayesian-credible-intervals">Confidence Intervals and Bayesian Credible Intervals</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016288806062952448">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Nice discussion on Cross Validated of equivalence and non-equivalence of confidence intervals and Bayesian credible intervals when the prior is restricted: <a href="https://t.co/I4udu0mZMN">https://t.co/I4udu0mZMN</a></p>&mdash; Frank Harrell (@f2harrell) <a href="https://twitter.com/f2harrell/status/1016288806062952448?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="design-patterns-for-production-nlp-systems">Design Patterns for Production NLP Systems</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016459310543486977">
+    <blockquote placeholder=""><p lang="en" dir="ltr">New <a href="https://twitter.com/hashtag/nlproc?src=hash&amp;ref_src=twsrc%5Etfw">#nlproc</a> blog post: &quot;Design Patterns for Production NLP Systems&quot;  <a href="https://t.co/m4a4MYgtfT">https://t.co/m4a4MYgtfT</a> <a href="https://t.co/GUdydhnHVy">pic.twitter.com/GUdydhnHVy</a></p>&mdash; Delip Rao (@deliprao) <a href="https://twitter.com/deliprao/status/1016459310543486977?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="data-science-glossary">Data Science Glossary</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016361360693682177">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Data science glossary on <a href="https://twitter.com/kaggle?ref_src=twsrc%5Etfw">@kaggle</a> - a great curated list of kernels providing forkable and reproducible tutorials on machine learning algorithms <a href="https://t.co/Anbd8lFMg1">https://t.co/Anbd8lFMg1</a></p>&mdash; Ben Hamner (@benhamner) <a href="https://twitter.com/benhamner/status/1016361360693682177?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
+</amp-twitter>
+
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016507179723964416">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Btw - this isn&#39;t a static, manually curated list. It&#39;s generated in Python on kernel tags, votes, and other metadata in a public Kaggle data release (updated daily). Expand the code sections in the notebook to see the source <a href="https://t.co/UEajPWWYVu">https://t.co/UEajPWWYVu</a></p>&mdash; Ben Hamner (@benhamner) <a href="https://twitter.com/benhamner/status/1016507179723964416?ref_src=twsrc%5Etfw">July 10, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="a-tour-of-reinforcement-learning">A Tour of Reinforcement Learning</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016484044844888065">
+    <blockquote placeholder=""><p lang="en" dir="ltr">A Tour of Reinforcement Learning: The View from Continuous Control. A nice review paper, and a summary of <a href="https://twitter.com/beenwrekt?ref_src=twsrc%5Etfw">@BeenWrekt</a>&#39;s views of the RL field from his series of recent blog posts. <a href="https://t.co/ViCPPruced">https://t.co/ViCPPruced</a></p>&mdash; hardmaru (@hardmaru) <a href="https://twitter.com/hardmaru/status/1016484044844888065?ref_src=twsrc%5Etfw">July 10, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="model-ai-assignments">Model AI Assignments</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016575704723533824">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Model AI Assignments <a href="https://t.co/twAot7jT4J">https://t.co/twAot7jT4J</a> - This is a neat collection of assignments/exercises to learn about various Machine Learning techniques</p>&mdash; Denny Britz (@dennybritz) <a href="https://twitter.com/dennybritz/status/1016575704723533824?ref_src=twsrc%5Etfw">July 10, 2018</a></blockquote>
 </amp-twitter>
 
 <h2 id="research">Research</h2>
-<h3 id="detecting-sarcasm">Detecting Sarcasm</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010881496650080256">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Detecting Sarcasm with Deep Convolutional Neural Networks <a href="https://t.co/C05UdMjCoe">https://t.co/C05UdMjCoe</a> <a href="https://t.co/q50x9QqXhD">pic.twitter.com/q50x9QqXhD</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/1010881496650080256?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016382736003629059">
+    <blockquote placeholder=""><p lang="en" dir="ltr">A mechanistic model of connector hubs, modularity, and cognition<br />“model of hub connectivity accurately predicts the cognitive performance of 476 individuals in four distinct tasks”<br /><br /> <a href="https://t.co/IZE1Pihies">https://t.co/IZE1Pihies</a> <a href="https://t.co/eEdqOXjz0w">pic.twitter.com/eEdqOXjz0w</a></p>&mdash; Alessandro  Vespignani (@alexvespi) <a href="https://twitter.com/alexvespi/status/1016382736003629059?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="atari-bowling">Atari Bowling</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010922817205035010">
-    <blockquote placeholder=""><p lang="en" dir="ltr">This program gets a score of 162 in Atari Bowling, which is now the new state-of-art for Bowling beating RUDDER&#39;s previously held state-of-art of 108. I didn&#39;t have a lot of resources so I only did Bowling. I hope the community can continue investigating this new type of AI. <a href="https://t.co/1T3O1AH5qu">pic.twitter.com/1T3O1AH5qu</a></p>&mdash; Sherjil Ozair (@sherjilozair) <a href="https://twitter.com/sherjilozair/status/1010922817205035010?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+<h3 id="synthesizing-realistic-high-resolution-images">Synthesizing Realistic High-Resolution Images</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016353021494583297">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Synthesizing realistic high-resolution images with Glow, a new reversible generative model: <a href="https://t.co/WIa9aI6NGU">https://t.co/WIa9aI6NGU</a> <a href="https://t.co/vdCruz17li">pic.twitter.com/vdCruz17li</a></p>&mdash; OpenAI (@OpenAI) <a href="https://twitter.com/OpenAI/status/1016353021494583297?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
-<h2 id="tutorials--reviews">Tutorials / Reviews</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010976212485894145">
-    <blockquote placeholder=""><p lang="en" dir="ltr">New blog post: Kaggle’s Yelp Restaurant Photo Classification Competition, <a href="https://t.co/px5xDfQire">https://t.co/px5xDfQire</a> Style: Part 1 <a href="https://t.co/Wz6sth1Dpd">https://t.co/Wz6sth1Dpd</a></p>&mdash; Nick Johnson (@HarveyNick) <a href="https://twitter.com/HarveyNick/status/1010976212485894145?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016363536631525377">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Go check out our interactive demo and upload your face to make it smile, grow old, add a beard, get blonde hair! Wonder how Prof. Hinton looks with a beard... <a href="https://t.co/ydAVCZIK3s">pic.twitter.com/ydAVCZIK3s</a></p>&mdash; Prafulla Dhariwal (@prafdhar) <a href="https://twitter.com/prafdhar/status/1016363536631525377?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="notes-from-cvpr-2018---day-1">Notes from CVPR 2018 - Day 1</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010786578464047104">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Sharing my notes from CVPR 2018 - Day 1 <a href="https://t.co/5zgonAkiqE">https://t.co/5zgonAkiqE</a></p>&mdash; erika menezes (@erikadmenezes) <a href="https://twitter.com/erikadmenezes/status/1010786578464047104?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
+<h3 id="feature-wise-transformations">Feature-wise Transformations</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016352616865918976">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Feature-wise transformations - A new Distill article by <a href="https://twitter.com/dumoulinv?ref_src=twsrc%5Etfw">@dumoulinv</a>, Ethan Perez, <a href="https://twitter.com/nschucher?ref_src=twsrc%5Etfw">@nschucher</a>, Florian Strub, <a href="https://twitter.com/harm_devries?ref_src=twsrc%5Etfw">@harm_devries</a>, Aaron Courville, Yoshua Bengio<a href="https://t.co/YH4wHHs0X4">https://t.co/YH4wHHs0X4</a></p>&mdash; distillpub (@distillpub) <a href="https://twitter.com/distillpub/status/1016352616865918976?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="quantizing-deep-convolutional-networks">Quantizing Deep Convolutional Networks</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010180240419753985">
-    <blockquote placeholder=""><p lang="en" dir="ltr">My colleague Raghu has just released &quot;Quantizing deep convolutional networks for efficient inference&quot; - <a href="https://t.co/D87ziflTqd">https://t.co/D87ziflTqd</a><br />This white paper covers practical quantization approaches for most common CNNs in <a href="https://twitter.com/TensorFlow?ref_src=twsrc%5Etfw">@TensorFlow</a>, I think it will be super useful!</p>&mdash; Pete Warden (@petewarden) <a href="https://twitter.com/petewarden/status/1010180240419753985?ref_src=twsrc%5Etfw">June 22, 2018</a></blockquote>
+<h2 id="visualization">Visualization</h2>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016365701312008193">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Lake nerds: Had to try it 👌 <a href="https://t.co/jed9tjyFPj">https://t.co/jed9tjyFPj</a> <a href="https://twitter.com/Brideau?ref_src=twsrc%5Etfw">@Brideau</a> <a href="https://twitter.com/dataandme?ref_src=twsrc%5Etfw">@dataandme</a> <a href="https://t.co/SoKpUABenR">pic.twitter.com/SoKpUABenR</a></p>&mdash; Hilary Dugan (@hildug) <a href="https://twitter.com/hildug/status/1016365701312008193?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="data-manipulation-in-r">Data Manipulation in R</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1011068724978290690">
-    <blockquote placeholder=""><p lang="en" dir="ltr">ICYMI, 📕 import ⇨ analyze:<br />&quot;Data Manipulation in R&quot; 👩‍💻 <a href="https://twitter.com/TheStephLocke?ref_src=twsrc%5Etfw">@TheStephLocke</a><a href="https://t.co/sP8MKzbmin">https://t.co/sP8MKzbmin</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/tidyverse?src=hash&amp;ref_src=twsrc%5Etfw">#tidyverse</a> (feat. <a href="https://twitter.com/LVaudor?ref_src=twsrc%5Etfw">@LVaudor</a>&#39;s 😍 visuals) <a href="https://t.co/Ix6jnRwsLS">pic.twitter.com/Ix6jnRwsLS</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1011068724978290690?ref_src=twsrc%5Etfw">June 25, 2018</a></blockquote>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016278149837959170">
+    <blockquote placeholder=""><p lang="en" dir="ltr">🍾 I&#39;m glad to announce a new <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> project:<br /><br />--&gt; <a href="https://t.co/KLihruhSJr">https://t.co/KLihruhSJr</a><br /><br />A classification of chart types based on data input format. Includes a lot of <a href="https://twitter.com/hashtag/rstat?src=hash&amp;ref_src=twsrc%5Etfw">#rstat</a> code, a poster for <a href="https://twitter.com/useR2018_conf?ref_src=twsrc%5Etfw">@useR2018_conf</a> , a gallery of caveats, and plenty of tips and tricks! <a href="https://t.co/0TJctwitOI">pic.twitter.com/0TJctwitOI</a></p>&mdash; Yan Holtz (@R_Graph_Gallery) <a href="https://twitter.com/R_Graph_Gallery/status/1016278149837959170?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
 <h2 id="miscellaneous">Miscellaneous</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1008908837175242753">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Advice to graduate students, beginning with &quot;A PhD is not a picnic&quot; <a href="https://t.co/gWzeYPwv7r">https://t.co/gWzeYPwv7r</a> <a href="https://t.co/I2978L4AyB">pic.twitter.com/I2978L4AyB</a></p>&mdash; Ash Jogalekar (@curiouswavefn) <a href="https://twitter.com/curiouswavefn/status/1008908837175242753?ref_src=twsrc%5Etfw">June 19, 2018</a></blockquote>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1015162502517346304">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Plotly&#39;s new <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> interface: fast rendering of huge datasets, interactive <a href="https://twitter.com/hashtag/Jupyter?src=hash&amp;ref_src=twsrc%5Etfw">#Jupyter</a> notebooks, validation… This is huge! <a href="https://t.co/iRzERrUdQX">https://t.co/iRzERrUdQX</a> by <a href="https://twitter.com/jonmmease?ref_src=twsrc%5Etfw">@jonmmease</a> 👍 <a href="https://t.co/VvnGdmgGEk">pic.twitter.com/VvnGdmgGEk</a></p>&mdash; Radim Řehůřek (@RadimRehurek) <a href="https://twitter.com/RadimRehurek/status/1015162502517346304?ref_src=twsrc%5Etfw">July 6, 2018</a></blockquote>
 </amp-twitter>
 
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010818043948228608">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Glad people are thinking and talking more about the risks of face recognition lately, but important to remember that it&#39;s only one of many emerging computer vision tools. Others with similar implications include action recognition, emotion recognition, video summarization, etc.</p>&mdash; Miles Brundage (@Miles_Brundage) <a href="https://twitter.com/Miles_Brundage/status/1010818043948228608?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1010657514810232832">
-    <blockquote placeholder=""><p lang="en" dir="ltr">The more econometrics I learn, the less I trust any given estimate that&#39;s not a simple difference in means from an experiment.</p>&mdash; Tatyana Deryugina (@TDeryugina) <a href="https://twitter.com/TDeryugina/status/1010657514810232832?ref_src=twsrc%5Etfw">June 23, 2018</a></blockquote>
-</amp-twitter>
-
-<h3 id="ai2-reasoning-challenge">AI2 Reasoning Challenge</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1009858076235698176">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Congratulations to Yuyu Zhang, Hanjun Dai, Kamil Toraman, &amp; Le Song on achieving a new highest score of 31.7% on the AI2 Reasoning Challenge (ARC) dataset! Can you top that? 📈 Learn more on the ARC webpage: <a href="https://t.co/rgQx5NynIu">https://t.co/rgQx5NynIu</a> <a href="https://twitter.com/hashtag/AI2?src=hash&amp;ref_src=twsrc%5Etfw">#AI2</a> <a href="https://t.co/Q0lllcOzxI">pic.twitter.com/Q0lllcOzxI</a></p>&mdash; Allen Institute for Artificial Intelligence (AI2) (@allenai_org) <a href="https://twitter.com/allenai_org/status/1009858076235698176?ref_src=twsrc%5Etfw">June 21, 2018</a></blockquote>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016282658870054913">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Generally fun and the first table seems like a good reminder that the minimizer of L2 approximation is usually not also the L∞ minimizer: <a href="https://t.co/ohjvusrMDG">https://t.co/ohjvusrMDG</a></p>&mdash; John Myles White (@johnmyleswhite) <a href="https://twitter.com/johnmyleswhite/status/1016282658870054913?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
 </amp-twitter>
 
           </div>
@@ -358,17 +378,6 @@
       <div class="author-image"></div>
       <h4><a href="https://twitter.com/ceshine_en" class="desc">@ceshine_en</a></h4>
       <p class="bio">Inpired by <a href="https://twitter.com/wtfjht" class="desc">@WTFJHT</a></p>
-      <p>
-        <span>
-          
-            
-<span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
-</span><a href="https://github.com/ceshine"><span class="username">ceshine</span></a>
-
-
-          
-        </span>
-      </p>
       <hr>
     </section>
   </div>

@@ -13,7 +13,7 @@ author_image: "/public/author.jpg"
 data_dir: _data
 includes_dir: _includes
 title: Data Science Tweets of the Day
-description: "Curated by <a href=\"https://twitter.com/ceshine_en\" class=\"desc\">@ceshine_en</a>. c."
+description: "Curated by <a href=\"https://twitter.com/ceshine_en\" class=\"desc\">@ceshine_en</a>."
 # Theme Options
 show_downloads: false
 # Paginate

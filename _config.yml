@@ -1,5 +1,5 @@
 timezone: UTC
-url: https://www.datasciencetweetsoftheday.ml
+url: https://dstotd.ceshine.net
 baseurl:
 source: "."
 destination: "./_site"
@@ -36,7 +36,7 @@ twitter:
 author:
   twitter: ceshine_en
   name: Ceshine Lee
-  url: https://www.datasciencetweetsoftheday.ml
+  url: https://dstotd.ceshine.net
 # google_analytics: UA-24180048-5
 analytics_id: UA-24180048-5
 # Collections

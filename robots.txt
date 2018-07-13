@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.datasciencetweetsoftheday.ml/sitemap.xml
+Sitemap: https://dstotd.ceshine.net/sitemap.xml

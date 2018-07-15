@@ -18,12 +18,11 @@
 <meta property="og:url" content="https://dstotd.ceshine.net/" />
 <meta property="og:site_name" content="Data Science Tweets of the Day" />
 <meta property="og:image" content="https://dstotd.ceshine.net/public/dstotd-wide.png" />
-<link rel="next" href="https://dstotd.ceshine.net/page/2/" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@ceshine_en" />
 <meta name="twitter:creator" content="@ceshine_en" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://dstotd.ceshine.net/public/dstotd-twitter.png"},"name":"Ceshine Lee"},"@type":"WebSite","headline":"Data Science Tweets of the Day","url":"https://dstotd.ceshine.net/","image":"https://dstotd.ceshine.net/public/dstotd-wide.png","name":"Data Science Tweets of the Day","author":{"@type":"Person","name":"Ceshine Lee"},"description":"Curated by @ceshine_en.","@context":"http://schema.org"}</script>
+{"@type":"WebSite","headline":"Data Science Tweets of the Day","url":"https://dstotd.ceshine.net/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://dstotd.ceshine.net/public/dstotd-twitter.png"},"name":"Ceshine Lee"},"image":"https://dstotd.ceshine.net/public/dstotd-wide.png","name":"Data Science Tweets of the Day","author":{"@type":"Person","name":"Ceshine Lee"},"description":"Curated by @ceshine_en.","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -38,8 +37,8 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "https://dstotd.ceshine.net/",
   "headline": "Data Science Tweets of the Day",
-  "datePublished": "2018-07-13T06:50:34+00:00",
-  "dateModified": "2018-07-13T06:50:34+00:00",
+  "datePublished": "2018-07-15T09:03:52+00:00",
+  "dateModified": "2018-07-15T09:03:52+00:00",
   "description": "Curated by <a href="https://twitter.com/ceshine_en" class="desc">@ceshine_en</a>.",
   "author": {
     "@type": "Person",
@@ -103,71 +102,29 @@
 </header>
 
 
-    <main class="content" role="main">
-  <!-- <header class="blog-header">
-      <h3 class="blog-description">Curated by <a href="https://twitter.com/ceshine_en" class="desc">@ceshine_en</a>.</h3>
-  </header> -->
-  <div class="cf frame">
-    <!-- pagination -->
     
-    <div class="pagination">
-      
-        <span>&laquo; Prev</span>
-      
 
+<main class="content" role="main">
+  <div class="pagination">
       
       
+        <a href="/post/2018/07/12/day-54/">Day 54 &raquo;</a>
       
-
-      
-        
-
-        
-      
-        
-
-        
-      
-        
-          <span>1</span>
-        
-      
-        
-          <a href="/page/2/">2</a>
-        
-      
-        
-          <a href="/page/3/">3</a>
-        
-      
-
-      
-        <a href="/page/2/">Next &raquo;</a>
-      
+  </div>
+  <article class="post">
+    <div class="post-meta">
+      <h1 class="post-title">Day 55: <span class="post-small">A "Cookbook" for GAN research</h1>
+      <div class="post-date">
+        <time datetime="2018-07-15T09:02:44+00:00">
+          7/13/2018 <em>Updated 7/15/2018  9:02 AM UTC</em>
+        </time>
+      </div>
+      <div class="post-contributor">
+        <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/edit/master/_posts/2018-07-13-day-55.md" target="_blank">Improve this article</a> &nbsp; <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/commits/master/_posts/2018-07-13-day-55.md" target="_blank">Revision history</a> &nbsp; <i class="fa fa-user" aria-hidden="true"></i>
+        1 Contributor
+      </div>
     </div>
-    
-    
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-        <div class="article-item">
-          <header class="post-header">
-            <h1 class="post-title">
-              <a href="/post/2018/07/11/day-53/">
-                Day 53:
-              <span class="post-small">Talk the Walk</span></a>
-            </h1>
-            <div class="post-meta">
-              <div class="post-date">
-                <time datetime="2018-07-13T06:45:07+00:00">
-                  7/11/2018 <em>Updated 7/13/2018  6:45 AM UTC</em>
-                </time>
-              </div>
-              <div class="post-contributor">
-                <i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/edit/master/_posts/2018-07-11-day-53.md" target="_blank">Improve this article</a> &nbsp; <i class="fa fa-history" aria-hidden="true"></i> <a href="https://github.com/ceshine/dstotd/commits/master/_posts/2018-07-11-day-53.md" target="_blank">Revision history</a> &nbsp; <i class="fa fa-user" aria-hidden="true"></i>
-                1 Contributor
-              </div>
-          </div>
-          </header>
-          <amp-animation id="showAnim"
+    <amp-animation id="showAnim"
   layout="nodisplay">
   <script type="application/json">
     {
@@ -212,165 +169,116 @@
   on="tap:page-top.scrollTo(duration=200)"
   class="scrollToTop">⌃</button>
 
-          <div id="toc">
-            <center>Table of Contents</center>
-            <ul>
-  <li><a href="#visualization">Visualization</a></li>
-  <li><a href="#google-trend-datastore">Google Trend Datastore</a></li>
+    <div id="toc">
+      <center>Table of Contents</center>
+      <ul>
+  <li><a href="#on-solving-montezumas-revenge">On “solving” Montezuma’s Revenge</a></li>
   <li><a href="#research">Research</a>
     <ul>
-      <li><a href="#general-purpose-distributed-sentence-representations">General Purpose Distributed Sentence Representations</a></li>
-      <li><a href="#contextualize-knowledge-graph">Contextualize Knowledge Graph</a></li>
-      <li><a href="#talk-the-walk-dataset">Talk the Walk #dataset</a></li>
-      <li><a href="#meseauring-abstract-reasoning">Meseauring Abstract Reasoning</a></li>
-      <li><a href="#experiments-with-variational-attention">Experiments with Variational Attention</a></li>
+      <li><a href="#compare-gan-code">Compare GAN Code</a></li>
+      <li><a href="#adversarial-logit-pairing">Adversarial Logit Pairing</a></li>
+    </ul>
+  </li>
+  <li><a href="#learning-resources">Learning Resources</a>
+    <ul>
+      <li><a href="#r-markdown-the-definitive-guide">R Markdown: The Definitive Guide</a></li>
+      <li><a href="#neural-network-acceleration-hardware">Neural Network Acceleration Hardware</a></li>
+      <li><a href="#gaussian-processes-and-kernel-methods">Gaussian Processes and Kernel Methods</a></li>
+      <li><a href="#classify-cardiomegaly-kaggle-kerneladwards">Classify Cardiomegaly #Kaggle #KernelAdwards</a></li>
+      <li><a href="#altair">Altair</a></li>
     </ul>
   </li>
   <li><a href="#tools">Tools</a>
     <ul>
-      <li><a href="#dalex">DALEX</a></li>
-      <li><a href="#lolviz-dataviz">lolviz #dataviz</a></li>
+      <li><a href="#broom-rstats">broom #rstats</a></li>
+      <li><a href="#ggspatial">ggspatial</a></li>
+      <li><a href="#mybinderorg">mybinder.org</a></li>
     </ul>
   </li>
-  <li><a href="#tutorials">Tutorials</a></li>
-  <li><a href="#miscellaneous">Miscellaneous</a></li>
 </ul>
-          </div>
-          <div class="post-content">
-            <h2 id="visualization">Visualization</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017157044464508930">
-    <blockquote placeholder=""><p lang="en" dir="ltr">The tortuous paths that France and Croatia took to the final <a href="https://t.co/k5q05jzJmF">https://t.co/k5q05jzJmF</a> <a href="https://t.co/LGoo0DyAVF">pic.twitter.com/LGoo0DyAVF</a></p>&mdash; Ritchie King (@RitchieSKing) <a href="https://twitter.com/RitchieSKing/status/1017157044464508930?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017054143922483200">
-    <blockquote placeholder=""><p lang="en" dir="ltr">This is a neat way to visualize a college curriculum. <a href="https://twitter.com/hashtag/education?src=hash&amp;ref_src=twsrc%5Etfw">#education</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a><br /><br />Bonus: Could change the color/size of the circles to indicate grades achieved for that course.<a href="https://t.co/u6oJEJ1kp5">https://t.co/u6oJEJ1kp5</a> <a href="https://t.co/iXM1HiYwPh">pic.twitter.com/iXM1HiYwPh</a></p>&mdash; Randy Olson (@randal_olson) <a href="https://twitter.com/randal_olson/status/1017054143922483200?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017217786957819906">
-    <blockquote placeholder=""><p lang="en" dir="ltr">I recreated an NYT graphic (made in D3) in 10 minutes using ggparliament, a <a href="https://twitter.com/hashtag/ggplot2?src=hash&amp;ref_src=twsrc%5Etfw">#ggplot2</a> <a href="https://twitter.com/hashtag/tidyverse?src=hash&amp;ref_src=twsrc%5Etfw">#tidyverse</a> extension in <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a>. H/T to <a href="https://twitter.com/thosjleeper?ref_src=twsrc%5Etfw">@thosjleeper</a>, <a href="https://twitter.com/robert_squared?ref_src=twsrc%5Etfw">@robert_squared</a>, and uhhh... myself for doing a lot of work on ggparliament! <a href="https://t.co/Tzs37DJ8zY">pic.twitter.com/Tzs37DJ8zY</a></p>&mdash; Zoe Meers (@zoe_meers) <a href="https://twitter.com/zoe_meers/status/1017217786957819906?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017066749479358466">
-    <blockquote placeholder=""><p lang="en" dir="ltr">I did a comparison of city street network orientations in major US cities, and now I&#39;ve got a better sense of why I find Boston so difficult to navigate. Visualization uses Python, OSMnx, and <a href="https://twitter.com/openstreetmap?ref_src=twsrc%5Etfw">@OpenStreetMap</a> data.<a href="https://t.co/prINZbDh9z">https://t.co/prINZbDh9z</a> <a href="https://t.co/YGY4VDSjZY">pic.twitter.com/YGY4VDSjZY</a></p>&mdash; Geoff Boeing (@gboeing) <a href="https://twitter.com/gboeing/status/1017066749479358466?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
-</amp-twitter>
-
-<h2 id="google-trend-datastore">Google Trend Datastore</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016988535285583872">
-    <blockquote placeholder=""><p lang="en" dir="ltr">All our <a href="https://twitter.com/hashtag/datajournalism?src=hash&amp;ref_src=twsrc%5Etfw">#datajournalism</a> is open source and we publish the raw data on <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a> <a href="https://t.co/j8BLcUrxAF">https://t.co/j8BLcUrxAF</a><a href="https://twitter.com/hashtag/OpenData?src=hash&amp;ref_src=twsrc%5Etfw">#OpenData</a> <a href="https://twitter.com/hashtag/DDJ?src=hash&amp;ref_src=twsrc%5Etfw">#DDJ</a> <a href="https://t.co/f7mh3esk2M">pic.twitter.com/f7mh3esk2M</a></p>&mdash; Simon Rogers (@smfrogers) <a href="https://twitter.com/smfrogers/status/1016988535285583872?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
+    </div>
+    <section class="post-content">
+      <h2 id="on-solving-montezumas-revenge">On “solving” Montezuma’s Revenge</h2>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017701709735489536">
+    <blockquote placeholder=""><p lang="en" dir="ltr">New blog post discussing DeepMind and OpenAI&#39;s work on solving the first level of Montezuma&#39;s Revenge using Deep RL, and why that isn&#39;t necessarily as exciting as it seems. Would love to hear other&#39;s thoughts. <a href="https://t.co/LpXOIRZa7B">https://t.co/LpXOIRZa7B</a></p>&mdash; Arthur Juliani (@awjuliani) <a href="https://twitter.com/awjuliani/status/1017701709735489536?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
 <h2 id="research">Research</h2>
-<h3 id="general-purpose-distributed-sentence-representations">General Purpose Distributed Sentence Representations</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017267074748600325">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning <a href="https://twitter.com/hashtag/ICLR2018?src=hash&amp;ref_src=twsrc%5Etfw">#ICLR2018</a><br /><br />General purpose, fixed-length representations of sentences via multi-task training by <a href="https://twitter.com/sandeep1337?ref_src=twsrc%5Etfw">@sandeep1337</a> <a href="https://twitter.com/APTrizzle?ref_src=twsrc%5Etfw">@APTrizzle</a><br /><br />ArXiv<a href="https://t.co/WkUoadjRDn">https://t.co/WkUoadjRDn</a><br />Github<a href="https://t.co/fCPuFBmUjI">https://t.co/fCPuFBmUjI</a> <a href="https://t.co/7le5BHPTGX">pic.twitter.com/7le5BHPTGX</a></p>&mdash; ML Review (@ml_review) <a href="https://twitter.com/ml_review/status/1017267074748600325?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+<h3 id="compare-gan-code">Compare GAN Code</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017570290648408065">
+    <blockquote placeholder=""><p lang="en" dir="ltr">New work from our group <a href="https://twitter.com/GoogleAI?ref_src=twsrc%5Etfw">@GoogleAI</a> - A practical “cookbook” for <a href="https://twitter.com/hashtag/GAN?src=hash&amp;ref_src=twsrc%5Etfw">#GAN</a> research in 2018: <a href="https://t.co/ZSIZQILWG3">https://t.co/ZSIZQILWG3</a><br /><br />Code &amp; pre-trained TensorFlow Hub models: <a href="https://t.co/iwnSqznb3J">https://t.co/iwnSqznb3J</a><br /><br />Attending <a href="https://twitter.com/hashtag/ICML2018?src=hash&amp;ref_src=twsrc%5Etfw">#ICML2018</a> ? Visit our poster on Saturday (Reproducibility Workshop)</p>&mdash; Karol Kurach (@karol_kurach) <a href="https://twitter.com/karol_kurach/status/1017570290648408065?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="contextualize-knowledge-graph">Contextualize Knowledge Graph</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017030807301640194">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Our London &amp; NYC-based <a href="https://twitter.com/hashtag/AI?src=hash&amp;ref_src=twsrc%5Etfw">#AI</a> researchers have developed a new approach to find more relevant, related facts in <a href="https://twitter.com/hashtag/KnowledgeGraphs?src=hash&amp;ref_src=twsrc%5Etfw">#KnowledgeGraphs</a>; learn more about their efforts and <a href="https://twitter.com/hashtag/SIGIR2018?src=hash&amp;ref_src=twsrc%5Etfw">#SIGIR2018</a> paper <a href="https://t.co/xZBnFf1cuD">https://t.co/xZBnFf1cuD</a> <a href="https://t.co/McprlLVRk9">pic.twitter.com/McprlLVRk9</a></p>&mdash; Tech At Bloomberg (@TechAtBloomberg) <a href="https://twitter.com/TechAtBloomberg/status/1017030807301640194?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017793678633398277">
+    <blockquote placeholder=""><p lang="en" dir="ltr">The latest from the team that brought you &quot;Are GANs created equal?&quot; The new cookbook now endorses some GAN techniques as better than others. <a href="https://t.co/V6KDdqXaGM">https://t.co/V6KDdqXaGM</a></p>&mdash; Ian Goodfellow (@goodfellow_ian) <a href="https://twitter.com/goodfellow_ian/status/1017793678633398277?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="talk-the-walk-dataset">Talk the Walk #dataset</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017116907655368705">
-    <blockquote placeholder=""><p lang="en" dir="ltr">&quot;Talk the Walk&quot; a dataset and environment for AI agent to teach each other visual navigation.<br />Brought to you by FAIR. <a href="https://t.co/3CcaAOXZYH">https://t.co/3CcaAOXZYH</a></p>&mdash; Yann LeCun (@ylecun) <a href="https://twitter.com/ylecun/status/1017116907655368705?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
+<h3 id="adversarial-logit-pairing">Adversarial Logit Pairing</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017867101178957824">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Training and evaluation code for &quot;Adversarial logit pairing&quot; paper is released: <a href="https://t.co/Kz8P3L8Cv7">https://t.co/Kz8P3L8Cv7</a><a href="https://twitter.com/goodfellow_ian?ref_src=twsrc%5Etfw">@goodfellow_ian</a> <a href="https://twitter.com/harinidkannan?ref_src=twsrc%5Etfw">@harinidkannan</a></p>&mdash; Alexey Kurakin (@alexey2004) <a href="https://twitter.com/alexey2004/status/1017867101178957824?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="meseauring-abstract-reasoning">Meseauring Abstract Reasoning</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017228564943368192">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Measuring abstract reasoning in neural networks<br />&quot;the model&#39;s ability to generalise improves markedly if it is trained to predict symbolic explanations for its answers&quot;<a href="https://t.co/wWhxlWQmR7">https://t.co/wWhxlWQmR7</a><a href="https://twitter.com/hashtag/DeepMind?src=hash&amp;ref_src=twsrc%5Etfw">#DeepMind</a> <a href="https://t.co/oa8bRK4iYZ">pic.twitter.com/oa8bRK4iYZ</a></p>&mdash; Thomas (@evolvingstuff) <a href="https://twitter.com/evolvingstuff/status/1017228564943368192?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+<h2 id="learning-resources">Learning Resources</h2>
+<h3 id="r-markdown-the-definitive-guide">R Markdown: The Definitive Guide</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017782345347354626">
+    <blockquote placeholder=""><p lang="en" dir="ltr">`We are happy to announce our upcoming book &quot;R Markdown: The Definitive Guide&quot;, authored by <a href="https://twitter.com/xieyihui?ref_src=twsrc%5Etfw">@xieyihui</a> <a href="https://twitter.com/fly_upside_down?ref_src=twsrc%5Etfw">@fly_upside_down</a> <a href="https://twitter.com/StatGarrett?ref_src=twsrc%5Etfw">@StatGarrett</a> and published by <a href="https://twitter.com/CRCPress?ref_src=twsrc%5Etfw">@CRCPress</a>: <a href="https://t.co/ncKWmgKW5o">https://t.co/ncKWmgKW5o</a> <a href="https://t.co/rpWE3iHJtz">pic.twitter.com/rpWE3iHJtz</a></p>&mdash; RStudio (@rstudio) <a href="https://twitter.com/rstudio/status/1017782345347354626?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017113210435096597">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Interesting that DeepMind is working on a IQ-like test to measure abstract reasoning capabilities. I&#39;ve been working on a very similar benchmark for the past 6 months (taking a more formal approach). Good to see more action in that space (cc <a href="https://twitter.com/ChrSzegedy?ref_src=twsrc%5Etfw">@ChrSzegedy</a>) <a href="https://t.co/zGXrdekF70">https://t.co/zGXrdekF70</a></p>&mdash; François Chollet (@fchollet) <a href="https://twitter.com/fchollet/status/1017113210435096597?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
+<h3 id="neural-network-acceleration-hardware">Neural Network Acceleration Hardware</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017901650197901313">
+    <blockquote placeholder=""><p lang="en" dir="ltr">There are some fantastic links on neural network acceleration hardware in this CS217 syllabus: <a href="https://t.co/f056QIt2AT">https://t.co/f056QIt2AT</a> - thanks <a href="https://twitter.com/perdavan?ref_src=twsrc%5Etfw">@perdavan</a> and Kunle Olukotun!</p>&mdash; Pete Warden (@petewarden) <a href="https://twitter.com/petewarden/status/1017901650197901313?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="experiments-with-variational-attention">Experiments with Variational Attention</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017036073732661249">
-    <blockquote placeholder=""><p lang="en" dir="ltr">(arxiv) Experiments with Variational Attention (<a href="https://t.co/IB51FIdjTt">https://t.co/IB51FIdjTt</a>, <a href="https://t.co/gwt7uZszAg">https://t.co/gwt7uZszAg</a>): fast training for latent var. attention (e.g. hard attention) with accuracy like soft attention. Learns sharp attention distributions (red), and useful posterior corrections (blue) <a href="https://t.co/M8rS3B3fqK">pic.twitter.com/M8rS3B3fqK</a></p>&mdash; harvardnlp (@harvardnlp) <a href="https://twitter.com/harvardnlp/status/1017036073732661249?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
+<h3 id="gaussian-processes-and-kernel-methods">Gaussian Processes and Kernel Methods</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1018038692689084416">
+    <blockquote placeholder=""><p lang="en" dir="ltr">A very comprehensive paper for those into kernel methods and GPs.<br /><br />Gives deep insights into the nature of our assumptions when modelling.<br /><br />Thanks Motonobu Kanagawa, Philipp Hennig, <a href="https://twitter.com/sejDino?ref_src=twsrc%5Etfw">@sejDino</a> and Bharath K Sriperumbudur!<a href="https://t.co/UfNBoSHixu">https://t.co/UfNBoSHixu</a></p>&mdash; Neil Lawrence (@lawrennd) <a href="https://twitter.com/lawrennd/status/1018038692689084416?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="classify-cardiomegaly-kaggle-kerneladwards">Classify Cardiomegaly #Kaggle #KernelAdwards</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017834482399883264">
+    <blockquote placeholder=""><p lang="en" dir="ltr">This week&#39;s <a href="https://twitter.com/hashtag/KernelAwards?src=hash&amp;ref_src=twsrc%5Etfw">#KernelAwards</a> winner uses a pre-trained VGG16 model with attention to classify cardiomegaly from chest x-rays: <a href="https://t.co/Z4NwkMwoSa">https://t.co/Z4NwkMwoSa</a> <a href="https://t.co/7GBQk4nXB3">pic.twitter.com/7GBQk4nXB3</a></p>&mdash; Kaggle (@kaggle) <a href="https://twitter.com/kaggle/status/1017834482399883264?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="altair">Altair</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017834764160471040">
+    <blockquote placeholder=""><p lang="en" dir="ltr">A user just submitted an example visualization to Altair that I had no idea was even possible <a href="https://t.co/hZyh2WXHja">https://t.co/hZyh2WXHja</a> <a href="https://t.co/rIZj2S6EFS">pic.twitter.com/rIZj2S6EFS</a></p>&mdash; Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1017834764160471040?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
 <h2 id="tools">Tools</h2>
-<h3 id="dalex">DALEX</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017150345888313344">
-    <blockquote placeholder=""><p lang="en" dir="ltr">DALEX: Descriptive Machine Learning Explanations for Black Box Models <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/KrSElIvycU">https://t.co/KrSElIvycU</a> <a href="https://t.co/KtVcCZYddg">pic.twitter.com/KtVcCZYddg</a></p>&mdash; ML Review (@ml_review) <a href="https://twitter.com/ml_review/status/1017150345888313344?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
+<h3 id="broom-rstats">broom #rstats</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017832062001152000">
+    <blockquote placeholder=""><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/broom?src=hash&amp;ref_src=twsrc%5Etfw">#broom</a> 0.5.0 is headed to CRAN on Monday (breaking changes!)<br /><br />- Tidiers now return tibbles<br />- New vignettes and more thorough documentation<br />- Literally more bugfixes than I can count<br />- Tons of contributions from fantastic <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> community members<a href="https://t.co/YBhjXeJy0T">https://t.co/YBhjXeJy0T</a> <a href="https://t.co/C0rytRttUH">pic.twitter.com/C0rytRttUH</a></p>&mdash; alex hayes (@alexpghayes) <a href="https://twitter.com/alexpghayes/status/1017832062001152000?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
-<h3 id="lolviz-dataviz">lolviz #dataviz</h3>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017165770147500032">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Released lolviz 1.4 that can visualize 1D, 2D numpy arrays in jupyter or raw Python 2, 3. Use &quot;pip install -U lolviz&quot; to enjoy. <a href="https://t.co/L3HLISC4lS">https://t.co/L3HLISC4lS</a> <a href="https://t.co/3VJVwaFwBK">pic.twitter.com/3VJVwaFwBK</a></p>&mdash; Terence Parr (@the_antlr_guy) <a href="https://twitter.com/the_antlr_guy/status/1017165770147500032?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
+<h3 id="ggspatial">ggspatial</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017789196159897602">
+    <blockquote placeholder=""><p lang="en" dir="ltr">ggspatial 1.0 is now on CRAN! <a href="https://twitter.com/openstreetmap?ref_src=twsrc%5Etfw">@openstreetmap</a> tiles, automatic spatial-aware scale bars and north arrows (with multiple styles thanks to <a href="https://twitter.com/brentthorne18?ref_src=twsrc%5Etfw">@brentthorne18</a>!), and fast (ish) RGB raster layers for <a href="https://twitter.com/hashtag/gis?src=hash&amp;ref_src=twsrc%5Etfw">#gis</a> in <a href="https://twitter.com/hashtag/ggplot2?src=hash&amp;ref_src=twsrc%5Etfw">#ggplot2</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a>! <a href="https://t.co/XnTLa7dfm5">https://t.co/XnTLa7dfm5</a> <a href="https://t.co/0B1RSsvxmV">pic.twitter.com/0B1RSsvxmV</a></p>&mdash; Dewey Dunnington (@paleolimbot) <a href="https://twitter.com/paleolimbot/status/1017789196159897602?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
-<h2 id="tutorials">Tutorials</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017240526788034560">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Another great resource from <a href="https://twitter.com/AmeliaMN?ref_src=twsrc%5Etfw">@AmeliaMN</a>: explaining and visualizing / contextualizing histograms <a href="https://t.co/NkTZZBdYxE">https://t.co/NkTZZBdYxE</a> <a href="https://twitter.com/hashtag/icots10?src=hash&amp;ref_src=twsrc%5Etfw">#icots10</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a></p>&mdash; Hilary Parker (@hspter) <a href="https://twitter.com/hspter/status/1017240526788034560?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+<h3 id="mybinderorg">mybinder.org</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017787526952701954">
+    <blockquote placeholder=""><p lang="en" dir="ltr"><a href="https://t.co/cAsWniw70d">https://t.co/cAsWniw70d</a> is too cool.<br /><br />I&#39;ve updated my <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> &amp; <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a> projects repo so you can run my &quot;Example <a href="https://twitter.com/hashtag/Python?src=hash&amp;ref_src=twsrc%5Etfw">#Python</a> Machine Learning Notebook&quot; directly in your browser, no installation required: <a href="https://t.co/amYzf1e66Q">https://t.co/amYzf1e66Q</a><br /><br />Will update other projects as I get time. <a href="https://t.co/5m18xpcc2K">pic.twitter.com/5m18xpcc2K</a></p>&mdash; Randy Olson (@randal_olson) <a href="https://twitter.com/randal_olson/status/1017787526952701954?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017085866446131201">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Thank you to everyone who listened in on my <a href="https://twitter.com/hashtag/SciPy2018?src=hash&amp;ref_src=twsrc%5Etfw">#SciPy2018</a> talk! Sorry I didn&#39;t make it through the &quot;Future of AutoML&quot; portion - that live demo took longer than expected. I&#39;ve posted my slides online here: <a href="https://t.co/SW5Q5BS9Fn">https://t.co/SW5Q5BS9Fn</a></p>&mdash; Randy Olson (@randal_olson) <a href="https://twitter.com/randal_olson/status/1017085866446131201?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
-</amp-twitter>
-
-<h2 id="miscellaneous">Miscellaneous</h2>
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017244182035849216">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Hadley’s slides, Should all statistics students be programmers? are available here <a href="https://t.co/78N3W28Eo6">https://t.co/78N3W28Eo6</a> <a href="https://twitter.com/hashtag/icots10?src=hash&amp;ref_src=twsrc%5Etfw">#icots10</a> <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a></p>&mdash; Amelia McNamara (@AmeliaMN) <a href="https://twitter.com/AmeliaMN/status/1017244182035849216?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1014380785967616000">
-    <blockquote placeholder=""><p lang="en" dir="ltr">A software is used for detecting potential welfare fraudsters in the Netherlands. The government keeps quiet about how that works. Civil rights activists are taking the matter to court. Read &quot;High-Risk Citizens&quot; by <a href="https://twitter.com/iljabraun?ref_src=twsrc%5Etfw">@iljabraun</a> (also available in German) <a href="https://t.co/lSbt4hcCUb">https://t.co/lSbt4hcCUb</a></p>&mdash; AlgorithmWatch (@algorithmwatch) <a href="https://twitter.com/algorithmwatch/status/1014380785967616000?ref_src=twsrc%5Etfw">July 4, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1016448801375055872" data-conversation="none">
-    <blockquote placeholder=""><p lang="en" dir="ltr">One of the more striking examples I&#39;ve seen of an algorithm solving the wrong problem <a href="https://t.co/tMVpC54RlJ">pic.twitter.com/tMVpC54RlJ</a></p>&mdash; Janelle Shane (@JanelleCShane) <a href="https://twitter.com/JanelleCShane/status/1016448801375055872?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017203470426951680">
-    <blockquote placeholder=""><p lang="en" dir="ltr">I&#39;d go further - any feedback system that does not itself accept feedback will not ultimately help teachers get better at teaching. <a href="https://t.co/A3tGj4APfj">https://t.co/A3tGj4APfj</a></p>&mdash; Cathy O&#39;Neil (@mathbabedotorg) <a href="https://twitter.com/mathbabedotorg/status/1017203470426951680?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017197988039385088">
-    <blockquote placeholder=""><p lang="en" dir="ltr">Exactly, these are the issues! Quadrigram still isn’t really right. All covered in the original quote—except the omission of five-grams does make the piece show its age. <a href="https://t.co/mjs8S9aSSm">pic.twitter.com/mjs8S9aSSm</a></p>&mdash; Christopher Manning (@chrmanning) <a href="https://twitter.com/chrmanning/status/1017197988039385088?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
-</amp-twitter>
-
-          </div>
-        </div>
-        <!-- pagination -->
+    </section>
+    <div class="pagination">
         
-        <div class="pagination">
-          
-            <span>&laquo; Prev</span>
-          
-
-          
-          
-          
-
-          
-            
-
-            
-          
-            
-
-            
-          
-            
-              <span>1</span>
-            
-          
-            
-              <a href="/page/2/">2</a>
-            
-          
-            
-              <a href="/page/3/">3</a>
-            
-          
-
-          
-            <a href="/page/2/">Next &raquo;</a>
-          
-        </div>
         
-        <div class="bottom-teaser cf">
+          <a href="/post/2018/07/12/day-54/">Day 54 &raquo;</a>
+        
+    </div>
+    <footer class="post-footer">
+      <section class="share">
+        <a class="icon" href="https://twitter.com/intent/tweet?url=https://dstotd.ceshine.net/post/2018/07/13/day-55&text=Day+55&via=ceshine_en" target="_blank">
+          Share on
+          <span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span>
+          <!-- 
+ -->
+        </a>
+      </section>
+    </footer>
+    <div class="bottom-teaser cf">
   <div class="isLeft">
     <h5 class="index-headline featured"><span>Curated by</span></h5>
     <section class="author">
@@ -392,10 +300,9 @@
   </div>
 </div>
 
-      </article>
-    
-  </div>
+  </article>
 </main>
+
 
 
     <amp-analytics type="googleanalytics" id="amp-analytics">

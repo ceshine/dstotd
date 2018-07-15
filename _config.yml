@@ -16,11 +16,7 @@ title: Data Science Tweets of the Day
 description: "Curated by <a href=\"https://twitter.com/ceshine_en\" class=\"desc\">@ceshine_en</a>."
 # Theme Options
 show_downloads: false
-# Paginate
-paginate: 1
-paginate_path: "/page/:num/"
 plugins:
-- jekyll-paginate
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-archives

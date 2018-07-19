@@ -24,7 +24,7 @@
 <meta name="twitter:site" content="@ceshine_en" />
 <meta name="twitter:creator" content="@ceshine_en" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Day 54","url":"https://dstotd.ceshine.net/post/2018/07/12/day-54/","datePublished":"2018-07-12T00:00:00+00:00","dateModified":"2018-07-12T00:00:00+00:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://dstotd.ceshine.net/public/dstotd-twitter.png"},"name":"Ceshine Lee"},"image":"https://dstotd.ceshine.net/public/dstotd-wide.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://dstotd.ceshine.net/post/2018/07/12/day-54/"},"author":{"@type":"Person","name":"Ceshine Lee"},"description":"ICML2018 and UseR2018","@context":"http://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://dstotd.ceshine.net/public/dstotd-twitter.png"},"name":"Ceshine Lee"},"@type":"BlogPosting","headline":"Day 54","dateModified":"2018-07-12T00:00:00+00:00","url":"https://dstotd.ceshine.net/post/2018/07/12/day-54/","datePublished":"2018-07-12T00:00:00+00:00","image":"https://dstotd.ceshine.net/public/dstotd-wide.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://dstotd.ceshine.net/post/2018/07/12/day-54/"},"author":{"@type":"Person","name":"Ceshine Lee"},"description":"ICML2018 and UseR2018","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -115,8 +115,8 @@
     <div class="post-meta">
       <h1 class="post-title">Day 54: <span class="post-small">ICML2018 and UseR2018</h1>
       <div class="post-date">
-        <time datetime="2018-07-15T09:02:35+00:00">
-          7/12/2018 <em>Updated 7/15/2018  9:02 AM UTC</em>
+        <time datetime="2018-07-17T13:35:34+00:00">
+          7/12/2018 <em>Updated 7/17/2018  1:35 PM UTC</em>
         </time>
       </div>
       <div class="post-contributor">
@@ -182,15 +182,19 @@
   </li>
   <li><a href="#user2018">#UseR2018</a>
     <ul>
+      <li><a href="#r-for-psychological-science">R for Psychological Science?</a></li>
       <li><a href="#keynote">Keynote</a></li>
       <li><a href="#fasster">fasster</a></li>
     </ul>
   </li>
   <li><a href="#icml2018">#ICML2018</a>
     <ul>
+      <li><a href="#overcoming-catastrophic-forgetting">Overcoming Catastrophic Forgetting</a></li>
       <li><a href="#long-term-structure-of-music">Long-term Structure of Music</a></li>
       <li><a href="#image-transformer">Image Transformer</a></li>
       <li><a href="#black-box-variational-inference">Black-Box Variational Inference</a></li>
+      <li><a href="#reproducible-ml">Reproducible ML</a></li>
+      <li><a href="#noise-contrastive-priors">Noise Contrastive Priors</a></li>
     </ul>
   </li>
   <li><a href="#tutorials--resources">Tutorials / Resources</a>
@@ -219,10 +223,6 @@
 
 <amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017525719499341824">
     <blockquote placeholder=""><p lang="en" dir="ltr">&quot;Is cleaning data really part of ML? Yes. [..] The process of cleaning a data set and training a model are usually interwoven: I frequently find issues in the model training that cause me to go back and change the pre-processing for the input data.&quot; <a href="https://t.co/GenYS5Sif6">https://t.co/GenYS5Sif6</a></p>&mdash; Monica Rogati (@mrogati) <a href="https://twitter.com/mrogati/status/1017525719499341824?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
-</amp-twitter>
-
-<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017842613641269250">
-    <blockquote placeholder=""><p lang="en" dir="ltr">🖤ed <a href="https://twitter.com/rdpeng?ref_src=twsrc%5Etfw">@rdpeng</a>&#39;s <a href="https://twitter.com/hashtag/useR2018?src=hash&amp;ref_src=twsrc%5Etfw">#useR2018</a> keynote? Pairs nicely with 👇<br />🎬 &quot;John Chambers&#39; Keynote Speech from useR! 2014&quot;<a href="https://t.co/TIaSFoGBRj">https://t.co/TIaSFoGBRj</a> via <a href="https://twitter.com/wwwDSLA?ref_src=twsrc%5Etfw">@wwwDSLA</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/ytV4pvERP7">pic.twitter.com/ytV4pvERP7</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1017842613641269250?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 </amp-twitter>
 
 <h2 id="big-news-for-python">Big News for Python</h2>
@@ -258,6 +258,12 @@
 </amp-twitter>
 
 <h2 id="user2018">#UseR2018</h2>
+
+<h3 id="r-for-psychological-science">R for Psychological Science?</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017750890583711744">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Back in Sydney after a great trip to Brisbane. Just wanted to say thank you to everyone at <a href="https://twitter.com/hashtag/useR2018?src=hash&amp;ref_src=twsrc%5Etfw">#useR2018</a>, and especially to <a href="https://twitter.com/visnut?ref_src=twsrc%5Etfw">@visnut</a> for inviting me! The slides for my talk are here:<a href="https://t.co/Q6BMC5ZLXT">https://t.co/Q6BMC5ZLXT</a></p>&mdash; Danielle Navarro (@djnavarro) <a href="https://twitter.com/djnavarro/status/1017750890583711744?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
+</amp-twitter>
+
 <h3 id="keynote">Keynote</h3>
 <amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017579549435912194">
     <blockquote placeholder=""><p lang="en" dir="ltr">Roger Peng’s <a href="https://twitter.com/hashtag/useR2018?src=hash&amp;ref_src=twsrc%5Etfw">#useR2018</a> keynote this morning resonates with me, as another long time user/developer/instructor. Useful, opinionated take on where we are now in <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> and how we got here. <a href="https://twitter.com/rdpeng?ref_src=twsrc%5Etfw">@rdpeng</a> <a href="https://t.co/bOLSoaFupd">https://t.co/bOLSoaFupd</a> <a href="https://t.co/ejc9yFYGVA">pic.twitter.com/ejc9yFYGVA</a></p>&mdash; Jenny Bryan (@JennyBryan) <a href="https://twitter.com/JennyBryan/status/1017579549435912194?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
@@ -267,12 +273,25 @@
     <blockquote placeholder=""><p lang="en" dir="ltr">Here is the video for my keynote from <a href="https://twitter.com/hashtag/useR2018?src=hash&amp;ref_src=twsrc%5Etfw">#useR2018</a> on teaching R to new users. <a href="https://t.co/KUrG097D7D">https://t.co/KUrG097D7D</a></p>&mdash; Roger D. Peng (@rdpeng) <a href="https://twitter.com/rdpeng/status/1018377414852767744?ref_src=twsrc%5Etfw">July 15, 2018</a></blockquote>
 </amp-twitter>
 
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017842613641269250">
+    <blockquote placeholder=""><p lang="en" dir="ltr">🖤ed <a href="https://twitter.com/rdpeng?ref_src=twsrc%5Etfw">@rdpeng</a>&#39;s <a href="https://twitter.com/hashtag/useR2018?src=hash&amp;ref_src=twsrc%5Etfw">#useR2018</a> keynote? Pairs nicely with 👇<br />🎬 &quot;John Chambers&#39; Keynote Speech from useR! 2014&quot;<a href="https://t.co/TIaSFoGBRj">https://t.co/TIaSFoGBRj</a> via <a href="https://twitter.com/wwwDSLA?ref_src=twsrc%5Etfw">@wwwDSLA</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/ytV4pvERP7">pic.twitter.com/ytV4pvERP7</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1017842613641269250?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
+</amp-twitter>
+
 <h3 id="fasster">fasster</h3>
 <amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017518220645986305">
     <blockquote placeholder=""><p lang="en" dir="ltr">📽 <a href="https://twitter.com/hashtag/useR2018?src=hash&amp;ref_src=twsrc%5Etfw">#useR2018</a> sneak-peak:<br />⚡️ &quot;fasster: Forecasting multiple seasonality w/ state switching&quot; by <a href="https://twitter.com/mitchoharawild?ref_src=twsrc%5Etfw">@mitchoharawild</a><a href="https://t.co/TL0rc18f0v">https://t.co/TL0rc18f0v</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/TNdMuwzeVy">pic.twitter.com/TNdMuwzeVy</a></p>&mdash; Mara Averick (@dataandme) <a href="https://twitter.com/dataandme/status/1017518220645986305?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
 </amp-twitter>
 
 <h2 id="icml2018">#ICML2018</h2>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1018065964343099393">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Holy. Shit. Expressive, interesting, and lengthy piano music generations. I genuinely got goosebumps listening to these. As far as I&#39;m concerned, this is a huge step forward for creative ML. Cheers Anna Huang. Paper: <a href="https://t.co/D50bdGHhxO">https://t.co/D50bdGHhxO</a> <a href="https://twitter.com/hashtag/icml2018?src=hash&amp;ref_src=twsrc%5Etfw">#icml2018</a> <a href="https://t.co/WjECu2h3Pl">pic.twitter.com/WjECu2h3Pl</a></p>&mdash; James Owers (@jamesowers) <a href="https://twitter.com/jamesowers/status/1018065964343099393?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="overcoming-catastrophic-forgetting">Overcoming Catastrophic Forgetting</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1018351971244429313">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Overcoming Catastrophic Forgetting with Hard Attention to the Task <a href="https://twitter.com/hashtag/ICML2018?src=hash&amp;ref_src=twsrc%5Etfw">#ICML2018</a><br />By <a href="https://twitter.com/serrjoa?ref_src=twsrc%5Etfw">@serrjoa</a> <a href="https://twitter.com/Surisdi?ref_src=twsrc%5Etfw">@Surisdi</a> <a href="https://twitter.com/nkundiushuti?ref_src=twsrc%5Etfw">@nkundiushuti</a> <a href="https://twitter.com/alexk_z?ref_src=twsrc%5Etfw">@alexk_z</a><br /><br />Reducing cutting forgetting rates by 45 to 80%.<br />As a by-product hard attention masks enable weights pruning and compression.<a href="https://t.co/XGMTlYAGoj">https://t.co/XGMTlYAGoj</a> <a href="https://t.co/4ISbGpzShi">pic.twitter.com/4ISbGpzShi</a></p>&mdash; ML Review (@ml_review) <a href="https://twitter.com/ml_review/status/1018351971244429313?ref_src=twsrc%5Etfw">July 15, 2018</a></blockquote>
+</amp-twitter>
+
 <h3 id="long-term-structure-of-music">Long-term Structure of Music</h3>
 <amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017376896181571589">
     <blockquote placeholder=""><p lang="en" dir="ltr">Hear some AI generated music at our talk and poster today at <a href="https://twitter.com/hashtag/ICML2018?src=hash&amp;ref_src=twsrc%5Etfw">#ICML2018</a>! Talk is at 2:50 in Victoria. Poster is #175 and 👇<a href="https://twitter.com/jesseengel?ref_src=twsrc%5Etfw">@jesseengel</a> <a href="https://twitter.com/colinraffel?ref_src=twsrc%5Etfw">@colinraffel</a> <a href="https://twitter.com/fjord41?ref_src=twsrc%5Etfw">@fjord41</a> <a href="https://twitter.com/douglas_eck?ref_src=twsrc%5Etfw">@douglas_eck</a> <a href="https://t.co/ufSesFVSTV">pic.twitter.com/ufSesFVSTV</a></p>&mdash; Adam Roberts (@ada_rob) <a href="https://twitter.com/ada_rob/status/1017376896181571589?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
@@ -286,6 +305,16 @@
 <h3 id="black-box-variational-inference">Black-Box Variational Inference</h3>
 <amp-twitter width="400" height="400" layout="responsive" data-tweetid="1017353873374269445">
     <blockquote placeholder=""><p lang="en" dir="ltr">Love this paper, it restores your faith in humanity. <br /><br />Great challenge, great science, and brings together a number of ideas across different fields.<br /><br />More of this type of work please! <a href="https://twitter.com/dennisprangle?ref_src=twsrc%5Etfw">@dennisprangle</a> <a href="https://twitter.com/hashtag/ICML2008?src=hash&amp;ref_src=twsrc%5Etfw">#ICML2008</a> <a href="https://t.co/p4D6nx6TW0">https://t.co/p4D6nx6TW0</a></p>&mdash; Neil Lawrence (@lawrennd) <a href="https://twitter.com/lawrennd/status/1017353873374269445?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="reproducible-ml">Reproducible ML</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1018026594315710465">
+    <blockquote placeholder=""><p lang="en" dir="ltr">Slides of my talk at <a href="https://twitter.com/hashtag/ICML2018?src=hash&amp;ref_src=twsrc%5Etfw">#ICML2018</a> on reproducible <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a> workshop <a href="https://t.co/8PCk5cZlnJ">https://t.co/8PCk5cZlnJ</a> <a href="https://t.co/cH3PhRZz4K">https://t.co/cH3PhRZz4K</a> <a href="https://twitter.com/hashtag/RML2018?src=hash&amp;ref_src=twsrc%5Etfw">#RML2018</a> <a href="https://twitter.com/scikit_learn?ref_src=twsrc%5Etfw">@scikit_learn</a> <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a> <a href="https://twitter.com/hashtag/openscience?src=hash&amp;ref_src=twsrc%5Etfw">#openscience</a> <a href="https://t.co/CU22oMgsoS">pic.twitter.com/CU22oMgsoS</a></p>&mdash; Alexandre Gramfort (@agramfort) <a href="https://twitter.com/agramfort/status/1018026594315710465?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
+</amp-twitter>
+
+<h3 id="noise-contrastive-priors">Noise Contrastive Priors</h3>
+<amp-twitter width="400" height="400" layout="responsive" data-tweetid="1018413143620546561">
+    <blockquote placeholder=""><p lang="en" dir="ltr">How do we specify priors for Bayesian neural networks? Check out our work on Noise Contrastive Priors at the ICML Deep Generative Models workshop 11:40am+. <a href="https://twitter.com/danijarh?ref_src=twsrc%5Etfw">@danijarh</a>, <a href="https://twitter.com/AlexIrpan?ref_src=twsrc%5Etfw">@alexirpan</a>, Timothy Lillicrap, James Davidson <a href="https://t.co/OS3gmKin9g">https://t.co/OS3gmKin9g</a> <a href="https://t.co/cNhfeCYuNb">pic.twitter.com/cNhfeCYuNb</a></p>&mdash; Dustin Tran (@dustinvtran) <a href="https://twitter.com/dustinvtran/status/1018413143620546561?ref_src=twsrc%5Etfw">July 15, 2018</a></blockquote>
 </amp-twitter>
 
 <h2 id="tutorials--resources">Tutorials / Resources</h2>

@@ -61,6 +61,13 @@ def parse_file(filename):
                 continue
             # Handles Sub-Headers
             if line.startswith("### "):
+                if len(text_buffer.strip()) > 0:
+                    chunks.append((
+                        text_buffer, current_tags,
+                        current_headline,
+                        current_sub_headline
+                    ))
+                    text_buffer = ""
                 current_sub_headline = line[4:].strip()
                 current_tags = base_tags + extract_tags(
                     current_sub_headline

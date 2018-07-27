@@ -29,10 +29,8 @@ def create_tables():
                 block_quote TEXT NOT NULL,
                 author TEXT NOT NULL,
                 no_conversation TINYINT DEFAULT 0,
-                parent_id UNSIGNED BIG INT,
                 reply_to_tid UNSIGNED BIG INT,
-                reply_to_sname TEXT,
-                FOREIGN KEY(parent_id) REFERENCES tweets(id)
+                reply_to_sname TEXT
             );
         ''')
         # Tag-Tweet Table
@@ -41,12 +39,29 @@ def create_tables():
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 tweet_id UNSIGNED BIG INTEGER,
                 tag_id INTEGER,
-                CONSTRAINT unique_tag UNIQUE (tag_id, tweet_id)
+                CONSTRAINT unique_tag UNIQUE (tag_id, tweet_id),
                 FOREIGN KEY(tag_id) REFERENCES tags(id),
                 FOREIGN KEY(tweet_id) REFERENCES tweets(id)
             );
         ''')
-
+        # Group Table
+        c.execute('''
+            CREATE TABLE groups (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                info TEXT
+            );
+        ''')
+        # Group-Tweet Table
+        c.execute('''
+            CREATE TABLE tweet_group_assoc (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                tweet_id UNSIGNED BIG INTEGER,
+                group_id INTEGER,
+                CONSTRAINT unique_tweet UNIQUE (group_id, tweet_id),
+                FOREIGN KEY(tweet_id) REFERENCES tweets(id),
+                FOREIGN KEY(group_id) REFERENCES groups(id)
+            );
+        ''')
         conn.commit()
 
 
@@ -63,17 +78,44 @@ def insert_tags():
 def insert_tweets():
     tweets = [(
         row["tid"], row["timestamp"], row["oembed"],
-        row["author"], row["no_conversation"], row["parent_tid"],
+        row["author"], row["no_conversation"],
         row["reply_to_tid"], row["reply_to_sname"]
     ) for _, row in DF.iterrows() if row["oembed"] is not None]
     with get_conn() as conn:
         c = conn.cursor()
         c.execute('DELETE FROM tweets;')
         c.executemany(
-            'INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+            'INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?, ?)',
             tweets)
 
         conn.commit()
+
+
+def insert_groups():
+    subset = [
+        group['tid'].tolist() + [key]
+        for key, group in DF[~DF.parent_tid.isnull()].groupby("parent_tid")
+    ]
+    with get_conn() as conn:
+        c = conn.cursor()
+        c.execute('DELETE FROM groups;')
+        c.execute('DELETE FROM tweet_group_assoc;')
+        for g in subset:
+            info = f'Parent: {g[-1]}'
+            c.execute(
+                'INSERT INTO groups VALUES (?, ?)',
+                (None, info)
+            )
+            conn.commit()
+            gid = c.execute(
+                'SELECT id FROM groups WHERE info = ?',
+                (info,)
+            ).fetchone()[0]
+            c.executemany(
+                'INSERT INTO tweet_group_assoc VALUES (?, ?, ?)',
+                [(None, tid, gid) for tid in g]
+            )
+            conn.commit()
 
 
 def associate_tweet_and_tags():
@@ -100,4 +142,5 @@ if __name__ == "__main__":
     DF = pd.read_pickle("tweets_extended.pkl")
     insert_tags()
     insert_tweets()
+    insert_groups()
     associate_tweet_and_tags()

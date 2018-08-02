@@ -1,6 +1,0 @@
-python-twitter==3.4.2
-beautifulsoup4 == 4.6.0
-plotly==2.5.1
-tqdm==4.19.8
-pandas==0.22.0
-requests==2.18.4

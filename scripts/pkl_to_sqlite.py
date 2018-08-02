@@ -1,5 +1,6 @@
 from itertools import chain
 import sqlite3
+import datetime
 
 import pandas as pd
 import numpy as np
@@ -26,6 +27,7 @@ def create_tables():
             CREATE TABLE tweets (
                 id UNSIGNED BIG INT PRIMARY KEY,
                 timestamp INTEGER NOT NULL,
+                created INTEGER NOT NULL,
                 block_quote TEXT NOT NULL,
                 author TEXT NOT NULL,
                 no_conversation TINYINT DEFAULT 0,
@@ -40,8 +42,8 @@ def create_tables():
                 tweet_id UNSIGNED BIG INTEGER,
                 tag_id INTEGER,
                 CONSTRAINT unique_tag UNIQUE (tag_id, tweet_id),
-                FOREIGN KEY(tag_id) REFERENCES tags(id),
-                FOREIGN KEY(tweet_id) REFERENCES tweets(id)
+                FOREIGN KEY(tag_id) REFERENCES tags(id) ON DELETE CASCADE,
+                FOREIGN KEY(tweet_id) REFERENCES tweets(id) ON DELETE CASCADE
             );
         ''')
         # Group Table
@@ -58,8 +60,8 @@ def create_tables():
                 tweet_id UNSIGNED BIG INTEGER,
                 group_id INTEGER,
                 CONSTRAINT unique_tweet UNIQUE (group_id, tweet_id),
-                FOREIGN KEY(tweet_id) REFERENCES tweets(id),
-                FOREIGN KEY(group_id) REFERENCES groups(id)
+                FOREIGN KEY(tweet_id) REFERENCES tweets(id) ON DELETE CASCADE,
+                FOREIGN KEY(group_id) REFERENCES groups(id) ON DELETE CASCADE
             );
         ''')
         conn.commit()
@@ -77,15 +79,16 @@ def insert_tags():
 
 def insert_tweets():
     tweets = [(
-        row["tid"], row["timestamp"], row["oembed"],
-        row["author"], row["no_conversation"],
+        row["tid"], row["timestamp"], int(
+            datetime.datetime.utcnow().timestamp()),
+        row["oembed"], row["author"], row["no_conversation"],
         row["reply_to_tid"], row["reply_to_sname"]
     ) for _, row in DF.iterrows() if row["oembed"] is not None]
     with get_conn() as conn:
         c = conn.cursor()
         c.execute('DELETE FROM tweets;')
         c.executemany(
-            'INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?, ?)',
+            'INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
             tweets)
 
         conn.commit()

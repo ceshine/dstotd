@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 
 from datetime import datetime
@@ -25,7 +25,7 @@ get_ipython().magic('matplotlib inline')
 plotly.offline.init_notebook_mode(connected=True)
 
 
-# In[3]:
+# In[2]:
 
 
 get_ipython().magic('load_ext watermark')
@@ -115,13 +115,13 @@ df_tweets[~df_tweets.parent_tid.isnull()].head()
 
 # ### Sub-headline
 
-# In[12]:
+# In[11]:
 
 
 df_tweets[df_tweets["headline"] == "#UseR2018"]
 
 
-# In[13]:
+# In[12]:
 
 
 df_sub_headline = df_tweets[(df_tweets["sub-headline"].str.len() > 0)]

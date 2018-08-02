@@ -5,9 +5,32 @@
     <description>Curated by &lt;a href=&quot;https://twitter.com/ceshine_en&quot; class=&quot;desc&quot;&gt;@ceshine_en&lt;/a&gt;.</description>
     <link>https://dstotd.ceshine.net/</link>
     <atom:link href="https://dstotd.ceshine.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jul 2018 15:13:49 +0000</pubDate>
-    <lastBuildDate>Thu, 19 Jul 2018 15:13:49 +0000</lastBuildDate>
+    <pubDate>Thu, 02 Aug 2018 04:04:14 +0000</pubDate>
+    <lastBuildDate>Thu, 02 Aug 2018 04:04:14 +0000</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Day</title>
+        <description>&lt;h2 id=&quot;a-new-website&quot;&gt;A New Website&lt;/h2&gt;
+
+&lt;p&gt;I’ve created a new website at &lt;a href=&quot;https://dst.ceshine.net&quot;&gt;dst.ceshine.net&lt;/a&gt;, and have imported all the tweets from here (data science tweets of the day). It’s still in very early Alpha, but basic browsing and search function should work okay. Please give it a try if you’re reading this page.&lt;/p&gt;
+
+&lt;p&gt;It stores tweets as structured data, in contrast to unstructured markdown used here. That makes filtering, searching, and editing much easier. Basically it is like an enhanced version of Twitter favorites.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-reflection&quot;&gt;Some Reflection&lt;/h2&gt;
+
+&lt;p&gt;This project is motivated by my desire to keep track of interesting data science tweets. At first I really thought a Jeykyll markdown website is enough to pull it off. But it quickly turned out the number of tweets that I find interesting is way too many than I expected, and curating them into a markdown post started to cost me 40-80 minutes per day.&lt;/p&gt;
+
+&lt;p&gt;In retrospect, I should probably ditch this static approach sooner, since the difficulty of developing and deploying an dynamic version is lower than I thought. It only takes me one week to get it up and running (though many details are still in development). However, the earlier experience with the static version is quite helpful. I know much better what I want from the website now, hence the faster development.&lt;/p&gt;
+
+&lt;p&gt;I’d probably focus more on improving backend editing interface from this point. The objective is to build tools that helps people comb through thousands of tweets.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+        <link>https://dstotd.ceshine.net/post/2018/08/02/new-start/</link>
+        <guid isPermaLink="true">https://dstotd.ceshine.net/post/2018/08/02/new-start/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 59</title>
@@ -820,109 +843,6 @@
         <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
         <link>https://dstotd.ceshine.net/post/2018/07/09/day-51/</link>
         <guid isPermaLink="true">https://dstotd.ceshine.net/post/2018/07/09/day-51/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 50</title>
-        <description>&lt;h2 id=&quot;nlps-imagenet-moment&quot;&gt;NLP’s ImageNet Moment&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016226532363329536&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;New piece about a direction I&amp;#39;m super excited about: NLP&amp;#39;s ImageNet moment has arrived &lt;a href=&quot;https://twitter.com/gradientpub?ref_src=twsrc%5Etfw&quot;&gt;@gradientpub&lt;/a&gt; &lt;a href=&quot;https://t.co/Kb3szva7tC&quot;&gt;https://t.co/Kb3szva7tC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sebastian Ruder (@seb_ruder) &lt;a href=&quot;https://twitter.com/seb_ruder/status/1016226532363329536?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016228686385860608&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Do check out today&amp;#39;s other perspectives: on AI regulation by &lt;a href=&quot;https://twitter.com/MelodyGuan?ref_src=twsrc%5Etfw&quot;&gt;@MelodyGuan&lt;/a&gt; (&lt;a href=&quot;https://t.co/ieF6NV6gS2&quot;&gt;https://t.co/ieF6NV6gS2&lt;/a&gt;) and on the flaws of RL by &lt;a href=&quot;https://twitter.com/andrey_kurenkov?ref_src=twsrc%5Etfw&quot;&gt;@andrey_kurenkov&lt;/a&gt; (&lt;a href=&quot;https://t.co/ieGSIc477W&quot;&gt;https://t.co/ieGSIc477W&lt;/a&gt;). If you have sth to share, reach out to &lt;a href=&quot;https://twitter.com/gradientpub?ref_src=twsrc%5Etfw&quot;&gt;@gradientpub&lt;/a&gt; here: editor (at) thegradient (dot) pub&lt;/p&gt;&amp;mdash; Sebastian Ruder (@seb_ruder) &lt;a href=&quot;https://twitter.com/seb_ruder/status/1016228686385860608?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;judea-pearl-on-twitter&quot;&gt;Judea Pearl on Twitter&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016047157642604544&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;1/4 &lt;br /&gt;10 days ago, when I decided to go on Twitter,&lt;br /&gt;I did not know what I am getting into. Today,&lt;br /&gt;with over 5,000 followers, I feel a sense of&lt;br /&gt;obligation to give you a progress report, and to&lt;br /&gt;reflect on this experience. This will probably take&lt;br /&gt;4 Tweets - stay tuned &lt;a href=&quot;https://twitter.com/hashtag/bookofwhy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#bookofwhy&lt;/a&gt;&lt;/p&gt;&amp;mdash; Judea Pearl (@yudapearl) &lt;a href=&quot;https://twitter.com/yudapearl/status/1016047157642604544?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016047158519214080&quot; data-conversation=&quot;none&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;2/4&lt;br /&gt;First, I find the intellectual exercise of&lt;br /&gt;compacting pages of technical analysis into&lt;br /&gt;3-4 sentences challenging, educational and empowering.&lt;br /&gt;Second, the genuine quest for understanding I&lt;br /&gt;see among you gives me the hope that my primary goal&lt;br /&gt;of writing the Book  is realizable.&lt;/p&gt;&amp;mdash; Judea Pearl (@yudapearl) &lt;a href=&quot;https://twitter.com/yudapearl/status/1016047158519214080?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016047159228051457&quot; data-conversation=&quot;none&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;3/4&lt;br /&gt;My goal was and is: the democratization of causal &lt;br /&gt;inference . By that I mean empowering&lt;br /&gt;students and researchers to understand causal inference&lt;br /&gt;on their own, without waiting for professors or&lt;br /&gt;journal editors to catch up.&lt;br /&gt;&lt;br /&gt;Toward that end, I will continue to bring up ...&lt;/p&gt;&amp;mdash; Judea Pearl (@yudapearl) &lt;a href=&quot;https://twitter.com/yudapearl/status/1016047159228051457?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016047159978782720&quot; data-conversation=&quot;none&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;4/4&lt;br /&gt;for discussion topics that have been ignored or suppressed by &lt;br /&gt;mainstream literature and, simultaneously,&lt;br /&gt; try to be as flexible, honest and open-minded &lt;br /&gt;as I can in responding to your questions and comments.&lt;br /&gt;Unortunately, I can only Tweet once or twice&lt;br /&gt;a day. &lt;a href=&quot;https://twitter.com/hashtag/bookofwhy?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#bookofwhy&lt;/a&gt;&lt;/p&gt;&amp;mdash; Judea Pearl (@yudapearl) &lt;a href=&quot;https://twitter.com/yudapearl/status/1016047159978782720?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;interesting-analysis-of-fortnite-on-twitch&quot;&gt;Interesting Analysis of Fortnite on Twitch&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015593819914559488&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I&amp;#39;ve seen this image floating around, being used to claim that Fortnite is taking over Twitch - stealing viewers and streamers from other games. However, this doesn&amp;#39;t seem to be true &lt;a href=&quot;https://t.co/vul3bVPuow&quot;&gt;pic.twitter.com/vul3bVPuow&lt;/a&gt;&lt;/p&gt;&amp;mdash; Freya Holmér (@FreyaHolmer) &lt;a href=&quot;https://twitter.com/FreyaHolmer/status/1015593819914559488?ref_src=twsrc%5Etfw&quot;&gt;July 7, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015593824196943873&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Here we can see that the amount of channels streaming League, Overwatch and even its competitor PUBG, actually remain largely unaffected by the massive amount of Fortnite &lt;a href=&quot;https://t.co/V4pihfOaRf&quot;&gt;pic.twitter.com/V4pihfOaRf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Freya Holmér (@FreyaHolmer) &lt;a href=&quot;https://twitter.com/FreyaHolmer/status/1015593824196943873?ref_src=twsrc%5Etfw&quot;&gt;July 7, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;expertise-in-ai&quot;&gt;Expertise in AI&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016194842676719616&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;“The actual practice of AI research is more like architectural design than like electrical engineering.” &lt;a href=&quot;https://t.co/1QQV8c3rmg&quot;&gt;https://t.co/1QQV8c3rmg&lt;/a&gt;&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/1016194842676719616?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016196873588113408&quot; data-conversation=&quot;none&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Architects build models from cardboard; AI researchers build them from code. These prototypes are not engineering models, subjected to serious real-world testing. They’re just “sketches” to give a sense of how something might work.&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/1016196873588113408?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016199625689067520&quot; data-conversation=&quot;none&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;To develop expertise in AI, you can’t just read papers; you have to read other people’s code. And you can’t just read it, you have to re-implement it. Part of your understanding is gained only through the practice of coding itself.&lt;/p&gt;&amp;mdash; hardmaru (@hardmaru) &lt;a href=&quot;https://twitter.com/hardmaru/status/1016199625689067520?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
-&lt;h2 id=&quot;obfuscated-gradients&quot;&gt;Obfuscated gradients&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015926094439084033&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Best paper award at &lt;a href=&quot;https://twitter.com/hashtag/ICML2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ICML2018&lt;/a&gt; main idea: identify a class of adversarial defenses, called &amp;quot;Obfuscated gradients&amp;quot;, &amp;amp; develop attack techniques to thwart this defense.  Circumvents 6 of 9 defenses presented at &lt;a href=&quot;https://twitter.com/hashtag/ICLR2018?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ICLR2018&lt;/a&gt;.&lt;br /&gt;Paper: &lt;a href=&quot;https://t.co/Z40rE2qKIx&quot;&gt;https://t.co/Z40rE2qKIx&lt;/a&gt;&lt;br /&gt;Code: &lt;a href=&quot;https://t.co/uDZxycCDN7&quot;&gt;https://t.co/uDZxycCDN7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Reza Zadeh (@Reza_Zadeh) &lt;a href=&quot;https://twitter.com/Reza_Zadeh/status/1015926094439084033?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h3 id=&quot;fair-classification&quot;&gt;Fair Classification&lt;/h3&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;973566089178251265&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Awesome!&lt;br /&gt;&lt;br /&gt;    A Reductions Approach to Fair Classification&lt;br /&gt;    &lt;a href=&quot;https://t.co/0UvRIHQ3mS&quot;&gt;https://t.co/0UvRIHQ3mS&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;- Simple mechanism to enforce expectation constraints&lt;br /&gt;- Motivation: Fairness constraints (eg. demo parity, eq odds)&lt;br /&gt;- Easy to impl: Add a loop around ANY existing classifier&amp;#39;s train function! &lt;a href=&quot;https://t.co/aknO0xoyUs&quot;&gt;pic.twitter.com/aknO0xoyUs&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tim Vieira (@xtimv) &lt;a href=&quot;https://twitter.com/xtimv/status/973566089178251265?ref_src=twsrc%5Etfw&quot;&gt;March 13, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015969515446980608&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Code for this paper &lt;a href=&quot;https://t.co/XolvOYZzXQ&quot;&gt;https://t.co/XolvOYZzXQ&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;- Code is very readable (Python) and includes some neat tricks&lt;br /&gt;- Uses scikit-learn as the base algorithm &lt;a href=&quot;https://t.co/fXOjPJSJDj&quot;&gt;https://t.co/fXOjPJSJDj&lt;/a&gt;&lt;/p&gt;&amp;mdash; Tim Vieira (@xtimv) &lt;a href=&quot;https://twitter.com/xtimv/status/1015969515446980608?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
-&lt;h3 id=&quot;ipyleaflet&quot;&gt;ipyleaflet&lt;/h3&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015887153572798464&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/ipyleaflet?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ipyleaflet&lt;/a&gt; 0.9.0 is out! With many new features by &lt;a href=&quot;https://twitter.com/Renou_Martin?ref_src=twsrc%5Etfw&quot;&gt;@Renou_Martin&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/davidbrochart?ref_src=twsrc%5Etfw&quot;&gt;@davidbrochart&lt;/a&gt;. Measure control, heatmap, velocity visualization. &lt;br /&gt;&lt;br /&gt;Check out the maps visualization library for &lt;a href=&quot;https://twitter.com/ProjectJupyter?ref_src=twsrc%5Etfw&quot;&gt;@ProjectJupyter&lt;/a&gt; &lt;a href=&quot;https://t.co/4AHZ17bAyA&quot;&gt;https://t.co/4AHZ17bAyA&lt;/a&gt; &lt;a href=&quot;https://t.co/uO9iNga0fD&quot;&gt;pic.twitter.com/uO9iNga0fD&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sylvain Corlay (@SylvainCorlay) &lt;a href=&quot;https://twitter.com/SylvainCorlay/status/1015887153572798464?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h3 id=&quot;observations-from-edward&quot;&gt;observations from Edward&lt;/h3&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015940875426385920&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;just found this little gem &lt;a href=&quot;https://t.co/4wqqbxsNRM&quot;&gt;https://t.co/4wqqbxsNRM&lt;/a&gt; in &lt;a href=&quot;https://twitter.com/hashtag/edward?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#edward&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/dustinvtran?ref_src=twsrc%5Etfw&quot;&gt;@dustinvtran&lt;/a&gt; and co....makes it super easy to work with different datasets&lt;/p&gt;&amp;mdash; Akash Srivastava (@variational_i) &lt;a href=&quot;https://twitter.com/variational_i/status/1015940875426385920?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h3 id=&quot;ghibli-colour-palettes&quot;&gt;Ghibli Colour palettes&lt;/h3&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1016142164135473153&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;😻 I love this 📦 so much! Thx, &lt;a href=&quot;https://twitter.com/ewen_?ref_src=twsrc%5Etfw&quot;&gt;@ewen_&lt;/a&gt;!&lt;br /&gt;🎨 &amp;quot;ghibli: Studio Ghibli colour palettes&amp;quot; &lt;a href=&quot;https://t.co/HsSDbmx3sO&quot;&gt;https://t.co/HsSDbmx3sO&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt; &lt;a href=&quot;https://t.co/AAhtriEt3z&quot;&gt;pic.twitter.com/AAhtriEt3z&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mara Averick (@dataandme) &lt;a href=&quot;https://twitter.com/dataandme/status/1016142164135473153?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;tutorials&quot;&gt;Tutorials&lt;/h2&gt;
-&lt;h3 id=&quot;take-a-sad-plot-and-make-it-better&quot;&gt;Take a Sad Plot and Make It Better&lt;/h3&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015944101655728128&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🎞 by the author, too!&lt;br /&gt;&amp;quot;Take a Sad Plot &amp;amp; Make It Better&amp;quot; by &lt;a href=&quot;https://twitter.com/apreshill?ref_src=twsrc%5Etfw&quot;&gt;@apreshill&lt;/a&gt; &lt;a href=&quot;https://t.co/dGKk4hPIOl&quot;&gt;https://t.co/dGKk4hPIOl&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#dataviz&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ggplot2?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ggplot2&lt;/a&gt; &lt;a href=&quot;https://t.co/olvsYrUhLe&quot;&gt;pic.twitter.com/olvsYrUhLe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Mara Averick (@dataandme) &lt;a href=&quot;https://twitter.com/dataandme/status/1015944101655728128?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015997089333981184&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;It&amp;#39;s extremely important that we anticipate &amp;amp; critically examine the harms of false positives in algorithmic decision-making. Not only in practice (like this real world scenario!) but in scholarship--if you classify things, let&amp;#39;s see discussion of what happens when you&amp;#39;re wrong. &lt;a href=&quot;https://t.co/yhm0gBuVjz&quot;&gt;https://t.co/yhm0gBuVjz&lt;/a&gt;&lt;/p&gt;&amp;mdash; Casey Fiesler (@cfiesler) &lt;a href=&quot;https://twitter.com/cfiesler/status/1015997089333981184?ref_src=twsrc%5Etfw&quot;&gt;July 8, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-
-&lt;amp-twitter width=&quot;400&quot; height=&quot;400&quot; layout=&quot;responsive&quot; data-tweetid=&quot;1015594463270498309&quot;&gt;
-    &lt;blockquote placeholder=&quot;&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Why Sci-Hub is illegal, and what you can do about it &lt;a href=&quot;https://t.co/ng4N791SzH&quot;&gt;https://t.co/ng4N791SzH&lt;/a&gt; &lt;a href=&quot;https://t.co/IcsfFavBfS&quot;&gt;pic.twitter.com/IcsfFavBfS&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sci Hub (@Sci_Hub) &lt;a href=&quot;https://twitter.com/Sci_Hub/status/1015594463270498309?ref_src=twsrc%5Etfw&quot;&gt;July 7, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;/amp-twitter&gt;
-</description>
-        <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
-        <link>https://dstotd.ceshine.net/post/2018/07/08/day-50/</link>
-        <guid isPermaLink="true">https://dstotd.ceshine.net/post/2018/07/08/day-50/</guid>
         
         
       </item>

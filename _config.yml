@@ -81,6 +81,8 @@ algolia:
   - post/2018/5/20/day-1/*
   - _posts/2018-05-20-day-1.md
   - search.html
+  - notebooks/*
+  - scripts/*
   settings:
     searchableAttributes:
     - content
